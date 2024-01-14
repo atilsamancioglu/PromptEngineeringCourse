@@ -144,9 +144,6 @@ Focused Prompt Frameworks are structured approaches to crafting prompts that gui
 
 Each of these frameworks serves a unique purpose, and the effectiveness of the response greatly depends on how well the prompt is aligned with the chosen framework. By carefully constructing prompts according to these frameworks, you can significantly influence the quality and relevance of the AI's output.
 
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
 
 ## References
 
