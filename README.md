@@ -1,5 +1,4 @@
 # Prompt Engineering Course
-## Atıl Samancıoğlu
 
 This readme is created for [Prompt Engineering Course](https://udemy.com), feel free to browse it by yourself or along with the course.
 
@@ -23,6 +22,76 @@ Prompt engineering is a crucial skill when interacting with AI language models l
    - Prompt engineering often involves an iterative process. Initial responses from the AI can provide insights into how to refine or rephrase subsequent prompts for more precise results. This might involve clarifying misunderstandings, adding more details, or shifting the focus of the query.
 
 These fundamentals form the backbone of effective prompt engineering, enabling users to interact with AI models like ChatGPT in a more productive and meaningful way. By mastering these principles, users can significantly enhance the quality of the AI's responses and the overall interaction experience.
+
+Absolutely, let's start with the detailed explanations and examples for best practices in prompt engineering. This section can be added to your README to guide users in crafting effective prompts.
+
+## Best Practices in Prompt Engineering
+
+Effective prompt engineering is crucial for eliciting the best possible responses from AI models. Here are key best practices along with examples:
+
+### 1. **Start with Clear, Concise Questions**:
+   - **Practice**: Use straightforward language and avoid overly complex sentences.
+   - **Example**: 
+     - Less Effective: "I've been pondering over the possibility of engaging in a culinary activity that involves the preparation of an Italian dish, particularly one that involves pasta."
+     - More Effective: "How do I make spaghetti carbonara?"
+
+### 2. **Provide Adequate Context**:
+   - **Practice**: Include necessary background information in your prompts.
+   - **Example**:
+     - Less Effective: "What should I do next in my project?"
+     - More Effective: "I'm working on a Python project to analyze social media trends. I've just finished data collection. What should be my next step?"
+
+### 3. **Be Specific in Your Requests**:
+   - **Practice**: Clearly define what you are asking for to get precise responses.
+   - **Example**:
+     - Less Effective: "Tell me about Python."
+     - More Effective: "Can you explain how Python's list comprehensions work?"
+
+### 4. **Use Closed-Ended Questions for Specific Information**:
+   - **Practice**: Ask closed-ended questions when you need specific, concise information.
+   - **Example**:
+     - Less Effective: "What can you tell me about the solar system?"
+     - More Effective: "How many planets are in the solar system?"
+
+### 5. **Utilize Open-Ended Questions for Exploration**:
+   - **Practice**: When seeking a broad range of ideas or creative input, use open-ended questions.
+   - **Example**:
+     - Less Effective: "Do you have any story ideas?"
+     - More Effective: "Can you brainstorm some sci-fi story ideas set in the future?"
+
+### 6. **Iteratively Refine Your Prompts**:
+   - **Practice**: Use the AI's responses to refine and redirect your prompts.
+   - **Example**:
+     - Initial Prompt: "How can I improve my website's design?"
+     - Follow-Up Prompt (after initial response): "Can you
+
+suggest specific color schemes and layout ideas for a tech blog site?"
+
+### 7. **Avoid Leading or Biased Questions**:
+   - **Practice**: Craft prompts that are neutral and don’t lead the AI towards a biased or predetermined answer.
+   - **Example**:
+     - Less Effective: "Why is Python the best programming language?"
+     - More Effective: "What are the pros and cons of using Python as a programming language?"
+
+### 8. **Consider the AI's Capabilities and Limitations**:
+   - **Practice**: Tailor your prompts according to what the AI model can realistically achieve.
+   - **Example**:
+     - Less Effective: "Can you write a 10,000-word essay on climate change?"
+     - More Effective: "Can you summarize the key points of climate change in a 500-word essay?"
+
+### 9. **Clarify Ambiguities in the AI's Responses**:
+   - **Practice**: If the AI's response contains ambiguities or uncertainties, use follow-up prompts to clarify.
+   - **Example**:
+     - AI Response: "The next step depends on your data format."
+     - Follow-Up Prompt: "The data is in a CSV format. What should I do next?"
+
+### 10. **Balance Detail and Brevity**:
+   - **Practice**: Provide enough detail for context, but avoid overly lengthy prompts that can confuse the AI.
+   - **Example**:
+     - Less Effective: "I have a cat named Whiskers, and he's three years old and loves to play outside. I'm wondering what kind of food I should feed him because he's quite active."
+     - More Effective: "What is a recommended diet for an active 3-year-old outdoor cat?"
+
+These best practices will help users formulate prompts that are more likely to yield accurate, relevant, and useful responses from AI models like ChatGPT. By applying these techniques, prompt engineers can greatly enhance the effectiveness of their interactions with AI.
 
 ## Prompt Priming
 
