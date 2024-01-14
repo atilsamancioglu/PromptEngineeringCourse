@@ -8,19 +8,19 @@ This readme is created for [Prompt Engineering Course](https://udemy.com), feel 
 Prompt engineering is a crucial skill when interacting with AI language models like ChatGPT. It involves crafting prompts in a way that effectively guides the AI to produce the desired output. Here are five fundamentals of prompt engineering with descriptions:
 
 1. **Clarity and Specificity**:
-   - **Description**: The prompt should be clear and specific about what is being asked. Vague or ambiguous prompts can lead to irrelevant or broad answers. Being specific helps in narrowing down the AI's focus and getting more accurate and relevant responses.
+   - The prompt should be clear and specific about what is being asked. Vague or ambiguous prompts can lead to irrelevant or broad answers. Being specific helps in narrowing down the AI's focus and getting more accurate and relevant responses.
 
 2. **Contextual Information**:
-   - **Description**: Providing relevant background information or context is essential, especially for complex or nuanced queries. This helps the AI understand the scenario or the specific angle from which the question is being posed, leading to more accurate and tailored responses.
+   - Providing relevant background information or context is essential, especially for complex or nuanced queries. This helps the AI understand the scenario or the specific angle from which the question is being posed, leading to more accurate and tailored responses.
 
 3. **Purpose and Goal Orientation**:
-   - **Description**: The prompt should have a clear purpose and goal. Whether it's seeking information, generating creative content, solving a problem, or exploring a concept, the prompt should be oriented towards achieving this specific goal.
+   - The prompt should have a clear purpose and goal. Whether it's seeking information, generating creative content, solving a problem, or exploring a concept, the prompt should be oriented towards achieving this specific goal.
 
 4. **Structured Approach**:
-   - **Description**: Using structured frameworks (like RGC, Socratic questioning, or Constraint-Led Frameworks) can significantly enhance the effectiveness of prompts. Such structures help in systematically guiding the AI's responses and ensuring that all relevant aspects of the query are addressed.
+   - Using structured frameworks (like RGC, Socratic questioning, or Constraint-Led Frameworks) can significantly enhance the effectiveness of prompts. Such structures help in systematically guiding the AI's responses and ensuring that all relevant aspects of the query are addressed.
 
 5. **Iterative Refinement**:
-   - **Description**: Prompt engineering often involves an iterative process. Initial responses from the AI can provide insights into how to refine or rephrase subsequent prompts for more precise results. This might involve clarifying misunderstandings, adding more details, or shifting the focus of the query.
+   - Prompt engineering often involves an iterative process. Initial responses from the AI can provide insights into how to refine or rephrase subsequent prompts for more precise results. This might involve clarifying misunderstandings, adding more details, or shifting the focus of the query.
 
 These fundamentals form the backbone of effective prompt engineering, enabling users to interact with AI models like ChatGPT in a more productive and meaningful way. By mastering these principles, users can significantly enhance the quality of the AI's responses and the overall interaction experience.
 
