@@ -39,9 +39,7 @@ AI modellerinden en iyi olası yanıtları elde etmek için etkili prompt mühen
 ### 2. **Yeterli Bağlam Sağlayın**:
    - **Uygulama**: Promptlarınıza gerekli arka plan bilgilerini dahil edin.
    - **Örnek**:
-     - Daha Az Etkili: "
-
-Projemdeki bir sonraki adımım ne olmalı?"
+     - Daha Az Etkili: "Projemdeki bir sonraki adımım ne olmalı?"
      - Daha Etkili: "Python kullanarak sosyal medya trendlerini analiz eden bir proje üzerinde çalışıyorum. Veri toplama işlemini tamamladım. Bir sonraki adımım ne olmalı?"
 
 ### 3. **Taleplerinizde Özgül Olun**:
@@ -67,3 +65,29 @@ Projemdeki bir sonraki adımım ne olmalı?"
    - **Örnek**:
      - İlk Prompt: "Web sitemin tasarımını nasıl geliştirebilirim?"
      - Takip Promptu (ilk yanıttan sonra): "Teknoloji blogu için özel renk şemaları ve düzen fikirleri önerebilir misin?"
+
+### 7. **Önyargılı veya Yönlendirici Sorulardan Kaçının**:
+   - **Uygulama**: AI'ı önyargılı veya önceden belirlenmiş bir yanıta yönlendirmeyecek tarafsız sorular hazırlayın.
+   - **Örnek**:
+     - Daha Az Etkili: "Python neden en iyi programlama dili?"
+     - Daha Etkili: "Python programlama dilini kullanmanın artıları ve eksileri nelerdir?"
+
+### 8. **AI'nın Yeteneklerini ve Sınırlamalarını Göz Önünde Bulundurun**:
+   - **Uygulama**: Sorularınızı, AI modelinin gerçekçi olarak başarabilecekleriyle uyumlu hale getirin.
+   - **Örnek**:
+     - Daha Az Etkili: "İklim değişikliği hakkında 10.000 kelimelik bir makale yazabilir misin?"
+     - Daha Etkili: "İklim değişikliğinin anahtar noktalarını 500 kelimelik bir özetle anlatabilir misin?"
+
+### 9. **AI'nın Yanıtlarındaki Belirsizlikleri Açıklığa Kavuşturun**:
+   - **Uygulama**: AI'nın yanıtlarında belirsizlikler veya belirsizlikler varsa, açıklığa kavuşturmak için takip soruları kullanın.
+   - **Örnek**:
+     - AI Yanıtı: "Bir sonraki adım veri formatınıza bağlı."
+     - Takip Sorusu: "Veriler CSV formatında. Bundan sonra ne yapmalıyım?"
+
+### 10. **Detay ile Özlülüğü Dengeleyin**:
+   - **Uygulama**: Bağlam için yeterli detay sağlayın, ancak AI'ı karıştırabilecek aşırı uzun sorulardan kaçının.
+   - **Örnek**:
+     - Daha Az Etkili: "Whiskers adında üç yaşında dışarıda oynamayı seven bir kedim var. Ona ne tür yiyecekler vermem gerektiğini düşünüyorum çünkü oldukça aktif."
+     - Daha Etkili: "Aktif bir 3 yaşındaki dış mekan kedisi için önerilen diyet nedir?"
+
+Bu en iyi uygulamalar, kullanıcıların AI modellerinden daha doğru, alakalı ve yararlı yanıtlar almasını sağlayacak sorular formüle etmesine yardımcı olur. Bu teknikleri uygulayarak, kullanıcılar AI ile etkileşimlerinin etkinliğini büyük ölçüde artırabilirler.
