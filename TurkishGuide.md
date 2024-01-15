@@ -91,3 +91,25 @@ AI modellerinden en iyi olası yanıtları elde etmek için etkili prompt mühen
      - Daha Etkili: "Aktif bir 3 yaşındaki dış mekan kedisi için önerilen diyet nedir?"
 
 Bu en iyi uygulamalar, kullanıcıların AI modellerinden daha doğru, alakalı ve yararlı yanıtlar almasını sağlayacak sorular formüle etmesine yardımcı olur. Bu teknikleri uygulayarak, kullanıcılar AI ile etkileşimlerinin etkinliğini büyük ölçüde artırabilirler.
+
+## Prompt Yönlendirme (Prompt Priming)
+
+Prompt yönlendirme, ChatGPT gibi AI dil modelleriyle etkileşimde kullanılan bir tekniktir, burada ilk giriş veya "soru" modeli özel bir şekilde "yönlendirmek" için tasarlanır. Bu yönlendirme, etkileşimin bağlamını veya tonunu belirler ve AI'nın yanıtlarını etkiler. Amaç, AI'yı yanıtlarında belirli bir stil, format veya içerik türüne yönlendirmektir. İşte iki örnek:
+
+1. **Yaratıcı Yazı Yönlendirmesiz**:
+   - Prompt: "Ejderhalar ve elfler hakkında bir hikaye yazın."
+   - Bu komut çok daha belirsiz, ortam, karakterler ve konu hakkında özel detaylar içermez. Sonuç olarak, AI genel bir fantezi hikayesi üretebilir, ancak mistik bir dünya, kayıp altın şehir ve Elara adında bir karakterin yolculuğu gibi zengin detaylı ve özel bir senaryo ile mutlaka uyumlu olmayabilir.
+
+2. **Yaratıcı Yazı Yönlendirme**:
+   - Prompt: "Ejderhalar ve elflerin barış içinde yaşadığı mistik bir dünyayı hayal edin. Bu dünyada, bilge bir ejderha tarafından korunan altından yapılmış kayıp bir şehir efsanesi var. Genç bir elf olan Elara'nın bu şehri bulmak için çıktığı bir macerayı anlatan kısa bir hikaye yazın."
+   - Bu komut, ChatGPT'yi fantezi bir ortamda yaratıcı bir hikaye üretmeye yönlendirir. Sahneyi kurar, karakterleri tanıtır ve bir konu önerir, AI'ı belirli bir türde bir anlatı üretmesi için yönlendirir.
+
+3. **Teknik Açıklama Yönlendirmesiz**:
+   - Prompt: "Makine öğrenimini açıklayın."
+   - Bu komut doğrudan ve lise öğrencileri için açıklamayı özelleştirmek için spesifik talimat eksiktir. AI doğru ama muhtemelen daha teknik veya az çekici bir açıklama sağlayabilir, bu da lise seviyesindeki bir kitle için uygun veya erişilebilir olmayabilir.
+
+4. **Teknik Açıklama Yönlendirme**:
+   - Prompt: "Makine öğrenimi konseptini, bir lise sınıfına ders veren bir öğretmenmiş gibi açıklayın. Basit benzetmeler kullanın ve teknik jargondan kaçının."
+   - Bu komut, AI'ı makine öğrenimi gibi karmaşık bir konuyu basitleştirilmiş bir şekilde, lise öğrencilerine uygun bir dille açıklamak için yönlendirir. AI'ya benzetmeler kullanması ve basit dil kullanarak yanıt vermesi talimatı verilir, böylece yanıtı öğrencilerin anlayış seviyesine uygun hale getirilir.
+
+Bu örnekler, kullanıcıların belirli ihtiyaçlarına ve beklentilerine daha yakın yanıtlar üretmek için AI'ı yönlendirmede prompt yönlendirmenin ne kadar önemli olduğunu gösterir.
