@@ -150,3 +150,95 @@ RGC (Rol, Hedefler, Bağlam) gibi genel çerçeveler, prompt'ların dengeli ve e
    - **Açıklama**: Bu prompt, önemli bir küresel olayın muhtemel sonuçlarını düşünmeye ve açıklamaya AI'yı teşvik eden bir hipotetik senaryoyu ortaya koyar.
 
 Bu çerçeveler, her biri AI'nın yanıtlarını daha odaklı, detaylı ve kullanıcının niyetiyle uyumlu hale getirerek benzersiz bir amaç hizmet eder. Bu çerçeveleri dikkatlice seçip uygulayarak, kullanıcılar etkileşimi etkin bir şekilde yönlendirebilir ve AI'dan daha anlamlı ve alakalı bilgiler çıkarabilirler.
+
+## Odaklanmış Prompt Çerçeveleri
+
+Odaklanmış Prompt Çerçeveleri, ChatGPT gibi AI dil modellerinin daha doğru, ilgili ve kullanışlı yanıtlar üretmesini sağlayacak şekilde soruları şekillendirmek için yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam göz önünde bulundurularak tasarlanmıştır ve sorunun nasıl formüle edildiğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
+
+1. **Bilgi Toplama Çerçevesi**:
+   - **Hedef**: Belirli bilgileri veya gerçekleri çıkarmak.
+   - **Örnek**: "Python ve JavaScript arasında sözdizimi ve kullanım durumları açısından ana farklar nelerdir?"
+   - **Açıklama**: Bu prompt, Python ve JavaScript hakkında açık ve gerçek bilgiler elde etmeyi amaçlar. 'Farklar', 'sözdizimi' ve 'kullanım durumları' üzerine odaklanarak spesifik ve doğrudandır.
+
+2. **Yaratıcı İçerik Üretimi Çerçevesi**:
+   - **Hedef**: Orijinal, yaratıcı içerik üretmek.
+   - **Örnek**: "Teknolojinin doğayı kontrol ettiği gelecekteki bir şehirde geçen kısa bir hikaye oluşturun, bu sisteme karşı çıkan bir kahraman üzerine odaklanarak."
+   - **Açıklama**: Bu prompt, AI'ı belirli unsurlarla bir anlatı oluşturmaya teşvik eder: gelecekteki bir ortam, teknoloji ile doğa arasındaki tema ve isyankar bir kahraman.
+
+3. **Problem Çözme Çerçevesi**:
+   - **Hedef**: Belirli bir soruna çözümler bulmak veya stratejiler önermek.
+   - **Örnek**: "Eğitim YouTube kanalımda etkileşimi artırmakta zorlanıyorum. İzleyici etkileşimini ve sadakatini artırmak için etkili stratejiler nelerdir?"
+   - **Açıklama**: Bu prompt, bir sorunu açıkça tanımlar (eğitim YouTube kanalında düşük etkileşim) ve belirli çözümler ister (etkileşimi ve sadakatı artıracak stratejiler).
+
+4. **Öğrenme ve Açıklama Çerçevesi**:
+   - **Hedef**: Kavramları açıklamak veya materyali anlaşılır bir şekilde öğretmek.
+   - **Örnek**: "Kütleçekimini, karmaşık fizik terimleri kullanmadan 10 yaşındaki bir çocuğa açıklayın."
+   - **Açıklama**: Bu prompt, AI'ı kütleçekimi bilimsel kavramını basit, yaşa uygun bir dille açıklamaya yönlendirir.
+
+Sure, here is the translation of the text into Turkish:
+
+## Odaklanmış Prompt Çerçeveleri
+
+Odaklanmış Prompt Çerçeveleri, AI dil modellerine, örneğin ChatGPT'ye, daha doğru, ilgili ve kullanışlı yanıtlar üretmeleri için yönlendiren yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam gözetilerek tasarlanmıştır ve komutun nasıl formüle edileceğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
+
+1. **Bilgi İzleme Çerçevesi**:
+   - **Amaç**: Belli bilgileri veya gerçekleri çıkarmak.
+   - **Örnek**: "Python ile JavaScript arasındaki temel farklar nelerdir, sözdizimi ve kullanım durumları açısından?"
+   - **Açıklama**: Bu prompt, Python ve JavaScript hakkında net, gerçek bilgiler elde etmeyi amaçlamaktadır. 'Farklar', 'sözdizimi' ve 'kullanım durumları'na odaklanarak spesifik ve doğrudandır.
+
+2. **Yaratıcı Üretim Çerçevesi**:
+   - **Amaç**: Orijinal, yaratıcı içerik üretmek.
+   - **Örnek**: "Teknolojinin doğayı kontrol ettiği gelecek zamanlı bir şehirde geçen, bu sisteme karşı gelen bir kahramanın hikayesini oluştur."
+   - **Açıklama**: Bu prompt, AI'ı belirli unsurlarla bir anlatı oluşturmaya teşvik eder: gelecek zamanlı bir ayar, teknoloji ile doğa arasındaki tema ve isyankar bir kahraman.
+
+3. **Problem Çözme Çerçevesi**:
+   - **Amaç**: Belirtilen bir probleme çözüm bulmak veya stratejiler önermek.
+   - **Örnek**: "Eğitim YouTube kanalımda etkileşimi artırmakta zorlanıyorum. İzleyici etkileşimini ve bağlılığını artırmak için bazı etkili stratejiler nelerdir?"
+   - **Açıklama**: Pormpt, bir problemi açıkça tanımlar (eğitim YouTube kanalında düşük etkileşim) ve spesifik çözümler ister (etkileşim ve bağlılığı artırmak için stratejiler).
+
+4. **Öğrenme ve Açıklama Çerçevesi**:
+   - **Amaç**: Kavramları açıklamak veya materyali anlaşılır bir şekilde öğretmek.
+   - **Örnek**: "Karmaşık fizik terimleri kullanmadan 10 yaşındaki bir çocuğa yerçekimi kavramını açıkla."
+   - **Açıklama**: Bu prompt, AI'ı yerçekimi bilimsel kavramını basit, yaşa uygun bir dile indirgemeye hazırlar.
+
+5. **Görüş ve Analiz Çerçevesi**:
+   - **Amaç**: Belirli bir konuda görüşler, eleştiriler veya analizler üretmek.
+   - **Örnek**: "Modern iletişimde sosyal medyanın etkisini analiz edin, hem faydalarını hem de dezavantajlarını ele alarak."
+   - **Açıklama**: Prompt, güncel bir konunun dengeli bir analizini istiyor, AI'ın hem olumlu hem de olumsuz yönleri dikkate alarak ifade etmesini teşvik ediyor.
+
+6. **Talimat veya Nasıl-Yapılır Çerçevesi**:
+   - **Amaç**: Adım adım rehberlik veya talimatlar sağlamak.
+   - **Örnek**: "Daha önce hiç pasta yapmamış birine çikolatalı kek yapmanın adımlarını anlat."
+   - **Açıklama**: Bu prompt, çikolatalı kek yapımını detaylı ve acemi dostu bir şekilde anlatmayı amaçlayarak, açık, adım adım talimatlar üzerine yapılandırılmıştır.
+
+7. **Karşılaştırmalı Analiz Çerçevesi**:
+   - **Amaç**: Farklı varlıkları veya kavramları karşılaştırmak ve kontrastlamak.
+   - **Örnek**: "Keynesyenizm ve Monetarizmin ekonomik politikalarını karşılaştırın, ana ilkelerini ve modern ekonomiler üzerindeki etkilerini vurgulayarak."
+   - **Açıklama**: Bu prompt, iki ekonomik teorinin detaylı bir karşılaştırmasını yapmayı amaçlar ve özellikle ilkeleri ve etkileri gibi spesifik yönler üzerine odaklanır.
+
+8. **Tarihsel Perspektif Çerçevesi**:
+   - **Amaç**: Tarihsel bağlamı sağlamak veya olayları tarihi bir bakış açısıyla analiz etmek.
+   - **Örnek**: "Avrupa'daki Sanayi Devrimi'nin nedenlerini ve sonuçlarını tartışın."
+   - **Açıklama**: Bu prompt, büyük bir tarihsel olayın hem nedenlerini hem de sonuçlarını analiz etmeyi istiyor.
+
+9. **Senaryo Simülasyonu Çerçevesi**:
+   - **Amaç**: Hipotetik durumları veya olası gelecek senaryolarını keşfetmek.
+   - **Örnek**: "2050 yılına kadar yenilenebilir enerjinin fosil yakıtları tamamen yerine geçtiği bir senaryoyu hayal edin. Bu durum küresel ekonomileri ve çevreyi nasıl etkiler?"
+   - **Açıklama**: Bu prompt, bir gelecek senaryosunu simüle etmeyi ve bu senaryonun toplumun çeşitli yönleri üzerindeki potansiyel etkilerini keşfetmeyi amaçlar.
+
+10. **Kişisel Tavsiye Çerçevesi**:
+   - **Amaç**: Belirli bir duruma dayalı kişiselleştirilmiş öneriler veya rehberlik sağlamak.
+   - **Örnek**: "Bilgisayar bilimleri bölümünde okuyan bir üniversite öğrencisiyim ve bunalmış hissediyorum. Zamanımı nasıl etkili yönetebilirim ve stresi nasıl azaltabilirim?"
+   - **Açıklama**: Bu prompt, belirli bir kişisel durum için özel tavsiye arar ve AI'ın bireyin durumunu dikkate almasını gerektirir.
+
+11. **Kavram Keşfi Çerçevesi**:
+   - **Amaç**: Bir kavramı veya teoriyi derinlemesine incelemek, nüanslarını ve etkilerini araştırmak.
+   - **Örnek**: "Yapay zeka etiği kavramını keşfedin, önemini ve etik AI'ı uygulamada karşılaşılan zorlukları tartışarak."
+   - **Açıklama**: Bu prompt, karmaşık bir kavramın çeşitli yönlerini ve sorunlarını detaylı bir şekilde tartışmaya teşvik eder.
+
+12. **Etkileşimli Hikaye Anlatımı Çerçevesi**:
+   - **Amaç**: Kullanıcının farklı aşamalarda girdi sağladığı bir hikaye oluşturmak.
+   - **Örnek**: "Terkedilmiş bir malikanede geçen bir gizem hikayesi başlatın. Ana karakterin önemli noktalarda yaptığı seçimleri size söyleyeceğim."
+   - **Açıklama**: Bu prompt, kullanıcının yanıtlarının hikayenin yönünü etkilediği etkileşimli bir hikaye anlatımı deneyimi kurar.
+
+Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği, komutun seçilen çerçeve ile ne kadar iyi hizalandığına büyük ölçüde bağlıdır. Bu çerçevelere göre dikkatlice komutlar oluşturarak, AI'nın çıktısının kalitesi ve ilgisini önemli ölçüde etkileyebilirsiniz.
