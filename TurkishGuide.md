@@ -113,3 +113,40 @@ Prompt yönlendirme, ChatGPT gibi AI dil modelleriyle etkileşimde kullanılan b
    - Bu komut, AI'ı makine öğrenimi gibi karmaşık bir konuyu basitleştirilmiş bir şekilde, lise öğrencilerine uygun bir dille açıklamak için yönlendirir. AI'ya benzetmeler kullanması ve basit dil kullanarak yanıt vermesi talimatı verilir, böylece yanıtı öğrencilerin anlayış seviyesine uygun hale getirilir.
 
 Bu örnekler, kullanıcıların belirli ihtiyaçlarına ve beklentilerine daha yakın yanıtlar üretmek için AI'ı yönlendirmede prompt yönlendirmenin ne kadar önemli olduğunu gösterir.
+
+## Genel Prompt Çerçeveleri
+RGC (Rol, Hedefler, Bağlam) gibi genel çerçeveler, prompt'ların dengeli ve etkili olmasını sağlamak için yapılandırılmış bir yaklaşım sunar. Bu çerçevelerin bazılarına ve örneklerine daha yakından bakalım:
+
+1. **RGC Çerçevesi (Rol, Hedefler, Bağlam)**:
+   - **Rol**: AI'nın ne veya kim olduğunu tanımlayın.
+   - **Hedefler**: Prompt ile ne elde etmek istediğinizi belirtin.
+   - **Bağlam**: Gerekli arka plan bilgilerini sağlayın.
+   - **Örnek**: "Bir seyahat danışmanısınız. Nisan ayında iki haftalığına Japonya'ya bir gezi planlıyorum. Hedeflerim geleneksel Japon kültürünü deneyimlemek ve kiraz çiçeği yerlerini ziyaret etmek. Hangi rota önerirsiniz?"
+   - **Açıklama**: Bu prompt, AI'nın rolünü (seyahat danışmanı), hedefi (Japonya'da kültürel açıdan zengin bir gezi planlamak) ve bağlamı (Nisan ayında iki haftalık gezi) açıkça tanımlar.
+
+2. **Kısıtlama Odaklı Çerçeve**:
+   - **Kısıtlamalar**: AI'nın yanıtı için herhangi bir sınırlandırma veya sınırı açıkça belirtin.
+   - **Örnek**: "Okyanus hakkında bir şiir yazın, ancak sadece dört satırlık kıtalarda kullanın ve 'deniz', 'su' veya 'mavi' kelimelerini kullanmayın."
+   - **Açıklama**: Bu prompt belirli kısıtlamalar (şiirin formatı ve kelime sınırlamaları) belirler, AI'yı bu sınırlar içinde daha yaratıcı olmaya yönlendirir.
+
+3. **Sokratik Çerçeve**:
+   - **Hedef**: AI'yı bir dizi soru ve cevapla daha derin bir anlayışa yönlendirmek.
+   - **Örnek**: "Ekosistemler için biyolojik çeşitliliğin önemi nedir? Bunu, bir yağmur ormanı ekosistemi örneği vererek açıklayabilir misiniz?"
+   - **Açıklama**: Bu prompt, AI'ı biyolojik çeşitliliğin kavramını derinlemesine keşfetmeye ve açıklamaya teşvik etmek için Sokratik yöntemi kullanır.
+
+4. **Açık Uçlu Keşif Çerçevesi**:
+   - **Hedef**: Geniş, yaratıcı veya spekülatif cevaplara teşvik etmek.
+   - **Örnek**: "Mars'ın kolonileştirilmesinin beklenmedik sonuçları neler olabilir?"
+   - **Açıklama**: Bu prompt, açık uçlu spekülasyonlara davet eder ve AI'nın belirli kısıtlamalar olmaksızın geniş bir yelpazede olasılıkları keşfetmesine olanak tanır.
+
+5. **Yetenek Gösterimi Çerçevesi**:
+   - **Hedef**: AI'ya belirli bir yetenek veya kabiliyet göstermesi için yönlendirmek.
+   - **Örnek**: "Bir satranç eğitmeni olarak, 1972'de Bobby Fischer ile Boris Spassky arasında oynanan ünlü oyunun analizini yapın, ana hamlelere ve stratejilere odaklanarak."
+   - **Açıklama**: Bu prompt, AI'ı belirli bir rolde (satranç eğitmeni) belirler ve ondan tarihi bir satranç oyununu detaylı yönleriyle analiz etmesini ister.
+
+6. **Hipotetik Senaryo Çerçevesi**:
+   - **Hedef**: Hipotetik veya hayali durumlara yanıt araştırmak.
+   - **Örnek**: "İnternetin dünya çapında bir ay boyunca tamamen kapatıldığını hayal edin. Bu, küresel iletişim ve iş dünyasını nasıl etkiler?"
+   - **Açıklama**: Bu prompt, önemli bir küresel olayın muhtemel sonuçlarını düşünmeye ve açıklamaya AI'yı teşvik eden bir hipotetik senaryoyu ortaya koyar.
+
+Bu çerçeveler, her biri AI'nın yanıtlarını daha odaklı, detaylı ve kullanıcının niyetiyle uyumlu hale getirerek benzersiz bir amaç hizmet eder. Bu çerçeveleri dikkatlice seçip uygulayarak, kullanıcılar etkileşimi etkin bir şekilde yönlendirebilir ve AI'dan daha anlamlı ve alakalı bilgiler çıkarabilirler.
