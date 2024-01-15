@@ -310,3 +310,74 @@ Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği
     - "Aşağıdaki duruşa destek olarak veya karşı olarak ikna edici bir argüman formüle edin…”
 
 Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şekilde tasarlanmıştır, bu da ChatGPT veya benzeri AI dil modellerinden daha odaklanmış ve ilgili yanıtlar elde etmekte yardımcı olmalıdır. Yeniden biçimlendirmekten ve bilgileri basitleştirmekten, yaratıcı yazı ve teknik revizyonlara kadar geniş bir yelpazede görevleri kapsar, çeşitli bağlamlarda etkili prompt mühendisliği için kapsamlı bir araç seti sağlar.
+
+Tabii ki, işte metnin Türkçe çevirisi:
+
+## ChatGPT İçin İleri Düzey Prompt Teknikleri
+
+İleri düzey prompt teknikleri, AI dil modellerinin, örneğin ChatGPT'nin, karmaşık görevleri yönetme, yanıtların doğruluğunu artırma ve AI'ı yenilikçi uygulamalar için yaratıcı bir şekilde kullanma yeteneklerinden yararlanmayı içerir. İşte bazı ana teknikler:
+
+### 1. **Karmaşık Görevler için Komut Zincirleme**:
+   - **Açıklama**: Karmaşık bir görevi daha küçük, ardışık komutlar serisine ayırmak. Bu yöntem, AI'ı çok aşamalı bir süreçten veya incelikli bir akıl yürütme hattından geçirmede yardımcı olur.
+   - **Örnek**:
+     - **Görev**: Bir makaleyi araştırıp özetlemek.
+     - **Prompt'lar**:
+       1. "Yenilenebilir enerji gelişmeleri hakkında son makaleleri ara."
+       2. "Bir makale seç ve oku."
+       3. "Makalenin ana noktalarını öz ve net bir paragrafta özetle."
+
+### 2. **Prompt'larda Bağlam Katmanlama**:
+   - **Açıklama**: Sonraki komutlarda bağlam katmanları oluşturarak AI'nın anlayışını ve yanıtlarını iyileştirmek. Bu teknik, özellikle karmaşık konularla ilgilenirken veya sohbeti belirli bir yönde yönlendirmeniz gerektiğinde faydalıdır.
+   - **Örnek**:
+     - **İlk Pormpt**: "Kuantum bilgisayarlarını basit terimlerle açıkla."
+     - **Takip Prompt'u**: "Şimdi, bu açıklamaya dayanarak, kuantum bilgisayarlarının siber güvenlikteki potansiyel gelecekteki uygulamaları nelerdir?"
+
+### 3. **Hata Ayıklama Prompt'ları**:
+   - **Açıklama**: AI'nın önceki yanıtlarındaki hataları veya yanlış anlamaları tespit etmek ve düzeltmek için komutları kullanmak. Bu, doğruluk ve hassasiyet gerektiren görevler için hayati öneme sahiptir.
+
+   - **Örnek**:
+     - **AI Yanıtı**: "Fotosentez, bitkilerin ve hayvanların ışığı enerjiye dönüştürdüğü bir süreçtir."
+     - **Hata Ayıklama Prompt'u**: "Hayvanların fotosentez kullandığını belirttiniz. Aslında hangi organizmaların fotosentez kullandığını açıklayabilir misiniz?"
+
+### 4. **Yaratıcı Hikaye Anlatımı ve Senaryolar**:
+   - **Açıklama**: AI'ın yaratıcı anlatılar veya hipotetik senaryolar oluşturmasına yol gösteren komutları formüle etmek. Bu, özellikle yaratıcı yazım, pazarlama veya senaryo planlaması gibi alanlarda faydalıdır.
+   - **Örnek**:
+     - **Pormpt**: "Yapay zekanın birincil hükümet biçimi haline geldiği bir hikaye yazın, hem faydalarını hem de zorluklarını keşfederek."
+
+### 5. **Karşıt Düşünme ve Hipotetikler**:
+   - **Açıklama**: AI'ı 'ne olurdu' senaryoları açısından düşünmeye teşvik etmek. Bu, alternatif sonuçları keşfetmek, beyin fırtınası yapmak ve stratejik planlama için faydalı olabilir.
+   - **Örnek**:
+     - **Prompt**: "İnternet hiç icat edilmemiş olsaydı, bugünün küresel toplumu nasıl değişirdi?"
+
+### 6. **Rol Oynama ve Perspektifler**:
+   - **Açıklama**: AI'ın belirli bir rol, karakter veya uzmanın bakış açısından yanıt vermesini istemek. Bu teknik, farklı bakış açılarını anlamak veya çeşitli perspektiflerin keşfedildiği eğitim amaçları için faydalıdır.
+   - **Örnek**:
+     - **Prompt**: "Bir iklim değişikliği aktivisti ile bir petrol şirketi CEO'sunun çevre politikaları hakkında tartıştığı bir diyalog yazın."
+
+### 7. **Benzerlik ve Metaforlar için Komut Verme**:
+   - **Açıklama**: AI'ın kavramları benzerlikler veya metaforlar aracılığıyla açıklamasını isteyen komutları kullanmak, karmaşık fikirleri ilişkilendirilebilir bir şekilde öğretmede özellikle etkilidir.
+   - **Örnek**:
+     - **Prompt**: "Kara delik kavramını, bir lise öğrencisi için uygun bir benzetme kullanarak açıklayın."
+
+### 8. **Ardışık Öğrenme Prompt'ları**:
+   - **Açıklama**: AI'ı bir öğrenme veya keşif sürecine yönlendirmek için birbirini takip eden komutlar serisi oluşturmak. Bu, eğitim ortamlarında veya bir konunun derinlemesine keşfi için kullanılabilir.
+   - **Örnek**:
+     - **Prompt Serisi**:
+       1. "Ekonomi temel ilkeleri nelerdir?"
+       2. "Bu ilkeler arz ve talep kavramına nasıl uygulanır?"
+       3. "Arz ve talebin gerçek dünyada bir örneğini verebilir misiniz?"
+
+### 9. **Hata Düzeltme ve İyileştirme Talepleri**:
+   - **Açıklama**: AI'ı, verilen bir metinde veya kendi önceki yanıtlarında hataları tespit etmeye ve düzeltmeye veya mevcut bir fikir veya içeriği iyileştirmek için önerilerde bulunmaya yönlendirmek.
+   - **Örnek**:
+     - **Prompt**: "İşte yenilenebilir enerji kaynaklarına dair bir özet. Herhangi bir yanlışı belirleyip iyileştirmeler önerir misiniz?"
+
+### 10. **Etkileşimli ve Gelişen Hikaye Hatları**:
+   - **Açıklama**: Kullanıcı seçimleri veya girdileri temel alarak hikaye hattının geliştiği etkileşimli bir hikaye oluşturmak için komutları kullanmak, eğlence veya eğitim amaçları için idealdir.
+   - **Örnek**:
+     - **Prompt**: "Uzay macerası hakkında bir hikaye başlatın. Her paragraftan sonra ana karakterin ne yapacağına ben karar vereceğim."
+
+### 11. **Tahmin ve Öngörü Komutları**:
+   - **Açıklama**: AI'ı, mevcut eğilimlere veya verilere dayanarak tahminlerde veya öngörülerde bulunmaya teşvik etmek. Senaryo analizi, pazar araştırması ve stratejik planlama için faydalıdır.
+   - **Örnek**:
+     - **Komut**: "Teknolojideki mevcut eğilimler göz önüne alındığında, önümüzdeki on yıl için en üst üç teknolojik ilerleme için tahminleriniz nelerdir?"
