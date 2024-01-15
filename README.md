@@ -63,9 +63,7 @@ Effective prompt engineering is crucial for eliciting the best possible response
    - **Practice**: Use the AI's responses to refine and redirect your prompts.
    - **Example**:
      - Initial Prompt: "How can I improve my website's design?"
-     - Follow-Up Prompt (after initial response): "Can you
-
-suggest specific color schemes and layout ideas for a tech blog site?"
+     - Follow-Up Prompt (after initial response): "Can you suggest specific color schemes and layout ideas for a tech blog site?"
 
 ### 7. **Avoid Leading or Biased Questions**:
    - **Practice**: Craft prompts that are neutral and don’t lead the AI towards a biased or predetermined answer.
