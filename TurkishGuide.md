@@ -66,51 +66,51 @@ AI modellerinden en iyi olası yanıtları elde etmek için etkili prompt mühen
      - İlk Prompt: "Web sitemin tasarımını nasıl geliştirebilirim?"
      - Takip Promptu (ilk yanıttan sonra): "Teknoloji blogu için özel renk şemaları ve düzen fikirleri önerebilir misin?"
 
-### 7. **Önyargılı veya Yönlendirici Sorulardan Kaçının**:
-   - **Uygulama**: AI'ı önyargılı veya önceden belirlenmiş bir yanıta yönlendirmeyecek tarafsız sorular hazırlayın.
+### 7. **Önyargılı veya Yönlendirici Prompt'lardan Kaçının**:
+   - **Uygulama**: AI'ı önyargılı veya önceden belirlenmiş bir yanıta yönlendirmeyecek tarafsız prompt'lar hazırlayın.
    - **Örnek**:
      - Daha Az Etkili: "Python neden en iyi programlama dili?"
      - Daha Etkili: "Python programlama dilini kullanmanın artıları ve eksileri nelerdir?"
 
 ### 8. **AI'nın Yeteneklerini ve Sınırlamalarını Göz Önünde Bulundurun**:
-   - **Uygulama**: Sorularınızı, AI modelinin gerçekçi olarak başarabilecekleriyle uyumlu hale getirin.
+   - **Uygulama**: Protmp'larınızı, AI modelinin gerçekçi olarak başarabilecekleriyle uyumlu hale getirin.
    - **Örnek**:
      - Daha Az Etkili: "İklim değişikliği hakkında 10.000 kelimelik bir makale yazabilir misin?"
      - Daha Etkili: "İklim değişikliğinin anahtar noktalarını 500 kelimelik bir özetle anlatabilir misin?"
 
 ### 9. **AI'nın Yanıtlarındaki Belirsizlikleri Açıklığa Kavuşturun**:
-   - **Uygulama**: AI'nın yanıtlarında belirsizlikler veya belirsizlikler varsa, açıklığa kavuşturmak için takip soruları kullanın.
+   - **Uygulama**: AI'nın yanıtlarında belirsizlikler veya belirsizlikler varsa, açıklığa kavuşturmak için takip prompt'ları kullanın.
    - **Örnek**:
      - AI Yanıtı: "Bir sonraki adım veri formatınıza bağlı."
      - Takip Sorusu: "Veriler CSV formatında. Bundan sonra ne yapmalıyım?"
 
 ### 10. **Detay ile Özlülüğü Dengeleyin**:
-   - **Uygulama**: Bağlam için yeterli detay sağlayın, ancak AI'ı karıştırabilecek aşırı uzun sorulardan kaçının.
+   - **Uygulama**: Bağlam için yeterli detay sağlayın, ancak AI'ı karıştırabilecek aşırı uzun prompt'lardan kaçının.
    - **Örnek**:
      - Daha Az Etkili: "Whiskers adında üç yaşında dışarıda oynamayı seven bir kedim var. Ona ne tür yiyecekler vermem gerektiğini düşünüyorum çünkü oldukça aktif."
      - Daha Etkili: "Aktif bir 3 yaşındaki dış mekan kedisi için önerilen diyet nedir?"
 
-Bu en iyi uygulamalar, kullanıcıların AI modellerinden daha doğru, alakalı ve yararlı yanıtlar almasını sağlayacak sorular formüle etmesine yardımcı olur. Bu teknikleri uygulayarak, kullanıcılar AI ile etkileşimlerinin etkinliğini büyük ölçüde artırabilirler.
+Bu en iyi uygulamalar, kullanıcıların AI modellerinden daha doğru, alakalı ve yararlı yanıtlar almasını sağlayacak prompt'lar formüle etmesine yardımcı olur. Bu teknikleri uygulayarak, kullanıcılar AI ile etkileşimlerinin etkinliğini büyük ölçüde artırabilirler.
 
 ## Prompt Yönlendirme (Prompt Priming)
 
-Prompt yönlendirme, ChatGPT gibi AI dil modelleriyle etkileşimde kullanılan bir tekniktir, burada ilk giriş veya "soru" modeli özel bir şekilde "yönlendirmek" için tasarlanır. Bu yönlendirme, etkileşimin bağlamını veya tonunu belirler ve AI'nın yanıtlarını etkiler. Amaç, AI'yı yanıtlarında belirli bir stil, format veya içerik türüne yönlendirmektir. İşte iki örnek:
+Prompt yönlendirme, ChatGPT gibi AI dil modelleriyle etkileşimde kullanılan bir tekniktir, burada ilk giriş veya "prompt" modeli özel bir şekilde "yönlendirmek" için tasarlanır. Bu yönlendirme, etkileşimin bağlamını veya tonunu belirler ve AI'nın yanıtlarını etkiler. Amaç, AI'yı yanıtlarında belirli bir stil, format veya içerik türüne yönlendirmektir. İşte iki örnek:
 
 1. **Yaratıcı Yazı Yönlendirmesiz**:
    - Prompt: "Ejderhalar ve elfler hakkında bir hikaye yazın."
-   - Bu komut çok daha belirsiz, ortam, karakterler ve konu hakkında özel detaylar içermez. Sonuç olarak, AI genel bir fantezi hikayesi üretebilir, ancak mistik bir dünya, kayıp altın şehir ve Elara adında bir karakterin yolculuğu gibi zengin detaylı ve özel bir senaryo ile mutlaka uyumlu olmayabilir.
+   - Bu prompt çok daha belirsiz, ortam, karakterler ve konu hakkında özel detaylar içermez. Sonuç olarak, AI genel bir fantezi hikayesi üretebilir, ancak mistik bir dünya, kayıp altın şehir ve Elara adında bir karakterin yolculuğu gibi zengin detaylı ve özel bir senaryo ile mutlaka uyumlu olmayabilir.
 
 2. **Yaratıcı Yazı Yönlendirme**:
    - Prompt: "Ejderhalar ve elflerin barış içinde yaşadığı mistik bir dünyayı hayal edin. Bu dünyada, bilge bir ejderha tarafından korunan altından yapılmış kayıp bir şehir efsanesi var. Genç bir elf olan Elara'nın bu şehri bulmak için çıktığı bir macerayı anlatan kısa bir hikaye yazın."
-   - Bu komut, ChatGPT'yi fantezi bir ortamda yaratıcı bir hikaye üretmeye yönlendirir. Sahneyi kurar, karakterleri tanıtır ve bir konu önerir, AI'ı belirli bir türde bir anlatı üretmesi için yönlendirir.
+   - Bu prompt, ChatGPT'yi fantezi bir ortamda yaratıcı bir hikaye üretmeye yönlendirir. Sahneyi kurar, karakterleri tanıtır ve bir konu önerir, AI'ı belirli bir türde bir anlatı üretmesi için yönlendirir.
 
 3. **Teknik Açıklama Yönlendirmesiz**:
    - Prompt: "Makine öğrenimini açıklayın."
-   - Bu komut doğrudan ve lise öğrencileri için açıklamayı özelleştirmek için spesifik talimat eksiktir. AI doğru ama muhtemelen daha teknik veya az çekici bir açıklama sağlayabilir, bu da lise seviyesindeki bir kitle için uygun veya erişilebilir olmayabilir.
+   - Bu prompt doğrudan ve lise öğrencileri için açıklamayı özelleştirmek için spesifik talimat eksiktir. AI doğru ama muhtemelen daha teknik veya az çekici bir açıklama sağlayabilir, bu da lise seviyesindeki bir kitle için uygun veya erişilebilir olmayabilir.
 
 4. **Teknik Açıklama Yönlendirme**:
    - Prompt: "Makine öğrenimi konseptini, bir lise sınıfına ders veren bir öğretmenmiş gibi açıklayın. Basit benzetmeler kullanın ve teknik jargondan kaçının."
-   - Bu komut, AI'ı makine öğrenimi gibi karmaşık bir konuyu basitleştirilmiş bir şekilde, lise öğrencilerine uygun bir dille açıklamak için yönlendirir. AI'ya benzetmeler kullanması ve basit dil kullanarak yanıt vermesi talimatı verilir, böylece yanıtı öğrencilerin anlayış seviyesine uygun hale getirilir.
+   - Bu prompt, AI'ı makine öğrenimi gibi karmaşık bir konuyu basitleştirilmiş bir şekilde, lise öğrencilerine uygun bir dille açıklamak için yönlendirir. AI'ya benzetmeler kullanması ve basit dil kullanarak yanıt vermesi talimatı verilir, böylece yanıtı öğrencilerin anlayış seviyesine uygun hale getirilir.
 
 Bu örnekler, kullanıcıların belirli ihtiyaçlarına ve beklentilerine daha yakın yanıtlar üretmek için AI'ı yönlendirmede prompt yönlendirmenin ne kadar önemli olduğunu gösterir.
 
@@ -153,7 +153,7 @@ Bu çerçeveler, her biri AI'nın yanıtlarını daha odaklı, detaylı ve kulla
 
 ## Odaklanmış Prompt Çerçeveleri
 
-Odaklanmış Prompt Çerçeveleri, ChatGPT gibi AI dil modellerinin daha doğru, ilgili ve kullanışlı yanıtlar üretmesini sağlayacak şekilde soruları şekillendirmek için yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam göz önünde bulundurularak tasarlanmıştır ve sorunun nasıl formüle edildiğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
+Odaklanmış Prompt Çerçeveleri, ChatGPT gibi AI dil modellerinin daha doğru, ilgili ve kullanışlı yanıtlar üretmesini sağlayacak şekilde prompt'ları şekillendirmek için yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam göz önünde bulundurularak tasarlanmıştır ve prompt'un nasıl formüle edildiğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
 
 1. **Bilgi Toplama Çerçevesi**:
    - **Hedef**: Belirli bilgileri veya gerçekleri çıkarmak.
@@ -175,11 +175,9 @@ Odaklanmış Prompt Çerçeveleri, ChatGPT gibi AI dil modellerinin daha doğru,
    - **Örnek**: "Kütleçekimini, karmaşık fizik terimleri kullanmadan 10 yaşındaki bir çocuğa açıklayın."
    - **Açıklama**: Bu prompt, AI'ı kütleçekimi bilimsel kavramını basit, yaşa uygun bir dille açıklamaya yönlendirir.
 
-Sure, here is the translation of the text into Turkish:
-
 ## Odaklanmış Prompt Çerçeveleri
 
-Odaklanmış Prompt Çerçeveleri, AI dil modellerine, örneğin ChatGPT'ye, daha doğru, ilgili ve kullanışlı yanıtlar üretmeleri için yönlendiren yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam gözetilerek tasarlanmıştır ve komutun nasıl formüle edileceğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
+Odaklanmış Prompt Çerçeveleri, AI dil modellerine, örneğin ChatGPT'ye, daha doğru, ilgili ve kullanışlı yanıtlar üretmeleri için yönlendiren yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam gözetilerek tasarlanmıştır ve prompt'un nasıl formüle edileceğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
 
 1. **Bilgi İzleme Çerçevesi**:
    - **Amaç**: Belli bilgileri veya gerçekleri çıkarmak.
@@ -241,4 +239,74 @@ Odaklanmış Prompt Çerçeveleri, AI dil modellerine, örneğin ChatGPT'ye, dah
    - **Örnek**: "Terkedilmiş bir malikanede geçen bir gizem hikayesi başlatın. Ana karakterin önemli noktalarda yaptığı seçimleri size söyleyeceğim."
    - **Açıklama**: Bu prompt, kullanıcının yanıtlarının hikayenin yönünü etkilediği etkileşimli bir hikaye anlatımı deneyimi kurar.
 
-Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği, komutun seçilen çerçeve ile ne kadar iyi hizalandığına büyük ölçüde bağlıdır. Bu çerçevelere göre dikkatlice komutlar oluşturarak, AI'nın çıktısının kalitesi ve ilgisini önemli ölçüde etkileyebilirsiniz.
+Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği, prompt'un seçilen çerçeve ile ne kadar iyi hizalandığına büyük ölçüde bağlıdır. Bu çerçevelere göre dikkatlice komutlar oluşturarak, AI'nın çıktısının kalitesi ve ilgisini önemli ölçüde etkileyebilirsiniz.
+
+## Prompt Revizyonları
+
+1. **Anahtar Kelimeleri Kalın Harflerle Vurgula**:
+   - "Bu metinde en kritik olan anahtar terimleri kalın harflerle yazınız…"
+
+2. **Bilgileri Belirli Kriterlere Göre Düzenle**:
+   - "İçeriği kronolojik olarak düzenleyin ve tarihe, yere ve maliyete göre kategorilere ayırın…"
+
+3. **Eşsiz ve Sıradışı Fikirler Üret**:
+   - "Şunun için yaratıcı ve daha az yaygın öneriler sunabilir misiniz…"
+
+4. **Vurgu için İlgili Emojileri Dahil Et**:
+   - "Bu metnin ifade gücünü artırmak için uygun emojiler ekleyin…"
+
+5. **Açıklamayı Genç Kitle için Basitleştir**:
+   - "Bunu bir 5 yaşındaki çocuğun kolayca anlayabileceği şekilde açıklayabilir misiniz…"
+
+6. **Bilgileri Belirlenen Kategorilerle Bir Tabloya Dönüştür**:
+   - "Lütfen bu verileri ilgili kategorilere ayırarak bir tablo halinde sunun…"
+
+7. **Bir Endüstri Uzmanının Bakış Açısından Yeniden İfade Et**:
+   - "Bunu alanındaki bir uzmanın perspektifinden yeniden yazın, profesyonel içgörülere odaklanarak…"
+
+8. **Dili Daha Resmi/Gayri Resmi Hale Getir**:
+   - "Lütfen bunu daha resmi/gayri resmi bir şekilde seslendirecek şekilde değiştirin, dili ve tarzı buna göre ayarlayın…"
+
+9. **Dilbilgisel Hataları Düzelt ve Belirli Terimleri Değiştir**:
+   - "Herhangi bir dilbilgisi hatasını düzeltin ve aşağıdaki terimleri şunlarla değiştirin…"
+
+10. **Metne Kişilik ve Mizah Kat**:
+    - "Bunu daha çekici ve mizahi hale getirmek için yeniden yazabilir misiniz…"
+
+11. **Belirli Bir Perspektif veya Ses Benimse**:
+    - "[Belirtilen rol/karakter] bakış açısından bunu yazın…"
+
+12. **İçeriği Tek Bir Tweet'e Sığacak Şekilde Özetle**:
+    - "Bu bilgiyi bir tweete (280 karakter) sığacak şekilde özetleyin…"
+
+13. **İçeriği Üç Bölümlük Bir Özete Genişlet**:
+    - "Bunu ana noktaları kapsayacak şekilde üç bölümlük bir özete ayırın…”
+
+14. **Karşılaştırmalı Analiz Yap**:
+    - "Ana unsurları karşılaştırın ve kontrastlayın, önemli farklılıkları ve benzerlikleri vurgulayarak…”
+
+15. **10 Anahtar Alıntıyı Belirle ve Listele**:
+    - "Bu içerikten en önemli 10 nokta veya alıntı nedir…”
+
+16. **Uzman İncelemesiyle İyileştirme Önerileri**:
+    - "Profesyonel bir bakış açısıyla, bunu nasıl geliştirebileceğinizi önerin…”
+
+17. **Bilgileri Madde İşaretleriyle Yapılandır**:
+    - "Lütfen bu bilgileri net, madde işaretli bir liste halinde düzenleyin…”
+
+18. **Farklı Bir Dile Çevir (uygulanabilirse)**:
+    - "[Belirtilen dil] diline çevirirken orijinal anlamını koruyarak bu metni çevirebilir misiniz…”
+
+19. **Görsel Bir Temsil veya Bilgi Grafiği Oluştur**:
+    - "Bu verileri, ana noktaları vurgulayan görsel bir bilgi grafiğine dönüştürün…”
+
+20. **Kısa Bir Yönetici Özeti Taslağı Hazırla**:
+    - "Bu belgenin özünü özetleyen, özlü bir yönetici özeti yazın…”
+
+21. **İçeriğe Dayalı SSS Listesi Geliştir**:
+    - "Bu bilgilerden çıkan sıkça sorulan soruların bir listesini oluşturabilir misiniz…”
+
+22. **Belirtilen Bir Duruşa Karşı veya Lehine İkna Edici Bir Argüman Yaz**:
+    - "Aşağıdaki duruşa destek olarak veya karşı olarak ikna edici bir argüman formüle edin…”
+
+Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şekilde tasarlanmıştır, bu da ChatGPT veya benzeri AI dil modellerinden daha odaklanmış ve ilgili yanıtlar elde etmekte yardımcı olmalıdır. Yeniden biçimlendirmekten ve bilgileri basitleştirmekten, yaratıcı yazı ve teknik revizyonlara kadar geniş bir yelpazede görevleri kapsar, çeşitli bağlamlarda etkili prompt mühendisliği için kapsamlı bir araç seti sağlar.
