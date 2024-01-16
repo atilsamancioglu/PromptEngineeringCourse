@@ -382,8 +382,6 @@ Tabii ki, işte metnin Türkçe çevirisi:
    - **Örnek**:
      - **Komut**: "Teknolojideki mevcut eğilimler göz önüne alındığında, önümüzdeki on yıl için en üst üç teknolojik ilerleme için tahminleriniz nelerdir?"
 
-Elbette, işte metnin Türkçe çevirisi:
-
 ## Prompt Mühendisliğinde Vaka Çalışmaları
 
 İşte etkili prompt mühendisliğinin uygulanması ve etkisini gösteren bazı vaka çalışmaları veya gerçek dünya örnekleri.
