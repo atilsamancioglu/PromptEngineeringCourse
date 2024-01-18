@@ -128,22 +128,17 @@ General frameworks like the RGC (Role, Goals, Context) and others offer a struct
    - **Example**: "Write a poem about the ocean, but use only four-line stanzas and avoid using the words 'sea', 'water', or 'blue'."
    - **Explanation**: This prompt sets specific constraints (format of the poem and word limitations), guiding the AI to be more creative within these boundaries.
 
-3. **Socratic Framework**:
-   - **Goal**: To lead the AI through a series of questions and answers for deeper understanding.
-   - **Example**: "Why is biodiversity important for ecosystems? Can you explain this by giving an example of a rainforest ecosystem?"
-   - **Explanation**: This prompt uses the Socratic method, asking questions to encourage the AI to explore and explain the concept of biodiversity in depth.
-
-4. **Open-Ended Exploration Framework**:
+3. **Open-Ended Exploration Framework**:
    - **Goal**: To encourage broad, imaginative, or speculative responses.
    - **Example**: "What might be some unexpected consequences of colonizing Mars?"
    - **Explanation**: This prompt invites open-ended speculation, allowing the AI to explore a wide range of possibilities without specific constraints.
 
-5. **Skill Demonstration Framework**:
+4. **Skill Demonstration Framework**:
    - **Goal**: To prompt the AI to demonstrate a particular skill or capability.
    - **Example**: "As a chess instructor, provide an analysis of the famous game between Bobby Fischer and Boris Spassky in 1972, focusing on key moves and strategies."
    - **Explanation**: This prompt sets the AI in a specific role (chess instructor) and asks it to demonstrate its ability to analyze a historical chess game, focusing on detailed aspects of the game.
 
-6. **Hypothetical Scenario Framework**:
+5. **Hypothetical Scenario Framework**:
    - **Goal**: To explore responses to hypothetical or imaginary situations.
    - **Example**: "Imagine if the internet was completely shut down for a month worldwide. How might this affect global communication and business?"
    - **Explanation**: This prompt poses a hypothetical scenario, encouraging the AI to think through and explain the possible ramifications of a significant global event.
@@ -189,27 +184,17 @@ Focused Prompt Frameworks are structured approaches to crafting prompts that gui
    - **Example**: "Compare the economic policies of Keynesianism and Monetarism, highlighting their main principles and impacts on modern economies."
    - **Explanation**: This prompt is structured to elicit a detailed comparison, focusing on specific aspects like principles and impacts, of two economic theories.
 
-8. **Historical Perspective Framework**:
-   - **Goal**: To provide historical context or analyze events from a historical viewpoint.
-   - **Example**: "Discuss the causes and consequences of the Industrial Revolution in Europe."
-   - **Explanation**: This prompt asks for an historical analysis, focusing on both the causes and the outcomes of a major historical event.
-
-9. **Scenario Simulation Framework**:
+8. **Scenario Simulation Framework**:
    - **Goal**: To explore hypothetical situations or potential future scenarios.
    - **Example**: "Imagine a scenario where renewable energy has completely replaced fossil fuels by 2050. How would this affect global economies and the environment?"
    - **Explanation**: This prompt is designed to simulate a future scenario and explore its potential impacts on various aspects of society.
 
-10. **Personal Advice Framework**:
+9. **Personal Advice Framework**:
    - **Goal**: To provide personalized suggestions or guidance based on a specific situation.
    - **Example**: "I'm a college student majoring in computer science and feeling overwhelmed. How can I effectively manage my time and reduce stress?"
    - **Explanation**: This prompt seeks tailored advice for a specific personal situation, requiring the AI to consider the individual's circumstances.
 
-11. **Concept Exploration Framework**:
-   - **Goal**: To delve deeply into a concept or theory, exploring its nuances and implications.
-   - **Example**: "Explore the concept of artificial intelligence ethics, discussing its importance and the challenges faced in implementing ethical AI."
-   - **Explanation**: This prompt is aimed at a thorough exploration of a complex concept, encouraging a detailed discussion of various facets and issues.
-
-12. **Interactive Storytelling Framework**:
+10. **Interactive Storytelling Framework**:
    - **Goal**: To create a narrative that involves the user's input at different stages.
    - **Example**: "Start a mystery story set in an abandoned mansion. I'll tell you what choices the main character makes at key points."
    - **Explanation**: This prompt sets up an interactive storytelling experience, where the user's responses influence the direction of the story.
@@ -305,35 +290,29 @@ Advanced prompt techniques involve leveraging the capabilities of AI language mo
      - **Initial Prompt**: "Explain quantum computing in simple terms."
      - **Follow-Up Prompt**: "Now, based on that explanation, what are the potential future applications of quantum computing in cybersecurity?"
 
-### 3. **Debugging Prompts**:
-   - **Description**: Using prompts to identify and correct errors or misunderstandings in the AI's previous responses. This is crucial for tasks that require accuracy and precision.
-   - **Example**:
-     - **AI Response**: "Photosynthesis is a process used by plants and animals to convert light into energy."
-     - **Debugging Prompt**: "You mentioned animals use photosynthesis. Can you clarify which organisms actually use photosynthesis?"
-
-### 4. **Creative Storytelling and Scenarios**:
+### 3. **Creative Storytelling and Scenarios**:
    - **Description**: Crafting prompts that guide the AI to generate creative narratives or hypothetical scenarios. This is particularly useful in fields like creative writing, marketing, or scenario planning.
    - **Example**:
      - **Prompt**: "Write a story where artificial intelligence becomes the primary form of government, exploring both the benefits and challenges."
 
-### 5. **Counterfactual Thinking and Hypotheticals**:
+### 4. **Counterfactual Thinking and Hypotheticals**:
    - **Description**: Encouraging the AI to think in terms of 'what if' scenarios. This can be useful for exploring alternative outcomes, brainstorming, and strategic planning.
    - **Example**:
      - **Prompt**: "What if the internet had never been invented? How would that change today's global society?"
 
-### 6. **Role-Playing and Perspectives**:
+### 5. **Role-Playing and Perspectives**:
    - **Description**: Asking the AI to respond from the perspective of a certain role,
 
 character, or expert. This technique is beneficial for understanding different viewpoints or for educational purposes where various perspectives are explored.
    - **Example**:
      - **Prompt**: "Write a dialogue between a climate change activist and an oil company CEO discussing environmental policies."
 
-### 7. **Prompting for Analogies and Metaphors**:
+### 6. **Prompting for Analogies and Metaphors**:
    - **Description**: Using prompts that ask the AI to explain concepts through analogies or metaphors, which can be particularly effective in teaching complex ideas in a relatable way.
    - **Example**:
      - **Prompt**: "Explain the concept of a black hole using an analogy suitable for a high school student."
 
-### 8. **Sequential Learning Prompts**:
+### 7. **Sequential Learning Prompts**:
    - **Description**: Creating a series of prompts that build on each other to lead the AI through a learning or discovery process. This can be used in educational settings or for in-depth exploration of a subject.
    - **Example**:
      - **Prompt Sequence**:
@@ -341,17 +320,17 @@ character, or expert. This technique is beneficial for understanding different v
        2. "How do these principles apply to the concept of supply and demand?"
        3. "Can you give a real-world example of supply and demand in action?"
 
-### 9. **Error Correction and Improvement Requests**:
+### 8. **Error Correction and Improvement Requests**:
    - **Description**: Prompting the AI to identify and correct errors in a given text or its own previous responses, or to suggest improvements to an existing idea or content.
    - **Example**:
      - **Prompt**: "Here's a summary of renewable energy sources. Can you identify any inaccuracies and suggest improvements?"
 
-### 10. **Interactive and Evolving Storylines**:
+### 9. **Interactive and Evolving Storylines**:
    - **Description**: Using prompts to create an interactive story where the storyline evolves based on user choices or inputs, ideal for entertainment or educational purposes.
    - **Example**:
      - **Prompt**: "Start a story about a space adventure. After each paragraph, I'll decide what the main character does next."
 
-### 11. **Prompting for Predictions and Forecasts**:
+### 10. **Prompting for Predictions and Forecasts**:
    - **Description**: Engaging the AI in making predictions or forecasts based on current trends or data. Useful for scenario analysis, market research, and strategic planning.
    - **Example**:
      - **Prompt**: "Given the current trends in technology, what are your predictions for the top three technological advancements in the next decade?"
@@ -448,28 +427,9 @@ These instructions are designed to create a GPT model that serves as a knowledge
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
 
-
-## Development
-
-Want to contribute? Great!
-
-First Tab:
-
-```sh
-node app
-```
-
-Second Tab:
-
-```sh
-gulp watch
-```
-
 ## License
 
 MIT
-
-[![Academy Club](https://academyclub.co/wp-content/uploads/2021/04/academy-siyahAsset-16.png)](https://academyclub.co/)
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
 
