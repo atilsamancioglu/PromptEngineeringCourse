@@ -333,6 +333,26 @@ Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şeki
    - **Açıklama**: AI'ı, mevcut eğilimlere veya verilere dayanarak tahminlerde veya öngörülerde bulunmaya teşvik etmek. Senaryo analizi, pazar araştırması ve stratejik planlama için faydalıdır.
    - **Örnek**:
      - **Komut**: "Teknolojideki mevcut eğilimler göz önüne alındığında, önümüzdeki on yıl için en üst üç teknolojik ilerleme için tahminleriniz nelerdir?"
+    
+## DALL-E
+
+**Ana Noktalar:**
+1. **Açıklık ve Özgünlük:** Görüntünün ana konusunu ve unsurlarını net bir şekilde ifade edin.
+2. **Detay Odaklılık:** Stil, kompozisyon, renk paleti ve ruh hali hakkında detayları içerir.
+3. **Özgünlük ve Yaratıcılığı Dengeleme:** İpuçlarının yeterince detaylı olmasını sağlayın ama yaratıcılığı boğacak kadar ayrıntılı olmamalıdır.
+4. **DALL-E'nin Yeteneklerini Anlama:** Yapay zekanın ipuçlarını yorumlama konusundaki güçlü ve zayıf yönlerini tanıyın.
+5. **Stil Belirtimi:** Görüntünün estetiğini etkilemek için sanatsal stil belirtin.
+6. **Görsel Odaklı İpuçları:** Metinsel bağlamdan ziyade görsel unsurlara odaklanın.
+
+**DALL-E İçin Etkili İpucu Örnekleri:**
+1. "Gün batımında sakin bir orman manzarası, canlı sonbahar renkleri ve kıvrımlı bir dere ile, izlenimci bir resim tarzında."
+2. "Yıldızlı bir gece gökyüzü altında neon ışıklarla aydınlatılmış, gelişmiş teknoloji ve gökdelenler sergileyen, siberpunk tarzında bir gelecek şehir manzarası."
+3. "Sıcak sabah ışığı altında, odunla çalışan bir soba, bakır tencereler ve eski moda ahşap bir masa ile samimi, rustik bir mutfak iç mekanı."
+4. "Devasa çiçekler ve kelebeklerle dolu, bir peri masalı kulübesine giden bir patika içeren, canlı, hikaye kitabı illüstrasyon tarzında bir fantastik bahçe."
+5. "Berrak su, beyaz kum ve iki palmiye ağacı arasında bir hamak ile, tropikal bir cennetin özünü yakalayan sakin bir plaj sahnesi."
+6. "Satıcılar, renkli tezgahlar ve canlı kasaba halkı ile, detaylı, gerçekçi tarihi bir resim tarzında hareketli bir ortaçağ pazar sahnesi."
+
+Bu ipuçları, net ve özgül olmaları, görsel detaylar, stil ve ruh hali üzerine vurgu yapmaları açısından tasarlanmıştır. Bu, etkili bir şekilde hazırlanmış ipuçlarının DALL-E'nin arzu edilen konsepte yakından uyumlu görüntüler üretmesini nasıl yönlendirebileceğini göstermektedir.
 
 ## Prompt Mühendisliğinde Vaka Çalışmaları
 
