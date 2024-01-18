@@ -129,22 +129,17 @@ RGC (Rol, Hedefler, Bağlam) gibi genel çerçeveler, prompt'ların dengeli ve e
    - **Örnek**: "Okyanus hakkında bir şiir yazın, ancak sadece dört satırlık kıtalarda kullanın ve 'deniz', 'su' veya 'mavi' kelimelerini kullanmayın."
    - **Açıklama**: Bu prompt belirli kısıtlamalar (şiirin formatı ve kelime sınırlamaları) belirler, AI'yı bu sınırlar içinde daha yaratıcı olmaya yönlendirir.
 
-3. **Sokratik Çerçeve**:
-   - **Hedef**: AI'yı bir dizi soru ve cevapla daha derin bir anlayışa yönlendirmek.
-   - **Örnek**: "Ekosistemler için biyolojik çeşitliliğin önemi nedir? Bunu, bir yağmur ormanı ekosistemi örneği vererek açıklayabilir misiniz?"
-   - **Açıklama**: Bu prompt, AI'ı biyolojik çeşitliliğin kavramını derinlemesine keşfetmeye ve açıklamaya teşvik etmek için Sokratik yöntemi kullanır.
-
-4. **Açık Uçlu Keşif Çerçevesi**:
+3. **Açık Uçlu Keşif Çerçevesi**:
    - **Hedef**: Geniş, yaratıcı veya spekülatif cevaplara teşvik etmek.
    - **Örnek**: "Mars'ın kolonileştirilmesinin beklenmedik sonuçları neler olabilir?"
    - **Açıklama**: Bu prompt, açık uçlu spekülasyonlara davet eder ve AI'nın belirli kısıtlamalar olmaksızın geniş bir yelpazede olasılıkları keşfetmesine olanak tanır.
 
-5. **Yetenek Gösterimi Çerçevesi**:
+4. **Yetenek Gösterimi Çerçevesi**:
    - **Hedef**: AI'ya belirli bir yetenek veya kabiliyet göstermesi için yönlendirmek.
    - **Örnek**: "Bir satranç eğitmeni olarak, 1972'de Bobby Fischer ile Boris Spassky arasında oynanan ünlü oyunun analizini yapın, ana hamlelere ve stratejilere odaklanarak."
    - **Açıklama**: Bu prompt, AI'ı belirli bir rolde (satranç eğitmeni) belirler ve ondan tarihi bir satranç oyununu detaylı yönleriyle analiz etmesini ister.
 
-6. **Hipotetik Senaryo Çerçevesi**:
+5. **Hipotetik Senaryo Çerçevesi**:
    - **Hedef**: Hipotetik veya hayali durumlara yanıt araştırmak.
    - **Örnek**: "İnternetin dünya çapında bir ay boyunca tamamen kapatıldığını hayal edin. Bu, küresel iletişim ve iş dünyasını nasıl etkiler?"
    - **Açıklama**: Bu prompt, önemli bir küresel olayın muhtemel sonuçlarını düşünmeye ve açıklamaya AI'yı teşvik eden bir hipotetik senaryoyu ortaya koyar.
@@ -190,27 +185,17 @@ Odaklanmış Prompt Çerçeveleri, ChatGPT gibi AI dil modellerinin daha doğru,
    - **Örnek**: "Keynesyenizm ve Monetarizmin ekonomik politikalarını karşılaştırın, ana ilkelerini ve modern ekonomiler üzerindeki etkilerini vurgulayarak."
    - **Açıklama**: Bu prompt, iki ekonomik teorinin detaylı bir karşılaştırmasını yapmayı amaçlar ve özellikle ilkeleri ve etkileri gibi spesifik yönler üzerine odaklanır.
 
-8. **Tarihsel Perspektif Çerçevesi**:
-   - **Amaç**: Tarihsel bağlamı sağlamak veya olayları tarihi bir bakış açısıyla analiz etmek.
-   - **Örnek**: "Avrupa'daki Sanayi Devrimi'nin nedenlerini ve sonuçlarını tartışın."
-   - **Açıklama**: Bu prompt, büyük bir tarihsel olayın hem nedenlerini hem de sonuçlarını analiz etmeyi istiyor.
-
-9. **Senaryo Simülasyonu Çerçevesi**:
+8. **Senaryo Simülasyonu Çerçevesi**:
    - **Amaç**: Hipotetik durumları veya olası gelecek senaryolarını keşfetmek.
    - **Örnek**: "2050 yılına kadar yenilenebilir enerjinin fosil yakıtları tamamen yerine geçtiği bir senaryoyu hayal edin. Bu durum küresel ekonomileri ve çevreyi nasıl etkiler?"
    - **Açıklama**: Bu prompt, bir gelecek senaryosunu simüle etmeyi ve bu senaryonun toplumun çeşitli yönleri üzerindeki potansiyel etkilerini keşfetmeyi amaçlar.
 
-10. **Kişisel Tavsiye Çerçevesi**:
+9. **Kişisel Tavsiye Çerçevesi**:
    - **Amaç**: Belirli bir duruma dayalı kişiselleştirilmiş öneriler veya rehberlik sağlamak.
    - **Örnek**: "Bilgisayar bilimleri bölümünde okuyan bir üniversite öğrencisiyim ve bunalmış hissediyorum. Zamanımı nasıl etkili yönetebilirim ve stresi nasıl azaltabilirim?"
    - **Açıklama**: Bu prompt, belirli bir kişisel durum için özel tavsiye arar ve AI'ın bireyin durumunu dikkate almasını gerektirir.
 
-11. **Kavram Keşfi Çerçevesi**:
-   - **Amaç**: Bir kavramı veya teoriyi derinlemesine incelemek, nüanslarını ve etkilerini araştırmak.
-   - **Örnek**: "Yapay zeka etiği kavramını keşfedin, önemini ve etik AI'ı uygulamada karşılaşılan zorlukları tartışarak."
-   - **Açıklama**: Bu prompt, karmaşık bir kavramın çeşitli yönlerini ve sorunlarını detaylı bir şekilde tartışmaya teşvik eder.
-
-12. **Etkileşimli Hikaye Anlatımı Çerçevesi**:
+10. **Etkileşimli Hikaye Anlatımı Çerçevesi**:
    - **Amaç**: Kullanıcının farklı aşamalarda girdi sağladığı bir hikaye oluşturmak.
    - **Örnek**: "Terkedilmiş bir malikanede geçen bir gizem hikayesi başlatın. Ana karakterin önemli noktalarda yaptığı seçimleri size söyleyeceğim."
    - **Açıklama**: Bu prompt, kullanıcının yanıtlarının hikayenin yönünü etkilediği etkileşimli bir hikaye anlatımı deneyimi kurar.
@@ -287,8 +272,6 @@ Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği
 
 Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şekilde tasarlanmıştır, bu da ChatGPT veya benzeri AI dil modellerinden daha odaklanmış ve ilgili yanıtlar elde etmekte yardımcı olmalıdır. Yeniden biçimlendirmekten ve bilgileri basitleştirmekten, yaratıcı yazı ve teknik revizyonlara kadar geniş bir yelpazede görevleri kapsar, çeşitli bağlamlarda etkili prompt mühendisliği için kapsamlı bir araç seti sağlar.
 
-Tabii ki, işte metnin Türkçe çevirisi:
-
 ## ChatGPT İçin İleri Düzey Prompt Teknikleri
 
 İleri düzey prompt teknikleri, AI dil modellerinin, örneğin ChatGPT'nin, karmaşık görevleri yönetme, yanıtların doğruluğunu artırma ve AI'ı yenilikçi uygulamalar için yaratıcı bir şekilde kullanma yeteneklerinden yararlanmayı içerir. İşte bazı ana teknikler:
@@ -308,34 +291,27 @@ Tabii ki, işte metnin Türkçe çevirisi:
      - **İlk Pormpt**: "Kuantum bilgisayarlarını basit terimlerle açıkla."
      - **Takip Prompt'u**: "Şimdi, bu açıklamaya dayanarak, kuantum bilgisayarlarının siber güvenlikteki potansiyel gelecekteki uygulamaları nelerdir?"
 
-### 3. **Hata Ayıklama Prompt'ları**:
-   - **Açıklama**: AI'nın önceki yanıtlarındaki hataları veya yanlış anlamaları tespit etmek ve düzeltmek için komutları kullanmak. Bu, doğruluk ve hassasiyet gerektiren görevler için hayati öneme sahiptir.
-
-   - **Örnek**:
-     - **AI Yanıtı**: "Fotosentez, bitkilerin ve hayvanların ışığı enerjiye dönüştürdüğü bir süreçtir."
-     - **Hata Ayıklama Prompt'u**: "Hayvanların fotosentez kullandığını belirttiniz. Aslında hangi organizmaların fotosentez kullandığını açıklayabilir misiniz?"
-
-### 4. **Yaratıcı Hikaye Anlatımı ve Senaryolar**:
+### 3. **Yaratıcı Hikaye Anlatımı ve Senaryolar**:
    - **Açıklama**: AI'ın yaratıcı anlatılar veya hipotetik senaryolar oluşturmasına yol gösteren komutları formüle etmek. Bu, özellikle yaratıcı yazım, pazarlama veya senaryo planlaması gibi alanlarda faydalıdır.
    - **Örnek**:
      - **Pormpt**: "Yapay zekanın birincil hükümet biçimi haline geldiği bir hikaye yazın, hem faydalarını hem de zorluklarını keşfederek."
 
-### 5. **Karşıt Düşünme ve Hipotetikler**:
+### 4. **Karşıt Düşünme ve Hipotetikler**:
    - **Açıklama**: AI'ı 'ne olurdu' senaryoları açısından düşünmeye teşvik etmek. Bu, alternatif sonuçları keşfetmek, beyin fırtınası yapmak ve stratejik planlama için faydalı olabilir.
    - **Örnek**:
      - **Prompt**: "İnternet hiç icat edilmemiş olsaydı, bugünün küresel toplumu nasıl değişirdi?"
 
-### 6. **Rol Oynama ve Perspektifler**:
+### 5. **Rol Oynama ve Perspektifler**:
    - **Açıklama**: AI'ın belirli bir rol, karakter veya uzmanın bakış açısından yanıt vermesini istemek. Bu teknik, farklı bakış açılarını anlamak veya çeşitli perspektiflerin keşfedildiği eğitim amaçları için faydalıdır.
    - **Örnek**:
      - **Prompt**: "Bir iklim değişikliği aktivisti ile bir petrol şirketi CEO'sunun çevre politikaları hakkında tartıştığı bir diyalog yazın."
 
-### 7. **Benzerlik ve Metaforlar için Komut Verme**:
+### 6. **Benzerlik ve Metaforlar için Komut Verme**:
    - **Açıklama**: AI'ın kavramları benzerlikler veya metaforlar aracılığıyla açıklamasını isteyen komutları kullanmak, karmaşık fikirleri ilişkilendirilebilir bir şekilde öğretmede özellikle etkilidir.
    - **Örnek**:
      - **Prompt**: "Kara delik kavramını, bir lise öğrencisi için uygun bir benzetme kullanarak açıklayın."
 
-### 8. **Ardışık Öğrenme Prompt'ları**:
+### 7. **Ardışık Öğrenme Prompt'ları**:
    - **Açıklama**: AI'ı bir öğrenme veya keşif sürecine yönlendirmek için birbirini takip eden komutlar serisi oluşturmak. Bu, eğitim ortamlarında veya bir konunun derinlemesine keşfi için kullanılabilir.
    - **Örnek**:
      - **Prompt Serisi**:
@@ -343,17 +319,17 @@ Tabii ki, işte metnin Türkçe çevirisi:
        2. "Bu ilkeler arz ve talep kavramına nasıl uygulanır?"
        3. "Arz ve talebin gerçek dünyada bir örneğini verebilir misiniz?"
 
-### 9. **Hata Düzeltme ve İyileştirme Talepleri**:
+### 8. **Hata Düzeltme ve İyileştirme Talepleri**:
    - **Açıklama**: AI'ı, verilen bir metinde veya kendi önceki yanıtlarında hataları tespit etmeye ve düzeltmeye veya mevcut bir fikir veya içeriği iyileştirmek için önerilerde bulunmaya yönlendirmek.
    - **Örnek**:
      - **Prompt**: "İşte yenilenebilir enerji kaynaklarına dair bir özet. Herhangi bir yanlışı belirleyip iyileştirmeler önerir misiniz?"
 
-### 10. **Etkileşimli ve Gelişen Hikaye Hatları**:
+### 9. **Etkileşimli ve Gelişen Hikaye Hatları**:
    - **Açıklama**: Kullanıcı seçimleri veya girdileri temel alarak hikaye hattının geliştiği etkileşimli bir hikaye oluşturmak için komutları kullanmak, eğlence veya eğitim amaçları için idealdir.
    - **Örnek**:
      - **Prompt**: "Uzay macerası hakkında bir hikaye başlatın. Her paragraftan sonra ana karakterin ne yapacağına ben karar vereceğim."
 
-### 11. **Tahmin ve Öngörü Komutları**:
+### 10. **Tahmin ve Öngörü Komutları**:
    - **Açıklama**: AI'ı, mevcut eğilimlere veya verilere dayanarak tahminlerde veya öngörülerde bulunmaya teşvik etmek. Senaryo analizi, pazar araştırması ve stratejik planlama için faydalıdır.
    - **Örnek**:
      - **Komut**: "Teknolojideki mevcut eğilimler göz önüne alındığında, önümüzdeki on yıl için en üst üç teknolojik ilerleme için tahminleriniz nelerdir?"
