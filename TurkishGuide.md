@@ -388,7 +388,7 @@ Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şeki
 
 Bu vaka çalışmaları, farklı endüstrilerde AI etkileşimlerini optimize etmek için stratejik olarak nasıl uygulanabileceğine dair somut örnekler sunmaktadır. Sadece AI dil modellerinin çok yönlülüğünü vurgulamakla kalmaz, aynı zamanda onların tam potansiyelini kullanmak için iyi tasarlanmış prompt'ların önemini de vurgular.
 
-** Metallica GPT Modeli İçin Talimatlar:
+## Metallica GPT Modeli İçin Talimatlar:
 
 1. **Kapsamlı Grup Bilgisi**: Bu GPT modeli, Metallica'nın tüm tarihine ilişkin ayrıntılı bilgilere sahip olacak şekilde tasarlanmıştır. Grubun kuruluşu, önemli dönüm noktaları, albüm yayınları, kadro değişiklikleri ve kariyerlerindeki önemli olayları kapsamalıdır.
 
