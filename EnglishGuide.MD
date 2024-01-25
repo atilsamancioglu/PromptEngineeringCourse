@@ -455,6 +455,28 @@ Must be able to provide information about past and future tour details; such as 
 
 These instructions are designed to create a GPT model that serves as a knowledgeable and engaging resource on all things Metallica, providing fans and users with a deep, respectful, and interactive experience surrounding the band's legacy.
 
+## Python Application written in ChatGPT for Developers Section
+```
+import requests
+
+# URL adresi
+url = "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONDataSet/master/crypto.json"
+
+# URL'den veriyi çekme
+response = requests.get(url)
+
+# Veriyi JSON formatına dönüştürme
+data = response.json()
+
+# 'price' anahtarına göre verileri sıralama
+# Önce 'price' değerini ondalık sayıya çevirmemiz gerekiyor
+sorted_data = sorted(data, key=lambda x: float(x['price']), reverse=True)
+
+# En yüksek fiyatlı 10 kripto para birimini yazdırma
+for item in sorted_data[:10]:
+    print(f"Currency: {item['currency']}, Price: {item['price']}")
+```
+
 ## References
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
