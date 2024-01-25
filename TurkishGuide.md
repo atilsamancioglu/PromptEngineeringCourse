@@ -482,3 +482,11 @@ for item in sorted_data[:10]:
 ## Ek Kaynaklar
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
+
+## License
+
+MIT
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
+
+   [awesome-chatgpt-prompts]: <https://github.com/f/awesome-chatgpt-prompts>
