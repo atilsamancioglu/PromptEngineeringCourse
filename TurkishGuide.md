@@ -479,3 +479,6 @@ sorted_data = sorted(data, key=lambda x: float(x['price']), reverse=True)
 for item in sorted_data[:10]:
     print(f"Currency: {item['currency']}, Price: {item['price']}")
 ```
+## Ek Kaynaklar
+
+- [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
