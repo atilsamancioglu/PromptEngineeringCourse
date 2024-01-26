@@ -479,6 +479,36 @@ sorted_data = sorted(data, key=lambda x: float(x['price']), reverse=True)
 for item in sorted_data[:10]:
     print(f"Currency: {item['currency']}, Price: {item['price']}")
 ```
+
+## Yazılımcılar İçin ChatGPT Bölümünde Yapılan Refactoring
+
+***Refactor'den Önce***
+```
+numbers = []
+i = 1
+while len(numbers) < 10:
+    square = i * i
+    numbers.append(square)
+    i = i + 1
+
+for j in range(len(numbers)):
+    number = numbers[j]
+    root = number ** 0.5
+    print("Square:", number, "Root:", root)
+
+```
+***Refactor'den Sonra***
+```
+# Generate the first 10 perfect squares using list comprehension
+perfect_squares = [i ** 2 for i in range(1, 11)]
+
+# Iterate through the list of perfect squares and print each with its root
+for square in perfect_squares:
+    root = square ** 0.5
+    print(f"Square: {square}, Root: {root:.2f}")  # Formatted output for readability
+
+```
+
 ## Ek Kaynaklar
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
