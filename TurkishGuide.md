@@ -509,6 +509,42 @@ for square in perfect_squares:
 
 ```
 
+## Yazılımcılar İçin ChatGPT Bölümünde Yapılan Unit Test Örneği
+***Unit Test Yazılacak Fonksiyon***
+```
+def factorial(n):
+    if n < 0:
+        return "Error: Negative number"
+    elif n == 0:
+        return 1
+    else:
+        result = 1
+        for i in range(1, n + 1):
+            result *= i
+        return result
+```
+***Unit Test***
+```
+import unittest
+
+class TestFactorialFunction(unittest.TestCase):
+    
+    def test_factorial_positive(self):
+        self.assertEqual(factorial(5), 120, "Should be 120")
+
+    def test_factorial_zero(self):
+        self.assertEqual(factorial(0), 1, "Factorial of 0 should be 1")
+
+    def test_factorial_negative(self):
+        self.assertEqual(factorial(-1), "Error: Negative number", "Should return an error message for negative numbers")
+
+    def test_factorial_non_integer(self):
+        with self.assertRaises(TypeError):
+            factorial("abc")
+
+if __name__ == '__main__':
+    unittest.main()
+```
 ## Ek Kaynaklar
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
