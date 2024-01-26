@@ -471,6 +471,123 @@ for item in sorted_data[:10]:
     print(f"Currency: {item['currency']}, Price: {item['price']}")
 ```
 
+## Refactoring Example in ChatGPT for Developers Section
+
+***Before Refactoring***
+```
+numbers = []
+i = 1
+while len(numbers) < 10:
+    square = i * i
+    numbers.append(square)
+    i = i + 1
+
+for j in range(len(numbers)):
+    number = numbers[j]
+    root = number ** 0.5
+    print("Square:", number, "Root:", root)
+
+```
+***After Refactoring***
+```
+# Generate the first 10 perfect squares using list comprehension
+perfect_squares = [i ** 2 for i in range(1, 11)]
+
+# Iterate through the list of perfect squares and print each with its root
+for square in perfect_squares:
+    root = square ** 0.5
+    print(f"Square: {square}, Root: {root:.2f}")  # Formatted output for readability
+
+```
+
+## Code Review in ChatGPT for Developers Section
+***Before Bug Fix***
+```
+def merge_sorted_lists(list1, list2):
+    merged_list = []
+    i, j = 0, 0
+
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:
+            merged_list.append(list1[i])
+            i += 1
+        else:
+            merged_list.append(list2[j])
+            j += 1
+
+    return merged_list
+
+list1 = [10,20,30]
+list2 = [40,50,60]
+print(merge_sorted_lists(list1,list2))
+
+```
+***After Bug Fix***
+```
+def merge_sorted_lists_fixed(list1, list2):
+    merged_list = []
+    i, j = 0, 0
+
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:
+            merged_list.append(list1[i])
+            i += 1
+        else:
+            merged_list.append(list2[j])
+            j += 1
+
+    # Append remaining elements from list1 and list2
+    while i < len(list1):
+        merged_list.append(list1[i])
+        i += 1
+
+    while j < len(list2):
+        merged_list.append(list2[j])
+        j += 1
+
+    return merged_list
+
+list1 = [10,20,30]
+list2 = [40,50,60]
+print(merge_sorted_lists_fixed(list1,list2))
+```
+## Unit Test Example in ChatGPT for Developers Section
+***Function***
+```
+def factorial(n):
+    if n < 0:
+        return "Error: Negative number"
+    elif n == 0:
+        return 1
+    else:
+        result = 1
+        for i in range(1, n + 1):
+            result *= i
+        return result
+```
+***Unit Test***
+```
+import unittest
+
+class TestFactorialFunction(unittest.TestCase):
+    
+    def test_factorial_positive(self):
+        self.assertEqual(factorial(5), 120, "Should be 120")
+
+    def test_factorial_zero(self):
+        self.assertEqual(factorial(0), 1, "Factorial of 0 should be 1")
+
+    def test_factorial_negative(self):
+        self.assertEqual(factorial(-1), "Error: Negative number", "Should return an error message for negative numbers")
+
+    def test_factorial_non_integer(self):
+        with self.assertRaises(TypeError):
+            factorial("abc")
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
 ## References
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
