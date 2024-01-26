@@ -509,6 +509,57 @@ for square in perfect_squares:
 
 ```
 
+## Yazılımcılar İçin ChatGPT Bölümünde Yapılan Code Review
+***Bug Fix'ten Önce***
+```
+def merge_sorted_lists(list1, list2):
+    merged_list = []
+    i, j = 0, 0
+
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:
+            merged_list.append(list1[i])
+            i += 1
+        else:
+            merged_list.append(list2[j])
+            j += 1
+
+    return merged_list
+
+list1 = [10,20,30]
+list2 = [40,50,60]
+print(merge_sorted_lists(list1,list2))
+
+```
+***Bug Fix'ten Sonra***
+```
+def merge_sorted_lists_fixed(list1, list2):
+    merged_list = []
+    i, j = 0, 0
+
+    while i < len(list1) and j < len(list2):
+        if list1[i] < list2[j]:
+            merged_list.append(list1[i])
+            i += 1
+        else:
+            merged_list.append(list2[j])
+            j += 1
+
+    # Append remaining elements from list1 and list2
+    while i < len(list1):
+        merged_list.append(list1[i])
+        i += 1
+
+    while j < len(list2):
+        merged_list.append(list2[j])
+        j += 1
+
+    return merged_list
+
+list1 = [10,20,30]
+list2 = [40,50,60]
+print(merge_sorted_lists_fixed(list1,list2))
+```
 ## Yazılımcılar İçin ChatGPT Bölümünde Yapılan Unit Test Örneği
 ***Unit Test Yazılacak Fonksiyon***
 ```
