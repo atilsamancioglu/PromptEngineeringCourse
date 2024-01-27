@@ -354,6 +354,28 @@ Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şeki
 
 Bu ipuçları, net ve özgül olmaları, görsel detaylar, stil ve ruh hali üzerine vurgu yapmaları açısından tasarlanmıştır. Bu, etkili bir şekilde hazırlanmış ipuçlarının DALL-E'nin arzu edilen konsepte yakından uyumlu görüntüler üretmesini nasıl yönlendirebileceğini göstermektedir.
 
+**DALL-E Gerçek Dünya Uygulamaları**
+
+1. **Logo Tasarımı**: "‘Bean Bliss’ adlı yeni bir kahve dükkanı için, buhar yükselen bir kahve fincanını içeren, minimalist tarzda ve toprak tonlarıyla bir logo yaratın."
+
+2. **Ürün Konsept Sanatı**: "Teknoloji şirketinin ürün geliştirme toplantısı için, şık, metalik tasarımlı ve interaktif holografik ekrana sahip geleceğin akıllı saatini gösteren bir resim üretin."
+
+3. **Pazarlama Malzemesi**: "Organik gıda pazarı için, taze meyve ve sebzeleri vurgulayan, arka planda güneşli, açık hava pazar sahnesi ile göz alıcı bir poster tasarlayın, canlı, renkli bir tarzda."
+
+4. **Web Sitesi Görselleri**: "Bir seyahat acentesi web sitesi için, bir ailenin tatilin keyfini çıkardığı, sakin ve davetkar bir tarzda, resmedilmiş güzel bir plaj günbatımı sahnesini gösteren bir banner resmi yapın."
+
+5. **Gayrimenkul Geliştirme Görselleştirme**: "Gayrimenkul geliştiricisinin sunumu için, bol yeşillik, güneş panelleri ve ortak park alanına sahip modern, çevre dostu bir apartman kompleksinin 3D renderını oluşturun."
+
+6. **Moda Tasarımı İlhamı**: "Yüksek son moda markası için, akıcı kumaşlar, karmaşık dantel detayları ve yıldızlı gece temasını içeren, sofistike bir tarzda zarif bir gece elbisesi çizin."
+
+7. **Ürün Ambalajı**: "Doğal cilt bakım ürünleri serisi için, bitkisel içeriklerin görselleri ve organik, temiz bir tasarımla, yumuşak, yatıştırıcı renkler ve imajları içeren bir ambalaj tasarlayın."
+
+8. **Kurumsal Eğitim Materyalleri**: "Kurumsal eğitim kılavuzu için, yeni bir müşteri hizmet protokolünün adımlarını açıklayan, açık, kolay anlaşılır bir düzende bir infografik oluşturun."
+
+9. **Etkinlik Tanıtımı**: "Şirketin yıllık galası için 'Büyülü Akşam' temasıyla, sihir ve zarafet unsurlarını içeren, çarpıcı ve etkileyici bir tasarımda şenlikli bir broşür oluşturun."
+
+10. **Restoran Menü Tasarımı**: "Klasik yemekleri ağız sulandırıcı çizimler ve eski dünya cazibesiyle sergileyen, İtalyan restoranı için vintage tarzda bir menü tasarlayın."
+
 ## Prompt Mühendisliğinde Vaka Çalışmaları
 
 İşte etkili prompt mühendisliğinin uygulanması ve etkisini gösteren bazı vaka çalışmaları veya gerçek dünya örnekleri.
