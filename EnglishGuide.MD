@@ -588,7 +588,7 @@ if __name__ == '__main__':
     unittest.main()
 ```
 
-## Google Sheet Integration
+## Google Sheet Integration
 
 ```
 function sendToOpenAI(prompt) {
