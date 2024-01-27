@@ -596,7 +596,8 @@ class TestFactorialFunction(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
-## Sosyal Medya Otomasyonu - Google Sheets Entegrasyonu
+
+## Sosyal Medya Otomasyonu - Google Sheet Entegrasyon
 
 ```
 function sendToOpenAI(prompt) {
