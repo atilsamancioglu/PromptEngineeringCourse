@@ -596,6 +596,44 @@ class TestFactorialFunction(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+## Sosyal Medya Otomasyonu - Google Sheets Entegrasyonu
+
+```
+function sendToOpenAI(prompt) {
+ 
+  const payload = {
+    model: "gpt-3.5-turbo",
+    messages: [
+      {
+        role: "system",
+        content: "You are a social media manager. You generate instagram post texts"
+      },
+      {
+        role: "user",
+        content: prompt
+      },
+    ],
+    temperature: 1,
+    max_tokens: 150
+  };
+ 
+  const options = {
+    method: "post",
+    contentType: "application/json",
+    headers: {
+      "Authorization": "Bearer " + "OPEN-AI-API-KEY",
+    },
+    payload: JSON.stringify(payload),
+  };
+ 
+  const response = UrlFetchApp.fetch("https://api.openai.com/v1/chat/completions", options);
+  const data = JSON.parse(response.getContentText());
+  const message = data.choices[0].message.content;
+ 
+  return message;
+}  
+```
+
 ## Ek Kaynaklar
 
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
