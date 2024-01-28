@@ -1,7 +1,7 @@
 
 # Prompt Mühendisliği Kursu
 
-Bu readme, [Prompt Mühendisliği Kursu](https://udemy.com) için oluşturulmuştur, kursa kendiniz göz atabilir veya kursla birlikte inceleyebilirsiniz.
+Bu readme, [Prompt Mühendisliği Kursu](https://www.udemy.com/course/chatgpt-prompt-muhendisligi) için oluşturulmuştur, kursa kendiniz göz atabilir veya kursla birlikte inceleyebilirsiniz.
 
 # ChatGPT'ye Göre Prompt Mühendisliği Temelleri
 
