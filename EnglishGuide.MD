@@ -1,6 +1,6 @@
 # Prompt Engineering Course
 
-This readme is created for [Prompt Engineering Course](https://udemy.com), feel free to browse it by yourself or along with the course.
+This readme is created for [Prompt Engineering Course](https://www.udemy.com/course/chatgpt-prompt-muhendisligi), feel free to browse it by yourself or along with the course.
 
 # Prompt Engineering Fundamentals According to ChatGPT
 
