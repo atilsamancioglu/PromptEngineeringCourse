@@ -512,6 +512,16 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
 
 <img loading="lazy" width="500px" src="./media/scatterplot.png" alt="scatterplot.png" />
 
+### 3. Predictive Analysis & Modeling 
+
+### **Predictive Analysis & Modeling için örnek Prompt ve Excel**:
+   - **Açıklama**: Tahmin etme modelleri veri biliminde karşımıza sıklıkla çıkan durumlardan biridir. Genellikle veri temizleme, veri içerisinde anlamlandırma yapmak için veriler arasında değişiklikler yapma (YES, NO kolonlarını 1, 0 haline getirme vb.) ve bir regresyon modeli kurmak gibi veri bilimine hakim olan kişilerin uyguladığı adımları içerir. ChatGPT ile bu adımları tek tek takip etmek ve en azından model oluştururken izlenmesi gereken yolu hızlandırmak için faydalı bilgilere ulaşabiliriz.
+   - **Örnek**:
+     - **Görev**: Bu repo'da yüklü [employeesample_train.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/employeesample_traing.csv) ve [employeesample_test.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/employeesample_test.csv) içerisinde çalışanların maaş, memnuniyet, işten ayrılma vb. bilgileri bulunmaktadır. Çalışanların işten ayrılıp ayrılmayacağını tahmin eden bir model oluşturmak istemekteyiz. Aşağıda Türkçe prompt'u ve İngilizce prompt'u ayrı ayrı vermemizin amacı, yaptığımız denemelerde İngilizce prompt'un çok daha iyi sonuçlar vermesidir.
+     - **İngilizce Prompt**:
+       "I am uploading two datasets one for training one for test, with fields such as Age, Job Role, Monthly Income, Job Satisfaction, and Attrition. You can use employeesample_train.csv for training, employeesample_test.csv for testing the model. I'd like to build a predictive model to forecast employee attrition. The model should consider all available features. Could you guide me through the steps to preprocess this data, select the most relevant features, and apply a logistic regression model using Python? Also, please provide a brief explanation of each step and how each feature might influence attrition predictions."
+     - **Türkçe Prompt**:
+       "Yaş, İş Rolü, Aylık Gelir, İş Memnuniyeti ve Yıpranma gibi alanları içeren, biri eğitim için diğeri test için olmak üzere iki veri kümesi yüklüyorum. Eğitim için çalışanlarample_train.csv'yi, modeli test etmek için çalışanlarample_test.csv'yi kullanabilirsiniz. Çalışanların yıpranmasını tahmin etmek için tahmine dayalı bir model oluşturmak istiyorum. Model mevcut tüm özellikleri dikkate almalıdır. Bu verileri önceden işlemek, en alakalı özellikleri seçmek ve Python kullanarak bir lojistik regresyon modeli uygulamak için gereken adımlar konusunda bana rehberlik edebilir misiniz? Ayrıca lütfen her adıma ve her özelliğin yıpranma tahminlerini nasıl etkileyebileceğine ilişkin kısa bir açıklama yapın."
 
 ## Yazılımcılar İçin ChatGPT Bölümünde Yazılan Python Uygulaması
 ```
