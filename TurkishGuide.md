@@ -487,7 +487,7 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
 ### **Veri Temizleme İçin Örnek Prompt ve Excel**:
    - **Açıklama**: Veri analizinde veri temizleme işleri çok farklı boyutta ve farklı görevler içererek karşımıza çıkabilir. ChatGPT'ye gerekli komutları düzgün bir şekilde verdikten sonra bu görevleri otomatize etmemiz mümkündür.
    - **Örnek**:
-     - **Görev**: Bu repo'da yüklü [datacleaning.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/datacleaning.xlsx) içerisinde yazım yanlışları bulunan Feedback kolonu bulunmaktadır. Kelime analizi yapılacak bir görev öncesi yazım yanlışlarını minimize etmeye çalışmaktayız.
+     - **Görev**: Bu repo'da yüklü [datacleaning.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/datacleaning.xlsx) içerisinde yazım yanlışları bulunan Feedback kolonu bulunmaktadır. Kelime analizi yapılacak bir görev öncesi yazım yanlışlarını minimize etmeye çalışmaktayız.
      - **Prompt**:
        "Bir excel dosyası yüklüyorum, içerisinde id'ler ve müşterilerden gelen geri bildirimler bulunuyor. Id'lere ID kolonundan, geri bildirimlere ise Feedback kolonundan ulaşabilirsin. Feedback kolonunda çok fazla yazım hatası var. Bu yazım hatalarını olabildiğince temizlemek istiyorum, standart yazım kurallarını göz önünde bulundurarak bu hataları düzeltip yeni bir excel tablosu oluşturabilir misin?"
 
