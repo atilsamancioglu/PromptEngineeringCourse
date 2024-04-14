@@ -487,7 +487,7 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
 ### **Veri Temizleme için örnek Prompt ve Excel**:
    - **Açıklama**: Veri analizinde veri temizleme işleri çok farklı boyutta ve farklı görevler içererek karşımıza çıkabilir. ChatGPT'ye gerekli komutları düzgün bir şekilde verdikten sonra bu görevleri otomatize etmemiz mümkündür.
    - **Örnek**:
-     - **Görev**: Bu repo'da yüklü [datacleaning.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/datacleaning.xlsx) içerisinde yazım yanlışları bulunan Feedback kolonu bulunmaktadır. Kelime analizi yapılacak bir görev öncesi yazım yanlışlarını minimize etmeye çalışmaktayız.
+     - **Görev**: Bu repo'da yüklü [datacleaning.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/datacleaning.xlsx) içerisinde yazım yanlışları bulunan Feedback kolonu bulunmaktadır. Kelime analizi yapılacak bir görev öncesi yazım yanlışlarını minimize etmeye çalışmaktayız.
      - **Prompt**:
        "Bir excel dosyası yüklüyorum, içerisinde id'ler ve müşterilerden gelen geri bildirimler bulunuyor. Id'lere ID kolonundan, geri bildirimlere ise Feedback kolonundan ulaşabilirsin. Feedback kolonunda çok fazla yazım hatası var. Bu yazım hatalarını olabildiğince temizlemek istiyorum, standart yazım kurallarını göz önünde bulundurarak bu hataları düzeltip yeni bir excel tablosu oluşturabilir misin?"
 
@@ -496,7 +496,7 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
 ### **EDA için örnek Prompt ve Excel**:
    - **Açıklama**: EDA veri biliminde verileri anlamlandırmak ve görselleştirmek için sıklıkla karşımıza çıkan bir yöntemdir. Temiz bir veri ile ChatGPT'ye EDA analizleri yaptırmak mümkündür
    - **Örnek**:
-     - **Görev**: Bu repo'da yüklü [edasample.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/edasample.xlsx) içerisinde bölgelere göre ciro, satış adedi ve müşteri değerlendirmeleri bulunmaktadır. 
+     - **Görev**: Bu repo'da yüklü [edasample.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/edasample.xlsx) içerisinde bölgelere göre ciro, satış adedi ve müşteri değerlendirmeleri bulunmaktadır. 
      - **1. Prompt**:
        "Bir excel dosyası yüklüyorum, içerisinde ciro rakamları (Sales kolonu), satış adetleri (Transactions) ve müşterilerin değerlendirme rakamları (Customer Ratings kolonu) bulunuyor. Bu veriler bölgelere ayrılmış (Region kolonu) durumda. Hangi bölge en yüksek satış rakamına sahip ve bunun olası bir açıklaması nedir?"
      - **2. Prompt**:
@@ -517,7 +517,7 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
 ### **Predictive Analysis & Modeling için örnek Prompt ve Excel**:
    - **Açıklama**: Tahmin etme modelleri veri biliminde karşımıza sıklıkla çıkan durumlardan biridir. Genellikle veri temizleme, veri içerisinde anlamlandırma yapmak için veriler arasında değişiklikler yapma (YES, NO kolonlarını 1, 0 haline getirme vb.) ve bir regresyon modeli kurmak gibi veri bilimine hakim olan kişilerin uyguladığı adımları içerir. ChatGPT ile bu adımları tek tek takip etmek ve en azından model oluştururken izlenmesi gereken yolu hızlandırmak için faydalı bilgilere ulaşabiliriz.
    - **Örnek**:
-     - **Görev**: Bu repo'da yüklü [employeesample_train.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/employeesample_traing.csv) ve [employeesample_test.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/employeesample_test.csv) içerisinde çalışanların maaş, memnuniyet, işten ayrılma vb. bilgileri bulunmaktadır. Çalışanların işten ayrılıp ayrılmayacağını tahmin eden bir model oluşturmak istemekteyiz. Aşağıda Türkçe prompt'u ve İngilizce prompt'u ayrı ayrı vermemizin amacı, yaptığımız denemelerde İngilizce prompt'un çok daha iyi sonuçlar vermesidir.
+     - **Görev**: Bu repo'da yüklü [employeesample_train.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/employeesample_traing.csv) ve [employeesample_test.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/employeesample_test.csv) içerisinde çalışanların maaş, memnuniyet, işten ayrılma vb. bilgileri bulunmaktadır. Çalışanların işten ayrılıp ayrılmayacağını tahmin eden bir model oluşturmak istemekteyiz. Aşağıda Türkçe prompt'u ve İngilizce prompt'u ayrı ayrı vermemizin amacı, yaptığımız denemelerde İngilizce prompt'un çok daha iyi sonuçlar vermesidir.
      - **İngilizce Prompt**:
        "I am uploading two datasets one for training one for test, with fields such as Age, Job Role, Monthly Income, Job Satisfaction, and Attrition. You can use employeesample_train.csv for training, employeesample_test.csv for testing the model. I'd like to build a predictive model to forecast employee attrition. The model should consider all available features. Could you guide me through the steps to preprocess this data, select the most relevant features, and apply a logistic regression model using Python? Also, please provide a brief explanation of each step and how each feature might influence attrition predictions."
      - **Türkçe Prompt**:
