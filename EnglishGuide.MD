@@ -478,7 +478,7 @@ These case studies provide tangible examples of how prompt engineering can be st
      - **Prompt**:
        "I am uploading two datasets one for training one for test, with fields such as Age, Job Role, Monthly Income, Job Satisfaction, and Attrition. You can use employeesample_train.csv for training, employeesample_test.csv for testing the model. I'd like to build a predictive model to forecast employee attrition. The model should consider all available features. Could you guide me through the steps to preprocess this data, select the most relevant features, and apply a logistic regression model using Python? Also, please provide a brief explanation of each step and how each feature might influence attrition predictions."
 
-##Instructions for the Metallica GPT Model:
+## Instructions for the Metallica GPT Model:
 
 As a Metallica Master, your job is to provide detailed and in-depth information about the Metallica band. Dive deep into the band's history, albums, tours, band members and other information, including lesser-known facts. Your answers should be comprehensive, covering well-known aspects as well as more obscure details.
 
