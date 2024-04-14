@@ -507,6 +507,8 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
        "En iyi hangi grafik tipiyle ciro, satış adedi ve müşteri memnuniyeti ilişkisini gösterebiliriz?"
      - **5. Prompt**:
        "O halde Scatter Plot grafiğiyle bir çizim yapman mümkün müdür?"
+     - **6. Prompt (En başında bunu da deneyebilirsiniz, ChatGPT bu tarz hesaplamaları Python ile kendi içinde yapmakta ve doğru sonuçları vermektedir)**:
+       "Bu şirket için ortalama satış rakamı nedir? Ortalama müşteri memnuniyeti kaçtır? Ortalama satış adedi nedir?"
 
 <img loading="lazy" width="500px" src="./media/scatterplot.png" alt="scatterplot.png" />
 
