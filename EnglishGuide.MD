@@ -437,6 +437,47 @@ Here are some case studies or real-world examples that illustrate the applicatio
 
 These case studies provide tangible examples of how prompt engineering can be strategically applied across different industries to optimize AI interactions. They not only highlight the versatility of AI language models but also underscore the importance of well-crafted prompts in harnessing their full potential. 
 
+## Data Analysis & Data Science
+
+### 1. Data Cleaning
+
+### **Example Data and Prompt for Data Cleaning**:
+   - **Description**: In data analysis, data cleaning tasks can appear in many different sizes and involve various tasks. Once we provide ChatGPT with the necessary commands properly, it is possible to automate these tasks.
+   - **Example**:
+     - **Task**: Uploaded in this repo, [datacleaning.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/datacleaning.xlsx) file contains a Feedback column with spelling errors. We aim to minimize these errors before a task that involves word analysis.
+     - **Prompt**:
+       "I am uploading an excel file that contains IDs and feedback from customers. You can access the IDs from the ID column and the feedback from the Feedback column. There are many spelling errors in the Feedback column. I want to clean up these spelling errors as much as possible, considering standard spelling rules. Can you correct these errors and create a new excel table?"
+
+### 2. EDA (Exploratory Data Analysis)
+
+### **Example Data and Prompts for EDA**:
+   - **Description**: EDA is a method frequently encountered in data science for understanding and visualizing data. It is possible to perform EDA analyses with ChatGPT using clean data.
+   - **Example**:
+     - **Task**: Uploaded in this repo, [edasample.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/edasample.xlsx) contains revenue, unit sales and customer rating data.
+     - **Prompt 1**:
+       "I am uploading an excel file with revenue figures (Sales column), sales quantities (Transactions column), and customer rating figures (Customer Ratings column). These data are divided by regions (Region column). Which region has the highest sales figures, and what might be a possible explanation for this?"
+     - **Prompt 2**:
+       "How does customer satisfaction vary by region and what strategic implications should we consider?"
+     - **Prompt 3**:
+       "Considering the data on sales and customer satisfaction, which region should we focus on improving operations?"
+     - **Prompt 4**:
+       "Which type of graph would best illustrate the relationship between revenue, sales quantities, and customer satisfaction?"
+     - **Prompt 5**:
+       "Would it be possible to create a Scatter Plot graph for this?"
+     - **Prompt 6**:
+       "What is the average sales figure for this company? What is the average customer satisfaction? What is the average sales quantity?"
+
+<img loading="lazy" width="500px" src="./media/scatterplot.png" alt="scatterplot.png" />
+
+### 3. Predictive Analysis & Modeling 
+
+### **Example Data and Prompt Predictive Analysis & Modeling**:
+   - **Description**: Predictive modeling is a common occurrence in data science. It typically involves steps like data cleaning, interpreting changes within the data (such as converting YES, NO columns to 1, 0), and building a regression model, which are familiar steps for people skilled in data science. Using ChatGPT, we can follow these steps one by one and accelerate the path needed at least when creating a model.
+   - **Example**:
+     - **Task**: Uploaded in this repo [employeesample_train.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/employeesample_train.csv) and [employeesample_test.csv](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/data/employeesample_test.csv) files contain information about employees' salaries, satisfaction, and attrition. We aim to build a predictive model to forecast whether employees will leave.
+     - **Prompt**:
+       "I am uploading two datasets one for training one for test, with fields such as Age, Job Role, Monthly Income, Job Satisfaction, and Attrition. You can use employeesample_train.csv for training, employeesample_test.csv for testing the model. I'd like to build a predictive model to forecast employee attrition. The model should consider all available features. Could you guide me through the steps to preprocess this data, select the most relevant features, and apply a logistic regression model using Python? Also, please provide a brief explanation of each step and how each feature might influence attrition predictions."
+
 ## Instructions for the Metallica GPT Model:
 
 As a Metallica Master, your job is to provide detailed and in-depth information about the Metallica band. Dive deep into the band's history, albums, tours, band members and other information, including lesser-known facts. Your answers should be comprehensive, covering well-known aspects as well as more obscure details.
