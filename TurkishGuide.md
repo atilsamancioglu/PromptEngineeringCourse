@@ -484,12 +484,31 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
 
 ### 1. Veri Temizleme
 
-### **Veri Temizleme İçin Örnek Prompt ve Excel**:
+### **Veri Temizleme için örnek Prompt ve Excel**:
    - **Açıklama**: Veri analizinde veri temizleme işleri çok farklı boyutta ve farklı görevler içererek karşımıza çıkabilir. ChatGPT'ye gerekli komutları düzgün bir şekilde verdikten sonra bu görevleri otomatize etmemiz mümkündür.
    - **Örnek**:
      - **Görev**: Bu repo'da yüklü [datacleaning.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/datacleaning.xlsx) içerisinde yazım yanlışları bulunan Feedback kolonu bulunmaktadır. Kelime analizi yapılacak bir görev öncesi yazım yanlışlarını minimize etmeye çalışmaktayız.
      - **Prompt**:
        "Bir excel dosyası yüklüyorum, içerisinde id'ler ve müşterilerden gelen geri bildirimler bulunuyor. Id'lere ID kolonundan, geri bildirimlere ise Feedback kolonundan ulaşabilirsin. Feedback kolonunda çok fazla yazım hatası var. Bu yazım hatalarını olabildiğince temizlemek istiyorum, standart yazım kurallarını göz önünde bulundurarak bu hataları düzeltip yeni bir excel tablosu oluşturabilir misin?"
+
+### 2. EDA (Explanatory Data Analysis)
+
+### **EDA için örnek Prompt ve Excel**:
+   - **Açıklama**: EDA veri biliminde verileri anlamlandırmak ve görselleştirmek için sıklıkla karşımıza çıkan bir yöntemdir. Temiz bir veri ile ChatGPT'ye EDA analizleri yaptırmak mümkündür
+   - **Örnek**:
+     - **Görev**: Bu repo'da yüklü [edasample.xlsx](https://github.com/atilsamancioglu/PromptEngineeringCourse/blob/main/edasample.xlsx) içerisinde bölgelere göre ciro, satış adedi ve müşteri değerlendirmeleri bulunmaktadır. 
+     - **1. Prompt**:
+       "Bir excel dosyası yüklüyorum, içerisinde ciro rakamları (Sales kolonu), satış adetleri (Transactions) ve müşterilerin değerlendirme rakamları (Customer Ratings kolonu) bulunuyor. Bu veriler bölgelere ayrılmış (Region kolonu) durumda. Hangi bölge en yüksek satış rakamına sahip ve bunun olası bir açıklaması nedir?"
+     - **2. Prompt**:
+       "Müşterilerin memnuniyeti bölge bazında nasıl değişiyor ve strateji olarak yapmamız gereken çıkarımlar neler olabilir?"
+     - **3. Prompt**:
+       "Satış ve müşteri memnuniyeti verilerini göz önüne aldığımızda hangi bölgedeki operasyonu iyileştirmek için odaklanmamız gerekiyor?"
+     - **4. Prompt**:
+       "En iyi hangi grafik tipiyle ciro, satış adedi ve müşteri memnuniyeti ilişkisini gösterebiliriz?"
+     - **5. Prompt**:
+       "O halde Scatter Plot grafiğiyle bir çizim yapman mümkün müdür?"
+
+<img loading="lazy" width="30px" src="./media/scatterplot.png" alt="scatterplot.png" />
 
 
 ## Yazılımcılar İçin ChatGPT Bölümünde Yazılan Python Uygulaması
