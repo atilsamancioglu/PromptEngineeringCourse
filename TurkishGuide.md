@@ -491,7 +491,7 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
      - **Prompt**:
        "Bir excel dosyası yüklüyorum, içerisinde id'ler ve müşterilerden gelen geri bildirimler bulunuyor. Id'lere ID kolonundan, geri bildirimlere ise Feedback kolonundan ulaşabilirsin. Feedback kolonunda çok fazla yazım hatası var. Bu yazım hatalarını olabildiğince temizlemek istiyorum, standart yazım kurallarını göz önünde bulundurarak bu hataları düzeltip yeni bir excel tablosu oluşturabilir misin?"
 
-### 2. EDA (Explanatory Data Analysis)
+### 2. EDA (Exploratory Data Analysis)
 
 ### **EDA için örnek Prompt ve Excel**:
    - **Açıklama**: EDA veri biliminde verileri anlamlandırmak ve görselleştirmek için sıklıkla karşımıza çıkan bir yöntemdir. Temiz bir veri ile ChatGPT'ye EDA analizleri yaptırmak mümkündür
