@@ -508,7 +508,7 @@ Geçmiş ve gelecek tur detayları hakkında bilgi verebilmelidir; tarihler, mek
      - **5. Prompt**:
        "O halde Scatter Plot grafiğiyle bir çizim yapman mümkün müdür?"
 
-<img loading="lazy" width="30px" src="./media/scatterplot.png" alt="scatterplot.png" />
+<img loading="lazy" width="500px" src="./media/scatterplot.png" alt="scatterplot.png" />
 
 
 ## Yazılımcılar İçin ChatGPT Bölümünde Yazılan Python Uygulaması
