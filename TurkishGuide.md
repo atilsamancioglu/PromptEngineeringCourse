@@ -334,47 +334,66 @@ Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şeki
    - **Örnek**:
      - **Komut**: "Teknolojideki mevcut eğilimler göz önüne alındığında, önümüzdeki on yıl için en üst üç teknolojik ilerleme için tahminleriniz nelerdir?"
     
-## DALL-E
+Harika! Aşağıda rehberini en son **DALL·E 3** yeteneklerine göre güncelledim. Yeni modelin güçlü yönlerine (karakter tutarlılığı, yazı oluşturma, şeffaf arka plan, daha iyi kompozisyon vb.) vurgu yaptım ve örnekleri buna göre yeniledim:
 
-**Ana Noktalar:**
-1. **Açıklık ve Özgünlük:** Görüntünün ana konusunu ve unsurlarını net bir şekilde ifade edin.
-2. **Detay Odaklılık:** Stil, kompozisyon, renk paleti ve ruh hali hakkında detayları içerir.
-3. **Özgünlük ve Yaratıcılığı Dengeleme:** İpuçlarının yeterince detaylı olmasını sağlayın ama yaratıcılığı boğacak kadar ayrıntılı olmamalıdır.
-4. **DALL-E'nin Yeteneklerini Anlama:** Yapay zekanın ipuçlarını yorumlama konusundaki güçlü ve zayıf yönlerini tanıyın.
-5. **Stil Belirtimi:** Görüntünün estetiğini etkilemek için sanatsal stil belirtin.
-6. **Görsel Odaklı İpuçları:** Metinsel bağlamdan ziyade görsel unsurlara odaklanın.
+---
 
-**DALL-E İçin Etkili İpucu Örnekleri:**
-1. "Gün batımında sakin bir orman manzarası, canlı sonbahar renkleri ve kıvrımlı bir dere ile, izlenimci bir resim tarzında."
-2. "Yıldızlı bir gece gökyüzü altında neon ışıklarla aydınlatılmış, gelişmiş teknoloji ve gökdelenler sergileyen, siberpunk tarzında bir gelecek şehir manzarası."
-3. "Sıcak sabah ışığı altında, odunla çalışan bir soba, bakır tencereler ve eski moda ahşap bir masa ile samimi, rustik bir mutfak iç mekanı."
-4. "Devasa çiçekler ve kelebeklerle dolu, bir peri masalı kulübesine giden bir patika içeren, canlı, hikaye kitabı illüstrasyon tarzında bir fantastik bahçe."
-5. "Berrak su, beyaz kum ve iki palmiye ağacı arasında bir hamak ile, tropikal bir cennetin özünü yakalayan sakin bir plaj sahnesi."
+## DALL·E 3 Görsel Oluşturma Rehberi
+
+### **Ana Noktalar (Yeni Nesil DALL·E İçin):**
+
+1. **Açıklık ve Odak:** Ne oluşturulacağını net şekilde tarif et. Ana konuyu, ortamı ve önemli nesneleri belirt.
+2. **Stil, Işık ve Atmosfer:** Sanatsal stil, renk paleti, ışık kaynağı ve ruh hali hakkında bilgi ver.
+3. **Görsel Tutarlılık:** Aynı karakteri veya nesneyi tekrar etmek için benzer yapılı prompt’lar kullan (karakter tutarlılığı artık mümkün).
+4. **Metin Oluşturma:** Tabelalar, afişler veya logolarda yer alacak yazıları doğrudan belirt. DALL·E 3 artık okunabilir yazı oluşturabiliyor.
+5. **Şeffaf Arka Planlar:** Logo, UI/UX öğeleri veya ürün görselleri için şeffaf arka plan talep edebilirsin.
+6. **Yaratıcılığı Kısıtlamadan Detaylandırma:** Çok teknik değil ama yeterince yönlendirici ifadeler kullan.
+7. **Düzen ve Kompozisyon:** Varlıkların sahnedeki konumlarını tarif ederek daha kontrollü kompozisyonlar elde edebilirsin.
+
+---
+
+### Güncellenmiş Örnek İpuçları:
+
+1. "Gün batımında, Neo Tokyo adlı bir şehirde, pembe neon ışıklı tabelalar, gökyüzünde uçan arabalar ve şeffaf köprülerde yürüyen insanlar ile fütüristik bir şehir manzarası. ‘Welcome to Neo Tokyo’ yazan bir tabela önde görünür şekilde."
+
+2. "Pastel renkli, şeffaf arka planlı bir unicorn karakteri. Minimalist ve çocuk kitabı tarzında, eğlenceli ve neşeli bir yüz ifadesiyle."
+
+3. "Gece yıldızları altında kamp yapan bir aile, sıcak ışıklarla aydınlanan bir kamp ateşi etrafında oturuyor, arka planda göl ve dağ silueti var. Gerçekçi stil."
+
+4. "Eski bir kitap sayfasında, gotik yazı tipiyle 'Ars Technica' yazan, mürekkep lekeleriyle süslenmiş ve altın yaldızlı bir başlık içeren illüstrasyon."
+
+5. "Yüksek kaliteli 3D render, minimalist bir tasarıma sahip modern bir akıllı gözlük. Arka plan şeffaf."
+
 6. "Satıcılar, renkli tezgahlar ve canlı kasaba halkı ile, detaylı, gerçekçi tarihi bir resim tarzında hareketli bir ortaçağ pazar sahnesi."
 
-Bu ipuçları, net ve özgül olmaları, görsel detaylar, stil ve ruh hali üzerine vurgu yapmaları açısından tasarlanmıştır. Bu, etkili bir şekilde hazırlanmış ipuçlarının DALL-E'nin arzu edilen konsepte yakından uyumlu görüntüler üretmesini nasıl yönlendirebileceğini göstermektedir.
+---
 
-**DALL-E Gerçek Dünya Uygulamaları**
+### Gerçek Dünya Uygulamaları (Yeni Vurgularla):
 
-1. **Logo Tasarımı**: "‘Bean Bliss’ adlı yeni bir kahve dükkanı için, buhar yükselen bir kahve fincanını içeren, minimalist tarzda ve toprak tonlarıyla bir logo yaratın."
+| Uygulama Türü | Güncellenmiş Örnek |
+|--|--|
+| **Logo Tasarımı** | “Doğal bakım ürünleri markası için, şeffaf arka planlı, su damlası simgeli, el yazısı stilinde ‘Luna Botanicals’ yazan bir logo.” |
+| **Ürün Konsept Sanatı** | “Hologram arayüze sahip, fütüristik bir dizüstü bilgisayar. Metalik mavi renk paletiyle, teknoloji sunumu için kullanılacak şekilde 3D çizim tarzında.” |
+| **Pazarlama Görseli** | “Organik kahvaltı ürünleri için, güneşli bir sabah pikniği sahnesinde taze meyve, reçel ve kahve ile zengin bir masa. Canlı, gerçekçi ve pozitif atmosferde.” |
+| **Web Sitesi Banner'ı** | “Bir seyahat platformu için, çocuklarıyla birlikte uçurtma uçuran bir aileyi gösteren huzurlu sahil sahnesi. Yüksek çözünürlüklü, banner’a uygun genişlikte.” |
+| **Emlak Sunumu** | “Sürdürülebilir yaşam alanları sunan bir konut projesi için, güneş panelleri, ortak bahçeler ve modern bina cephelerini içeren 3D görselleştirme.” |
+| **Moda İlhamı** | “Yıldız temalı haute couture elbise tasarımı, gece mavisi kumaş, parlayan taş detayları ve arkaya doğru uzanan dramatik bir pelerin ile.” |
+| **Ambalaj Tasarımı** | “Bitki özlü yüz serumu için, lavanta ve aloe vera görselleriyle, sade beyaz kutu üzerinde soft mor tonlarla premium bir kutu tasarımı.” |
+| **Kurumsal İnfografik** | “Yeni işe alım sürecinin adımlarını sade ikonlar ve numaralandırılmış bölümlerle gösteren, şirket sunumlarında kullanılacak sade bir infografik.” |
+| **Etkinlik Broşürü** | “‘Yapay Zeka Zirvesi 2025’ başlığıyla, holografik öğeler ve modern yazı tipleri içeren, teknoloji temalı afiş tasarımı.” |
+| **Restoran Menü Görseli** | “Geleneksel Osmanlı mutfağı menüsü için, el çizimi tarzında bakır tabaklarda servis edilen yemeklerle zenginleştirilmiş vintage menü tasarımı.” |
 
-2. **Ürün Konsept Sanatı**: "Teknoloji şirketinin ürün geliştirme toplantısı için, şık, metalik tasarımlı ve interaktif holografik ekrana sahip geleceğin akıllı saatini gösteren bir resim üretin."
+---
 
-3. **Pazarlama Malzemesi**: "Organik gıda pazarı için, taze meyve ve sebzeleri vurgulayan, arka planda güneşli, açık hava pazar sahnesi ile göz alıcı bir poster tasarlayın, canlı, renkli bir tarzda."
+### Ekstra İpuçları
 
-4. **Web Sitesi Görselleri**: "Bir seyahat acentesi web sitesi için, bir ailenin tatilin keyfini çıkardığı, sakin ve davetkar bir tarzda, resmedilmiş güzel bir plaj günbatımı sahnesini gösteren bir banner resmi yapın."
+- **Tekrar üretilecek karakterler** için `a girl with red curly hair wearing a yellow coat` gibi sabit betimlemeler kullan.
+- **Aynı karakteri farklı pozlarda** görmek istiyorsan `the same girl, now sitting by the window reading a book` gibi devam cümleleriyle belirt.
+- Görselde yazı varsa `"A sign saying 'Open for Magic'"` şeklinde açık yaz.
+- **Şeffaf arka plan** için `"on a transparent background"` ibaresini eklemeyi unutma.
+- Kullanacağın mecra (poster, Instagram görseli, logo, ürün etiketi) neyse, prompt'a dahil et. DALL·E 3, bağlama göre çizim yapabiliyor.
 
-5. **Gayrimenkul Geliştirme Görselleştirme**: "Gayrimenkul geliştiricisinin sunumu için, bol yeşillik, güneş panelleri ve ortak park alanına sahip modern, çevre dostu bir apartman kompleksinin 3D renderını oluşturun."
-
-6. **Moda Tasarımı İlhamı**: "Yüksek son moda markası için, akıcı kumaşlar, karmaşık dantel detayları ve yıldızlı gece temasını içeren, sofistike bir tarzda zarif bir gece elbisesi çizin."
-
-7. **Ürün Ambalajı**: "Doğal cilt bakım ürünleri serisi için, bitkisel içeriklerin görselleri ve organik, temiz bir tasarımla, yumuşak, yatıştırıcı renkler ve imajları içeren bir ambalaj tasarlayın."
-
-8. **Kurumsal Eğitim Materyalleri**: "Kurumsal eğitim kılavuzu için, yeni bir müşteri hizmet protokolünün adımlarını açıklayan, açık, kolay anlaşılır bir düzende bir infografik oluşturun."
-
-9. **Etkinlik Tanıtımı**: "Şirketin yıllık galası için 'Büyülü Akşam' temasıyla, sihir ve zarafet unsurlarını içeren, çarpıcı ve etkileyici bir tasarımda şenlikli bir broşür oluşturun."
-
-10. **Restoran Menü Tasarımı**: "Klasik yemekleri ağız sulandırıcı çizimler ve eski dünya cazibesiyle sergileyen, İtalyan restoranı için vintage tarzda bir menü tasarlayın."
+---
 
 ## Prompt Mühendisliğinde Vaka Çalışmaları
 
