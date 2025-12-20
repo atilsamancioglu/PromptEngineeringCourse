@@ -16,7 +16,7 @@ Prompt engineering is a critical skill when interacting with AI language models 
    - A prompt should have a clear purpose. Whether you want information, creative output, problem solving, or exploration, the prompt should be aligned with that goal.
 
 4. **Structured Approach**:
-   - Structured frameworks (such as RGC, Socratic prompting, or constraint-led prompts) can significantly improve results by guiding the response systematically.
+   - Structured frameworks (such as RGC, ICE or constraint-led prompts) can significantly improve results by guiding the response systematically.
 
 5. **Iterative Refinement**:
    - Prompting is often iterative. The model’s first response can help you refine your next prompt by clarifying, adding details, or narrowing focus.

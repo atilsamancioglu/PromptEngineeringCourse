@@ -19,7 +19,7 @@ ChatGPT gibi AI dil modelleriyle etkileşimde bulunurken prompt mühendisliği k
 4. **Yapılandırılmış Yaklaşım**:
    - Yapılandırılmış çerçeveler kullanmak
 
-(RGC, Sokratik sorgulama veya Kısıtlama Odaklı Çerçeveler gibi) promptların etkinliğini önemli ölçüde artırabilir. Bu yapılar, AI'ın yanıtlarını sistematik bir şekilde yönlendirmeye ve sorgunun tüm ilgili yönlerini ele almaya yardımcı olur.
+(RGC, ICE veya Kısıtlama Odaklı Çerçeveler gibi) promptların etkinliğini önemli ölçüde artırabilir. Bu yapılar, AI'ın yanıtlarını sistematik bir şekilde yönlendirmeye ve sorgunun tüm ilgili yönlerini ele almaya yardımcı olur.
 
 5. **İteratif İyileştirme**:
    - Prompt mühendisliği genellikle iteratif bir süreçtir. AI'ın ilk yanıtları, sonraki promptları daha kesin sonuçlar için nasıl yeniden formüle edebileceğiniz veya iyileştirebileceğiniz konusunda fikir verebilir. Bu, yanlış anlamaları açıklığa kavuşturmak, daha fazla ayrıntı eklemek veya sorgunun odak noktasını değiştirmek anlamına gelebilir.
