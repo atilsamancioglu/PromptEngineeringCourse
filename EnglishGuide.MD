@@ -386,6 +386,8 @@ Language models can sometimes produce information they are not sure about **as i
 ### 1) Chain of Verification
 Ask the model to produce an answer, break it into verifiable claims, and flag uncertainty.
 
+[Chain of Verification Prompt - Langsmith Hub](https://smith.langchain.com/hub/atilsamancioglu/chainofverification)
+
 ```
 First write a short draft answer.
 Then list the claims in your answer as "verifiable claims".
@@ -395,6 +397,8 @@ Finally, rewrite the answer using only the verifiable parts and clearly mark wha
 
 ### 2) Step-back Prompting
 Ask the model to step back and identify assumptions and missing info before answering.
+
+[Step-back Prompting - Langsmith Hub](https://smith.langchain.com/hub/atilsamancioglu/stepbackprompting)
 
 ```
 Before answering, step back:
@@ -406,6 +410,8 @@ Then provide your best answer; ask clarifying questions if needed.
 
 ### 3) “According to …” Prompting (Source-grounded answers)
 Force the model to rely only on the provided source.
+
+[According to ... Prompting - Langsmith Hub](https://smith.langchain.com/hub/atilsamancioglu/accordingto)
 
 ```
 Answer according to the text below.

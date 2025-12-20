@@ -407,6 +407,8 @@ Dil modelleri bazen **emin olmadığı bilgileri “doğruymuş gibi”** ürete
 ### 1) Chain of Verification (Doğrulama Zinciri)
 Modelden önce cevap üretmesini, sonra kendi cevabını **doğrulanabilir maddelere** ayırmasını ve belirsiz olanları işaretlemesini istersiniz.
 
+[Chain of Verification Prompt - Langsmith Hub](https://smith.langchain.com/hub/atilsamancioglu/chainofverification)
+
 ```
 Önce kısa bir cevap taslağı yaz.
 Sonra cevabındaki iddiaları "doğrulanabilir iddia" maddeleri halinde listele.
@@ -416,6 +418,8 @@ Son olarak cevabı sadece doğrulanabilen kısımlarla yeniden yaz ve doğrulana
 
 ### 2) Step-back Prompting (Bir Adım Geri)
 Modelden önce “büyük resmi” çıkarmasını isteyerek hatalı varsayımları azaltırsınız.
+
+[Step-back Prompting - Langsmith Hub](https://smith.langchain.com/hub/atilsamancioglu/stepbackprompting)
 
 ```
 Soruya cevap vermeden önce bir adım geri çekil:
@@ -427,6 +431,8 @@ Sonra en iyi cevabı ver; gerekirse netleştirme soruları sor.
 
 ### 3) “According to …” Prompting (Kaynağa Dayalı Yanıt)
 Bu yaklaşımda model, sadece verilen kaynağa dayanarak cevap verir; kaynakta yoksa “yok” der.
+
+[According to ... Prompting - Langsmith Hub](https://smith.langchain.com/hub/atilsamancioglu/accordingto)
 
 ```
 Aşağıdaki metne göre cevap ver.
