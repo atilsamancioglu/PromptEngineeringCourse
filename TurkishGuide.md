@@ -118,7 +118,7 @@ Bu örnekler, kullanıcıların belirli ihtiyaçlarına ve beklentilerine daha y
 
 Uzun “çerçeve listeleri” yerine, derslerde en çok işe yarayan popüler şablonlar (her birinin örnek konusu var):
 
-1) **RGC (Rol + Hedef + Bağlam) — (Kesin kalsın)**
+1) **RGC (Rol + Hedef + Bağlam)**
 
 Şablon:
 ```
@@ -518,7 +518,7 @@ Eğer cevap metinde yoksa: "Bu bilgi verilen metinde yer almıyor." de.
 
 ---
 
-### Güncellenmiş Örnek İpuçları:
+### Örnek İpuçları:
 
 1. "Gün batımında, Neo Tokyo adlı bir şehirde, pembe neon ışıklı tabelalar, gökyüzünde uçan arabalar ve şeffaf köprülerde yürüyen insanlar ile fütüristik bir şehir manzarası. ‘Welcome to Neo Tokyo’ yazan bir tabela önde görünür şekilde."
 

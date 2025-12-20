@@ -148,7 +148,7 @@ You are a Product Manager (PM). Users get stuck in our subscription cancellation
 We want to reduce churn. Propose 5 improvements and write expected impact + risks for each.
 ```
 
-2) **Constraints + Output Format Lock — (Keep this)**
+2) **Constraints + Output Format Lock**
 
 Template:
 ```
@@ -489,7 +489,7 @@ Advanced techniques involve using the model’s capabilities to handle complex t
 
 ---
 
-### Updated prompt examples:
+### Prompt examples:
 
 1. "At sunset in Neo Tokyo: pink neon signs, flying cars in the sky, and people walking across transparent bridges. A sign in the foreground clearly says 'Welcome to Neo Tokyo'."
 2. "A pastel-colored unicorn character on a transparent background. Minimalist children’s book style, playful and cheerful facial expression."
