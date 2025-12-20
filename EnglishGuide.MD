@@ -105,59 +105,7 @@ Prompt priming is a technique where the first instruction sets context/tone/form
 4. **Technical explanation with priming**:
    - Prompt: "Explain machine learning as if you were a teacher in a high school classroom. Use simple analogies and avoid technical jargon."
 
-## Zero-shot, One-shot, and Few-shot Prompting
-
-These approaches differ by whether (and how many) examples you provide:
-
-- **Zero-shot**: No examples; just instructions. Great for simple tasks.
-- **One-shot**: One example. Very effective for “locking” a format or behavior.
-- **Few-shot**: A few examples. Useful for classification, style imitation, and structured outputs.
-
-**Example task:** Determine the sentiment of a sentence.
-
-***Zero-shot example***
-```
-You are a sentiment analysis specialist.
-Classify the sentiment of the sentence as one of: ["positive", "negative", "neutral"].
-Output only the label (one word).
-
-Sentence: "Today was amazing—I feel great."
-```
-
-***One-shot example (lock behavior/format)***
-```
-Task: Classify the sentiment of a sentence.
-Labels: ["positive", "negative", "neutral"]
-Output format: label + short reason (one sentence).
-
-Example:
-Sentence: "My package got delayed again—I'm so tired of this."
-Output: negative — It expresses frustration and dissatisfaction.
-
-Now do this:
-Sentence: "Thanks to everyone involved—this turned out excellent."
-```
-
-***Few-shot example (teach behavior)***
-```
-Task: Classify the sentiment of a sentence.
-Labels: ["positive", "negative", "neutral"]
-Output format: label + short reason (one sentence).
-
-Sentence: "This app keeps crashing after the last update."
-Output: negative — It describes a problem and dissatisfaction.
-
-Sentence: "It's fine; it gets the job done."
-Output: neutral — It’s neither strong praise nor a clear complaint.
-
-Sentence: "I love it—it's way better than I expected!"
-Output: positive — It shows strong satisfaction and enthusiasm.
-
-Now do this:
-Sentence: "I wish it was faster, but at least it’s finished."
-```
-
-## Practical Prompt Templates (Short and Sweet)
+## Practical Prompt Templates 
 
 Instead of long lists of frameworks, here are popular templates that work well in practice (each includes an example topic/prompt).
 
@@ -308,6 +256,57 @@ Example (natural language):
 I want to make my course content more effective.
 Ask up to 3 clarifying questions first. If I don’t answer, proceed with reasonable assumptions.
 Then give 5 concrete improvement suggestions and explain expected impact in 1 sentence each.
+```
+## Zero-shot, One-shot, and Few-shot Prompting
+
+These approaches differ by whether (and how many) examples you provide:
+
+- **Zero-shot**: No examples; just instructions. Great for simple tasks.
+- **One-shot**: One example. Very effective for “locking” a format or behavior.
+- **Few-shot**: A few examples. Useful for classification, style imitation, and structured outputs.
+
+**Example task:** Determine the sentiment of a sentence.
+
+***Zero-shot example***
+```
+You are a sentiment analysis specialist.
+Classify the sentiment of the sentence as one of: ["positive", "negative", "neutral"].
+Output only the label (one word).
+
+Sentence: "Today was amazing—I feel great."
+```
+
+***One-shot example (lock behavior/format)***
+```
+Task: Classify the sentiment of a sentence.
+Labels: ["positive", "negative", "neutral"]
+Output format: label + short reason (one sentence).
+
+Example:
+Sentence: "My package got delayed again—I'm so tired of this."
+Output: negative — It expresses frustration and dissatisfaction.
+
+Now do this:
+Sentence: "Thanks to everyone involved—this turned out excellent."
+```
+
+***Few-shot example (teach behavior)***
+```
+Task: Classify the sentiment of a sentence.
+Labels: ["positive", "negative", "neutral"]
+Output format: label + short reason (one sentence).
+
+Sentence: "This app keeps crashing after the last update."
+Output: negative — It describes a problem and dissatisfaction.
+
+Sentence: "It's fine; it gets the job done."
+Output: neutral — It’s neither strong praise nor a clear complaint.
+
+Sentence: "I love it—it's way better than I expected!"
+Output: positive — It shows strong satisfaction and enthusiasm.
+
+Now do this:
+Sentence: "I wish it was faster, but at least it’s finished."
 ```
 
 ## Prompt Revisions

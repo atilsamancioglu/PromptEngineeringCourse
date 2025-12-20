@@ -114,59 +114,7 @@ Prompt yönlendirme, ChatGPT gibi AI dil modelleriyle etkileşimde kullanılan b
 
 Bu örnekler, kullanıcıların belirli ihtiyaçlarına ve beklentilerine daha yakın yanıtlar üretmek için AI'ı yönlendirmede prompt yönlendirmenin ne kadar önemli olduğunu gösterir.
 
-## Zero-shot, One-shot ve Few-shot Prompting
-
-Bu üç yaklaşım, modele **örnek verip vermediğinize** göre değişir:
-
-- **Zero-shot**: Hiç örnek vermeden, sadece talimatla istersiniz. Basit ve net görevlerde idealdir.
-- **One-shot**: Tek bir örnek verirsiniz. Çıktı formatını “kilitlemek” için çok etkilidir.
-- **Few-shot**: Birkaç örnek verirsiniz. Özellikle sınıflandırma, ton/stil yakalama ve yapılandırılmış çıktı üretmede faydalıdır.
-
-**Örnek görev:** Bir cümlenin duygusunu (sentiment) belirle.
-
-***Zero-shot örneği***
-```
-Bir duygu analizi uzmanısın.
-Aşağıdaki cümlenin duygusunu şu etiketlerden biriyle sınıflandır: ["pozitif", "negatif", "nötr"].
-Sadece etiketi yaz (tek kelime).
-
-Cümle: "Bugün harika geçti, kendimi çok iyi hissediyorum."
-```
-
-***One-shot örneği (davranışı/formatı sabitleme)***
-```
-Görev: Cümlenin duygusunu sınıflandır.
-Etiketler: ["pozitif", "negatif", "nötr"]
-Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
-
-Örnek:
-Cümle: "Kargom yine gecikti, artık bıktım."
-Çıktı: negatif — Şikayet ve olumsuz duygu ifade ediyor.
-
-Şimdi bunu yap:
-Cümle: "Emeği geçen herkese teşekkürler, mükemmel olmuş."
-```
-
-***Few-shot örneği (davranışı öğretme)***
-```
-Görev: Cümlenin duygusunu sınıflandır.
-Etiketler: ["pozitif", "negatif", "nötr"]
-Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
-
-Cümle: "Bu uygulama son güncellemeden sonra sürekli çöküyor."
-Çıktı: negatif — Sorun ve memnuniyetsizlik belirtiyor.
-
-Cümle: "Fena değil, işimi görüyor."
-Çıktı: nötr — Ne güçlü övgü ne de belirgin şikayet var.
-
-Cümle: "Bayıldım, beklediğimden çok daha iyi!"
-Çıktı: pozitif — Güçlü beğeni ve memnuniyet içeriyor.
-
-Şimdi bunu yap:
-Cümle: "Keşke daha hızlı olsaydı ama sonuçta tamamlandı."
-```
-
-## Pratik Prompt Şablonları (Az ve Öz)
+## Pratik Prompt Şablonları
 
 Uzun “çerçeve listeleri” yerine, derslerde en çok işe yarayan popüler şablonlar (her birinin örnek konusu var):
 
@@ -328,6 +276,58 @@ Cevap gelmezse makul varsayımlarını yaz ve buna göre çözüm üret.
 Kurs içeriğimi daha etkili yapmak istiyorum.
 Önce en fazla 3 netleştirme sorusu sor. Cevap gelmezse makul varsayımlarla devam et.
 Sonra 5 somut iyileştirme önerisi ver ve her biri için beklenen etkiyi 1 cümleyle açıkla.
+```
+
+## Zero-shot, One-shot ve Few-shot Prompting
+
+Bu üç yaklaşım, modele **örnek verip vermediğinize** göre değişir:
+
+- **Zero-shot**: Hiç örnek vermeden, sadece talimatla istersiniz. Basit ve net görevlerde idealdir.
+- **One-shot**: Tek bir örnek verirsiniz. Çıktı formatını “kilitlemek” için çok etkilidir.
+- **Few-shot**: Birkaç örnek verirsiniz. Özellikle sınıflandırma, ton/stil yakalama ve yapılandırılmış çıktı üretmede faydalıdır.
+
+**Örnek görev:** Bir cümlenin duygusunu (sentiment) belirle.
+
+***Zero-shot örneği***
+```
+Bir duygu analizi uzmanısın.
+Aşağıdaki cümlenin duygusunu şu etiketlerden biriyle sınıflandır: ["pozitif", "negatif", "nötr"].
+Sadece etiketi yaz (tek kelime).
+
+Cümle: "Bugün harika geçti, kendimi çok iyi hissediyorum."
+```
+
+***One-shot örneği (davranışı/formatı sabitleme)***
+```
+Görev: Cümlenin duygusunu sınıflandır.
+Etiketler: ["pozitif", "negatif", "nötr"]
+Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
+
+Örnek:
+Cümle: "Kargom yine gecikti, artık bıktım."
+Çıktı: negatif — Şikayet ve olumsuz duygu ifade ediyor.
+
+Şimdi bunu yap:
+Cümle: "Emeği geçen herkese teşekkürler, mükemmel olmuş."
+```
+
+***Few-shot örneği (davranışı öğretme)***
+```
+Görev: Cümlenin duygusunu sınıflandır.
+Etiketler: ["pozitif", "negatif", "nötr"]
+Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
+
+Cümle: "Bu uygulama son güncellemeden sonra sürekli çöküyor."
+Çıktı: negatif — Sorun ve memnuniyetsizlik belirtiyor.
+
+Cümle: "Fena değil, işimi görüyor."
+Çıktı: nötr — Ne güçlü övgü ne de belirgin şikayet var.
+
+Cümle: "Bayıldım, beklediğimden çok daha iyi!"
+Çıktı: pozitif — Güçlü beğeni ve memnuniyet içeriyor.
+
+Şimdi bunu yap:
+Cümle: "Keşke daha hızlı olsaydı ama sonuçta tamamlandı."
 ```
 
 ## Prompt Revizyonları
