@@ -1,441 +1,580 @@
 # Prompt Engineering Course
 
-This readme is created for [Prompt Engineering Course](https://www.udemy.com/course/chatgpt-prompt-muhendisligi), feel free to browse it by yourself or along with the course.
+This README was created for the [Prompt Engineering Course](https://www.udemy.com/course/chatgpt-prompt-muhendisligi). Feel free to explore it on your own, or follow along with the course.
 
 # Prompt Engineering Fundamentals According to ChatGPT
 
-Prompt engineering is a crucial skill when interacting with AI language models like ChatGPT. It involves crafting prompts in a way that effectively guides the AI to produce the desired output. Here are five fundamentals of prompt engineering with descriptions:
+Prompt engineering is a critical skill when interacting with AI language models like ChatGPT. It involves crafting prompts that effectively guide the AI toward the desired output. Here are five fundamentals of prompt engineering with brief explanations:
 
 1. **Clarity and Specificity**:
-   - The prompt should be clear and specific about what is being asked. Vague or ambiguous prompts can lead to irrelevant or broad answers. Being specific helps in narrowing down the AI's focus and getting more accurate and relevant responses.
+   - What you ask should be clear and specific. Vague prompts often lead to generic or irrelevant answers. Specificity narrows the model’s focus and increases relevance.
 
 2. **Contextual Information**:
-   - Providing relevant background information or context is essential, especially for complex or nuanced queries. This helps the AI understand the scenario or the specific angle from which the question is being posed, leading to more accurate and tailored responses.
+   - For complex or nuanced requests, provide the necessary background. This helps the model understand the scenario and tailor the response.
 
 3. **Purpose and Goal Orientation**:
-   - The prompt should have a clear purpose and goal. Whether it's seeking information, generating creative content, solving a problem, or exploring a concept, the prompt should be oriented towards achieving this specific goal.
+   - A prompt should have a clear purpose. Whether you want information, creative output, problem solving, or exploration, the prompt should be aligned with that goal.
 
 4. **Structured Approach**:
-   - Using structured frameworks (like RGC, Socratic questioning, or Constraint-Led Frameworks) can significantly enhance the effectiveness of prompts. Such structures help in systematically guiding the AI's responses and ensuring that all relevant aspects of the query are addressed.
+   - Structured frameworks (such as RGC, Socratic prompting, or constraint-led prompts) can significantly improve results by guiding the response systematically.
 
 5. **Iterative Refinement**:
-   - Prompt engineering often involves an iterative process. Initial responses from the AI can provide insights into how to refine or rephrase subsequent prompts for more precise results. This might involve clarifying misunderstandings, adding more details, or shifting the focus of the query.
+   - Prompting is often iterative. The model’s first response can help you refine your next prompt by clarifying, adding details, or narrowing focus.
 
-These fundamentals form the backbone of effective prompt engineering, enabling users to interact with AI models like ChatGPT in a more productive and meaningful way. By mastering these principles, users can significantly enhance the quality of the AI's responses and the overall interaction experience.
-
-Absolutely, let's start with the detailed explanations and examples for best practices in prompt engineering. This section can be added to your README to guide users in crafting effective prompts.
+These fundamentals are the backbone of effective prompt engineering. By applying them, you can significantly improve both output quality and your overall interaction experience.
 
 ## Best Practices in Prompt Engineering
 
-Effective prompt engineering is crucial for eliciting the best possible responses from AI models. Here are key best practices along with examples:
+Effective prompt engineering is key to getting the best responses from AI models. Here are common best practices with improved, real-world examples:
 
 ### 1. **Start with Clear, Concise Questions**:
-   - **Practice**: Use straightforward language and avoid overly complex sentences.
-   - **Example**: 
-     - Less Effective: "I've been pondering over the possibility of engaging in a culinary activity that involves the preparation of an Italian dish, particularly one that involves pasta."
-     - More Effective: "How do I make spaghetti carbonara?"
+   - **Practice**: Use simple language and avoid unnecessary complexity.
+   - **Example**:
+     - Less Effective: "I need to prepare a presentation and it includes important things—can you help?"
+     - More Effective: "I’m giving a 10-minute talk tomorrow. Topic: 'Clarity in prompt engineering'. Audience: beginners. Can you propose a 6-slide outline and 2 bullet points per slide?"
 
 ### 2. **Provide Adequate Context**:
-   - **Practice**: Include necessary background information in your prompts.
+   - **Practice**: Add relevant background information.
    - **Example**:
-     - Less Effective: "What should I do next in my project?"
-     - More Effective: "I'm working on a Python project to analyze social media trends. I've just finished data collection. What should be my next step?"
+     - Less Effective: "Create a roadmap for me."
+     - More Effective: "I’m building an online course. Goal: publish the first version in 2 weeks. I can work 2 hours/day. Topics: prompt fundamentals, examples, mini assignments. Create a 14-day plan: daily goal + tasks + deliverable."
 
 ### 3. **Be Specific in Your Requests**:
-   - **Practice**: Clearly define what you are asking for to get precise responses.
+   - **Practice**: Define exactly what you want.
    - **Example**:
-     - Less Effective: "Tell me about Python."
-     - More Effective: "Can you explain how Python's list comprehensions work?"
+     - Less Effective: "Give me marketing tips."
+     - More Effective: "I have a habit-tracking mobile app. Target: university students. Create a 7-day Instagram content plan: 1 post idea/day + 1 reels idea/day + a short caption draft."
 
-### 4. **Use Closed-Ended Questions for Specific Information**:
-   - **Practice**: Ask closed-ended questions when you need specific, concise information.
+### 4. **Use Closed-Ended Questions for Precise Information**:
+   - **Practice**: Use closed-ended prompts when you need concise, targeted output.
    - **Example**:
-     - Less Effective: "What can you tell me about the solar system?"
-     - More Effective: "How many planets are in the solar system?"
+     - Less Effective: "Can you evaluate this text?"
+     - More Effective: "The text below is a LinkedIn post. Rate it 1–10 for (clarity, value proposition, flow). Output only the scores. Text: '...'"
 
-### 5. **Utilize Open-Ended Questions for Exploration**:
-   - **Practice**: When seeking a broad range of ideas or creative input, use open-ended questions.
+### 5. **Use Open-Ended Questions for Exploration**:
+   - **Practice**: Use open-ended prompts when you want breadth, creativity, or options.
    - **Example**:
-     - Less Effective: "Do you have any story ideas?"
-     - More Effective: "Can you brainstorm some sci-fi story ideas set in the future?"
+     - Less Effective: "Give me content ideas."
+     - More Effective: "Generate 12 content ideas about common mistakes beginners make in prompt engineering. For each: title + one-sentence description + recommended format (tweet/video/blog)."
 
 ### 6. **Iteratively Refine Your Prompts**:
-   - **Practice**: Use the AI's responses to refine and redirect your prompts.
+   - **Practice**: Use the model’s output to refine your next instruction.
    - **Example**:
-     - Initial Prompt: "How can I improve my website's design?"
-     - Follow-Up Prompt (after initial response): "Can you suggest specific color schemes and layout ideas for a tech blog site?"
+     - Initial Prompt: "Help me write an email."
+     - Follow-Up Prompt (after the first response): "Topic: apology for delayed delivery. Tone: short, professional, not blaming. Write 2 paragraphs + a 3-bullet 'next steps' list. 120–160 words."
 
-### 7. **Avoid Leading or Biased Questions**:
-   - **Practice**: Craft prompts that are neutral and don’t lead the AI towards a biased or predetermined answer.
+### 7. **Avoid Leading or Biased Prompts**:
+   - **Practice**: Avoid steering the model toward a predetermined conclusion.
    - **Example**:
-     - Less Effective: "Why is Python the best programming language?"
-     - More Effective: "What are the pros and cons of using Python as a programming language?"
+     - Less Effective: "Why is remote work definitely more productive?"
+     - More Effective: "Evaluate how remote work impacts productivity with pros/cons. Under what conditions does productivity increase or decrease? Give concrete examples."
 
-### 8. **Consider the AI's Capabilities and Limitations**:
-   - **Practice**: Tailor your prompts according to what the AI model can realistically achieve.
+### 8. **Consider the Model’s Capabilities and Limits**:
+   - **Practice**: Align your request with what the model can reliably do.
    - **Example**:
-     - Less Effective: "Can you write a 10,000-word essay on climate change?"
-     - More Effective: "Can you summarize the key points of climate change in a 500-word essay?"
+     - Less Effective: "Search the internet for the latest sources and give me the definitive answer."
+     - More Effective: "Based only on the text below, produce a 6-bullet summary. Do not add any information that is not in the text. Text: '...'"
 
-### 9. **Clarify Ambiguities in the AI's Responses**:
-   - **Practice**: If the AI's response contains ambiguities or uncertainties, use follow-up prompts to clarify.
+### 9. **Clarify Ambiguities in the Model’s Response**:
+   - **Practice**: Ask follow-up questions when the answer depends on missing details.
    - **Example**:
-     - AI Response: "The next step depends on your data format."
-     - Follow-Up Prompt: "The data is in a CSV format. What should I do next?"
+     - AI Response: "The strategy depends on your goal."
+     - Follow-Up: "Goal: 1,000 new email signups in 30 days. Budget: $0. Channels: Instagram + YouTube. Propose a 3-phase plan (week by week)."
 
 ### 10. **Balance Detail and Brevity**:
-   - **Practice**: Provide enough detail for context, but avoid overly lengthy prompts that can confuse the AI.
+   - **Practice**: Provide enough detail to guide, but avoid dumping everything at once.
    - **Example**:
-     - Less Effective: "I have a cat named Whiskers, and he's three years old and loves to play outside. I'm wondering what kind of food I should feed him because he's quite active."
-     - More Effective: "What is a recommended diet for an active 3-year-old outdoor cat?"
+     - Less Effective: "We’ll launch a product and there’s target audience, pricing, competitors… I’m overwhelmed—tell me something general."
+     - More Effective: "New product: personal budgeting app. Target: recent graduates. Competitors: free apps. Give 3 pricing options + pros/cons for each + which one you recommend and why."
 
-These best practices will help users formulate prompts that are more likely to yield accurate, relevant, and useful responses from AI models like ChatGPT. By applying these techniques, prompt engineers can greatly enhance the effectiveness of their interactions with AI.
+These best practices help you formulate prompts that yield more accurate, relevant, and useful outputs.
 
 ## Prompt Priming
 
-Prompt priming is a technique used in interacting with AI language models like ChatGPT, where the initial input or "prompt" is designed to "prime" the model in a specific way. This priming sets the context or tone for the interaction, influencing how the AI responds. The aim is to guide the AI towards a particular style, format, or type of content in its responses. Here are two examples:
+Prompt priming is a technique where the first instruction sets context/tone/format that influences the rest of the interaction.
 
-1. **Without Creative Writing Priming**:
+1. **Creative writing without priming**:
    - Prompt: "Write a story about dragons and elves."
-   - This prompt is much vaguer, lacking specific details about the setting, characters, and plot. As a result, the AI might produce a generic fantasy story, but it won't necessarily align with the richly detailed and specific scenario of a mystical world, a lost city of gold, and the journey of a character named Elara.
 
-2. **Creative Writing Priming**:
-   - Prompt: "Imagine a mystical world where dragons and elves coexist peacefully. In this world, there's a legend about a lost city made of gold, guarded by a wise old dragon. Write a short story about a young elf named Elara, who embarks on a quest to find this city."
-   - This prompt primes ChatGPT to generate a creative story in a fantasy setting. It sets the scene, introduces characters, and suggests a plotline, guiding the AI to produce a narrative in a specific genre.
-  
-3. **Without Technical Explanation Priming**:
+2. **Creative writing with priming**:
+   - Prompt: "Imagine a mystical world where dragons and elves live in peace. There is a legend about a lost city made of gold, guarded by a wise dragon. Write a short story about a young elf named Elara who sets out to find it."
+
+3. **Technical explanation without priming**:
    - Prompt: "Explain machine learning."
-   - This prompt is straightforward and lacks the specific instruction to tailor the explanation for high school students. The AI might provide a correct but potentially more technical or less engaging explanation, which might not be as suitable or accessible for a high school audience.   
 
-4. **Technical Explanation Priming**:
-   - Prompt: "Explain the concept of machine learning as if you are a teacher addressing a class of high school students. Use simple analogies and avoid technical jargon."
-   - This prompt primes the model to provide an explanation of a complex topic (machine learning) in a simplified manner, suitable for high school students. It instructs the AI to use analogies and simple language, tailoring the response to the understanding level of the audience.
+4. **Technical explanation with priming**:
+   - Prompt: "Explain machine learning as if you were a teacher in a high school classroom. Use simple analogies and avoid technical jargon."
 
-These examples illustrate how crucial prompt priming can be in guiding the AI to generate responses that are more closely aligned with the user’s specific needs and expectations.
+## Zero-shot, One-shot, and Few-shot Prompting
 
-## General Prompt Frameworks
-General frameworks like the RGC (Role, Goals, Context) and others offer a structured approach to prompt crafting, ensuring that the prompts are well-rounded and effective. Let's delve into a few of these frameworks with examples:
+These approaches differ by whether (and how many) examples you provide:
 
-1. **RGC Framework (Role, Goals, Context)**:
-   - **Role**: Define who or what the AI is supposed to be.
-   - **Goals**: Specify what you want to achieve with the prompt.
-   - **Context**: Provide any necessary background information.
-   - **Example**: "You are a travel advisor. I'm planning a trip to Japan for two weeks in April. My goals are to experience traditional Japanese culture and visit cherry blossom sites. What itinerary would you suggest?"
-   - **Explanation**: This prompt clearly defines the AI's role (travel advisor), the goal (planning a culturally rich trip to Japan), and the context (two-week trip in April).
+- **Zero-shot**: No examples; just instructions. Great for simple tasks.
+- **One-shot**: One example. Very effective for “locking” a format or behavior.
+- **Few-shot**: A few examples. Useful for classification, style imitation, and structured outputs.
 
-2. **Constraint-Led Framework**:
-   - **Constraints**: Explicitly state any limitations or boundaries for the AI's response.
-   - **Example**: "Write a poem about the ocean, but use only four-line stanzas and avoid using the words 'sea', 'water', or 'blue'."
-   - **Explanation**: This prompt sets specific constraints (format of the poem and word limitations), guiding the AI to be more creative within these boundaries.
+**Example task:** Determine the sentiment of a sentence.
 
-3. **Open-Ended Exploration Framework**:
-   - **Goal**: To encourage broad, imaginative, or speculative responses.
-   - **Example**: "What might be some unexpected consequences of colonizing Mars?"
-   - **Explanation**: This prompt invites open-ended speculation, allowing the AI to explore a wide range of possibilities without specific constraints.
+***Zero-shot example***
+```
+You are a sentiment analysis specialist.
+Classify the sentiment of the sentence as one of: ["positive", "negative", "neutral"].
+Output only the label (one word).
 
-4. **Skill Demonstration Framework**:
-   - **Goal**: To prompt the AI to demonstrate a particular skill or capability.
-   - **Example**: "As a chess instructor, provide an analysis of the famous game between Bobby Fischer and Boris Spassky in 1972, focusing on key moves and strategies."
-   - **Explanation**: This prompt sets the AI in a specific role (chess instructor) and asks it to demonstrate its ability to analyze a historical chess game, focusing on detailed aspects of the game.
+Sentence: "Today was amazing—I feel great."
+```
 
-5. **Hypothetical Scenario Framework**:
-   - **Goal**: To explore responses to hypothetical or imaginary situations.
-   - **Example**: "Imagine if the internet was completely shut down for a month worldwide. How might this affect global communication and business?"
-   - **Explanation**: This prompt poses a hypothetical scenario, encouraging the AI to think through and explain the possible ramifications of a significant global event.
+***One-shot example (lock behavior/format)***
+```
+Task: Classify the sentiment of a sentence.
+Labels: ["positive", "negative", "neutral"]
+Output format: label + short reason (one sentence).
 
-Each of these frameworks serves a unique purpose, shaping the AI's responses to be more focused, detailed, and aligned with the user's intent. By carefully selecting and applying these frameworks, users can effectively steer the conversation and extract more meaningful and relevant information from the AI.
+Example:
+Sentence: "My package got delayed again—I'm so tired of this."
+Output: negative — It expresses frustration and dissatisfaction.
 
-## Focused Prompt Frameworks
+Now do this:
+Sentence: "Thanks to everyone involved—this turned out excellent."
+```
 
-Focused Prompt Frameworks are structured approaches to crafting prompts that guide AI language models like ChatGPT towards generating more accurate, relevant, and useful responses. Each framework is designed with a specific goal or context in mind, shaping how the prompt is formulated. Here are some common frameworks with examples:
+***Few-shot example (teach behavior)***
+```
+Task: Classify the sentiment of a sentence.
+Labels: ["positive", "negative", "neutral"]
+Output format: label + short reason (one sentence).
 
-1. **Information Retrieval Framework**:
-   - **Goal**: To extract specific information or facts.
-   - **Example**: "What are the key differences between Python and JavaScript in terms of syntax and use-cases?"
-   - **Explanation**: This prompt is designed to elicit clear, factual information about Python and JavaScript. It's specific and straightforward, focusing on 'differences', 'syntax', and 'use-cases'.
+Sentence: "This app keeps crashing after the last update."
+Output: negative — It describes a problem and dissatisfaction.
 
-2. **Creative Generation Framework**:
-   - **Goal**: To generate original, creative content.
-   - **Example**: "Create a short story set in a futuristic city where technology controls nature, focusing on a protagonist who rebels against this system."
-   - **Explanation**: This prompt encourages the AI to create a narrative with specific elements: a futuristic setting, a theme of technology versus nature, and a rebellious protagonist.
+Sentence: "It's fine; it gets the job done."
+Output: neutral — It’s neither strong praise nor a clear complaint.
 
-3. **Problem-Solving Framework**:
-   - **Goal**: To find solutions or suggest strategies for a stated problem.
-   - **Example**: "I'm struggling to increase engagement on my educational YouTube channel. What are some effective strategies to boost viewer interaction and retention?"
-   - **Explanation**: The prompt clearly defines a problem (low engagement on an educational YouTube channel) and asks for specific solutions (strategies for boosting interaction and retention).
+Sentence: "I love it—it's way better than I expected!"
+Output: positive — It shows strong satisfaction and enthusiasm.
 
-4. **Learning and Explanation Framework**:
-   - **Goal**: To explain concepts or teach material in an understandable way.
-   - **Example**: "Explain the concept of gravitational pull to a 10-year-old without using complex physics terms."
-   - **Explanation**: This prompt primes the AI to break down the scientific concept of gravity into simple, age-appropriate language.
+Now do this:
+Sentence: "I wish it was faster, but at least it’s finished."
+```
 
-5. **Opinion and Analysis Framework**:
-   - **Goal**: To generate viewpoints, critiques, or analyses on a given topic.
-   - **Example**: "Analyze the impact of social media on modern communication, focusing on both its benefits and drawbacks."
-   - **Explanation**: The prompt asks for a balanced analysis of a contemporary issue, prompting the AI to consider and articulate both positive and negative aspects.
+## Practical Prompt Templates (Short and Sweet)
 
-6. **Instructional or How-To Framework**:
-   - **Goal**: To provide step-by-step guidance or instructions.
-   - **Example**: "Describe the steps involved in baking a chocolate cake for someone who has never baked before."
-   - **Explanation**: This prompt is structured to elicit a detailed, beginner-friendly guide to baking a chocolate cake, focusing on clear, step-by-step instructions.
+Instead of long lists of frameworks, here are popular templates that work well in practice (each includes an example topic/prompt).
 
-7. **Comparative Analysis Framework**:
-   - **Goal**: To compare and contrast different entities or concepts.
-   - **Example**: "Compare the economic policies of Keynesianism and Monetarism, highlighting their main principles and impacts on modern economies."
-   - **Explanation**: This prompt is structured to elicit a detailed comparison, focusing on specific aspects like principles and impacts, of two economic theories.
+1) **RGC (Role + Goal + Context) — (Keep this)**
 
-8. **Scenario Simulation Framework**:
-   - **Goal**: To explore hypothetical situations or potential future scenarios.
-   - **Example**: "Imagine a scenario where renewable energy has completely replaced fossil fuels by 2050. How would this affect global economies and the environment?"
-   - **Explanation**: This prompt is designed to simulate a future scenario and explore its potential impacts on various aspects of society.
+Template:
+```
+Role: [....]
+Goal: [....]
+Context: [....]
+Output format: [bullets / table / email / checklist]
+```
 
-9. **Personal Advice Framework**:
-   - **Goal**: To provide personalized suggestions or guidance based on a specific situation.
-   - **Example**: "I'm a college student majoring in computer science and feeling overwhelmed. How can I effectively manage my time and reduce stress?"
-   - **Explanation**: This prompt seeks tailored advice for a specific personal situation, requiring the AI to consider the individual's circumstances.
+Example 1 (structured):
+```
+Role: Career coach
+Goal: Build a 30-day English speaking practice plan
+Context: I have 20 minutes/day, I’m around B1, and I’m preparing for job interviews
+Output format: day-by-day plan + self-evaluation criteria
+```
 
-10. **Interactive Storytelling Framework**:
-   - **Goal**: To create a narrative that involves the user's input at different stages.
-   - **Example**: "Start a mystery story set in an abandoned mansion. I'll tell you what choices the main character makes at key points."
-   - **Explanation**: This prompt sets up an interactive storytelling experience, where the user's responses influence the direction of the story.
+Example 1 (same content, natural language):
+```
+You are a career coach. I want a 30-day English speaking practice plan.
+I have 20 minutes per day; my goal is to reach B1 and prepare for job interviews.
+Create a day-by-day plan and suggest ways I can evaluate myself (metrics/feedback).
+```
 
-Each of these frameworks serves a unique purpose, and the effectiveness of the response greatly depends on how well the prompt is aligned with the chosen framework. By carefully constructing prompts according to these frameworks, you can significantly influence the quality and relevance of the AI's output.
+Example 2 (structured):
+```
+Role: Product Manager (PM)
+Goal: Propose improvements for a subscription cancellation flow
+Context: Users get stuck on the cancellation screen; we want to reduce churn
+Output format: 5 ideas + expected impact + risks
+```
+
+Example 2 (same content, natural language):
+```
+You are a Product Manager (PM). Users get stuck in our subscription cancellation flow.
+We want to reduce churn. Propose 5 improvements and write expected impact + risks for each.
+```
+
+2) **Constraints + Output Format Lock — (Keep this)**
+
+Template:
+```
+Follow these rules:
+- Length: max X bullets
+- Tone: [formal / casual]
+- Forbidden: [....]
+Output only as [table / bullets / JSON].
+```
+
+Example (structured):
+```
+Write a LinkedIn post.
+Rules: max 120 words, 3 bullets, friendly but professional, no emojis.
+Output: only the post text.
+Topic: "Why clarity and constraints matter in prompt engineering"
+```
+
+Example (natural language):
+```
+Write a short LinkedIn post about why clarity and constraints matter in prompt engineering.
+Max 120 words, use 3 bullet points, friendly but professional tone, no emojis.
+Output only the post text.
+```
+
+3) **ICE (Instruction + Context + Examples)**
+
+Template:
+```
+Instruction: [exactly what I want]
+Context: [who/why/constraints]
+Example(s): [1–3 examples in the desired style/format]
+Now apply: [new input]
+```
+
+Example (structured):
+```
+Instruction: Rewrite the product description to be more persuasive.
+Context: E-commerce; beginners; no technical jargon.
+Example style: "Easy setup, clear benefits, short sentences."
+Now apply: "Wireless headphones, active noise cancellation, 30-hour battery."
+```
+
+Example (natural language):
+```
+Rewrite this product description for e-commerce to be more persuasive.
+Target is beginners; avoid technical jargon; use short sentences and clear benefits.
+Product: "Wireless headphones, active noise cancellation, 30-hour battery."
+```
+
+4) **Output with Acceptance Criteria**
+
+Template:
+```
+Task: [....]
+Acceptance criteria:
+- [....]
+- [....]
+Output: [format]
+```
+
+Example (structured):
+```
+Task: Create a lesson plan for a beginner video.
+Acceptance criteria:
+- Beginner-friendly
+- 5 sections, 5–7 minutes each
+- 1 practice question per section
+Output: section title + goal + practice question
+```
+
+Example (natural language):
+```
+Create a beginner-friendly lesson plan for a video.
+Make 5 sections (5–7 minutes each). Each section must include 1 practice question.
+Output format: section title + goal + practice question.
+```
+
+5) **Critic-then-Revise (Rubric-based improvement)**
+
+Template:
+```
+First draft.
+Then critique using this rubric: [clarity, accuracy, usefulness]
+Finally: improve and output the final version.
+```
+
+Example (natural language):
+```
+Write a short lesson draft on "teaching prompt writing to beginners".
+Then critique it with this rubric: clarity, example quality, no unnecessary repetition.
+Finally, output an improved final version.
+```
+
+6) **Clarifying Questions + Assumptions**
+
+Template:
+```
+If information is missing, ask up to 3 clarifying questions.
+If no answers are provided, state reasonable assumptions and proceed.
+```
+
+Example (natural language):
+```
+I want to make my course content more effective.
+Ask up to 3 clarifying questions first. If I don’t answer, proceed with reasonable assumptions.
+Then give 5 concrete improvement suggestions and explain expected impact in 1 sentence each.
+```
 
 ## Prompt Revisions
 
-1. **Highlight the Primary Keywords in Bold**:
-   - "Please bold the key terms that are most critical in this text…"
+1. **Highlight the most critical keywords in bold**:
+   - "Please write the most critical key terms in **bold** in this text…"
 
-2. **Organize Information by Specific Criteria**:
-   - "Arrange the content chronologically and categorize by date, location, and cost…"
+2. **Organize information by specific criteria**:
+   - "Arrange the content chronologically and categorize it by date, place, and cost…"
 
-3. **Generate Unique and Unusual Ideas**:
-   - "Can you provide some creative and less common suggestions for…"
+3. **Generate unique and less common ideas**:
+   - "Can you provide more creative and less common suggestions for…"
 
-4. **Incorporate Relevant Emojis for Emphasis**:
-   - "Add suitable emojis to enhance the expressiveness of this text…"
+4. **Add relevant emojis for emphasis**:
+   - "Add suitable emojis to increase expressiveness…"
 
-5. **Simplify the Explanation for a Young Audience**:
-   - "Could you explain this in a way that a 5-year-old would easily understand…"
+5. **Simplify for a younger audience**:
+   - "Can you explain this so a 5-year-old could understand…"
 
-6. **Format Information into a Table with Defined Categories**:
-   - "Please present this data in a table, sorting it into relevant categories…"
+6. **Convert into a table with defined categories**:
+   - "Please present this as a table and group it into relevant categories…"
 
-7. **Rephrase from an Industry Expert's Viewpoint**:
-   - "Rewrite this from the perspective of an expert in the field, focusing on professional insights…"
+7. **Rewrite from an expert’s perspective**:
+   - "Rewrite this from the perspective of an industry expert, focusing on professional insights…"
 
-8. **Adjust the Tone to Be More Informal/Formal**:
-   - "Please modify this to sound more formal/informal, adjusting the language and style accordingly…"
+8. **Make the tone more formal/informal**:
+   - "Please rewrite this in a more formal/informal tone…"
 
-9. **Correct Grammatical Errors and Replace Specific Terms**:
-   - "Correct any grammar mistakes and substitute the following terms with…"
+9. **Fix grammar and replace specific terms**:
+   - "Fix any grammar mistakes and replace the following terms with…"
 
-10. **Infuse Personality and Humor into the Text**:
-    - "Can you rewrite this to make it more engaging and humorous…"
+10. **Add personality and humor**:
+    - "Can you rewrite this to be more engaging and humorous…"
 
-11. **Adopt a Specific Perspective or Voice**:
-    - "Compose this from the viewpoint of [specified role/character]…"
+11. **Adopt a specific perspective/voice**:
+    - "Write this from the viewpoint of [specified role/character]…"
 
-12. **Condense the Content into a Single Tweet**:
-    - "Summarize this information to fit into a tweet (280 characters)…"
+12. **Summarize into a single tweet (280 characters)**:
+    - "Summarize this to fit into a tweet (280 characters)…"
 
-13. **Expand the Content into a Three-Part Summary**:
-    - "Divide this into a three-part summary, covering the main points…”
+13. **Expand into a three-part summary**:
+    - "Split this into a three-part summary covering the main points…"
 
-14. **Conduct a Comparative Analysis**:
-    - "Compare and contrast the key elements, highlighting significant differences and similarities…”
+14. **Do a comparative analysis**:
+    - "Compare and contrast key elements, highlighting important differences and similarities…"
 
-15. **Identify and List 10 Key Takeaways**:
-    - "What are the 10 most important points or takeaways from this content…”
+15. **Identify and list 10 key quotes/takeaways**:
+    - "What are the 10 most important points or quotes from this…"
 
-16. **Expert Review for Improvement Suggestions**:
-    - "From a professional standpoint, how would you suggest enhancing this…”
+16. **Expert review with improvement suggestions**:
+    - "From a professional perspective, how would you improve this…"
 
-17. **Structure the Information in Bullet Points**:
-    - "Please format this information into a clear, bullet-pointed list…”
+17. **Structure as bullet points**:
+    - "Please format this as a clear bullet-point list…"
 
-18. **Translate to a Different Language (if applicable)**:
-    - "Could you translate this text into [specified language] while retaining its original meaning…”
+18. **Translate into another language (if applicable)**:
+    - "Translate this into [language] while keeping the original meaning…"
 
-19. **Create a Visual Representation or Infographic**:
-    - "Turn this data into a visual infographic that highlights the main points…”
+19. **Create a visual representation / infographic**:
+    - "Turn this into a visual infographic highlighting the key points…"
 
-20. **Draft a Brief Executive Summary**:
-    - "Compose a concise executive summary that encapsulates the essence of this document…”
+20. **Draft a short executive summary**:
+    - "Write a concise executive summary capturing the essence of this document…"
 
-21. **Develop a List of FAQs Based on the Content**:
-    - "Can you create a list of frequently asked questions that emerge from this information…”
+21. **Create an FAQ list based on the content**:
+    - "Create a list of frequently asked questions (FAQ) from this content…"
 
-22. **Write a Persuasive Argument for or against a Stated Position**:
-    - "Formulate a compelling argument either in support of or against the following standpoint…”
+22. **Write a persuasive argument for/against a stance**:
+    - "Formulate a convincing argument supporting or opposing the stance below…"
 
-These revised and additional prompts are designed to be more directive and specific, which should help in eliciting more focused and relevant responses from ChatGPT or similar AI language models. They cover a wide range of tasks, from reformatting and simplifying information to creative writing and technical revisions, providing a comprehensive toolkit for effective prompt engineering in various contexts.
+These revised prompts are designed to be more directive and specific, helping you get more focused and relevant outputs.
+
+## Hallucination Management
+
+Language models can sometimes produce information they are not sure about **as if it were true**. This matters especially for dates, numbers, citations, laws, medical/financial topics. Prompt-level guardrails help.
+
+### 1) Chain of Verification
+Ask the model to produce an answer, break it into verifiable claims, and flag uncertainty.
+
+```
+First write a short draft answer.
+Then list the claims in your answer as "verifiable claims".
+For each claim: (a) what information is needed to verify it, (b) if we don't have it, write "Unknown".
+Finally, rewrite the answer using only the verifiable parts and clearly mark what could not be verified.
+```
+
+### 2) Step-back Prompting
+Ask the model to step back and identify assumptions and missing info before answering.
+
+```
+Before answering, step back:
+(1) What assumptions are critical to answer this?
+(2) What information may be missing?
+(3) What clarifying questions should we ask to make the answer reliable?
+Then provide your best answer; ask clarifying questions if needed.
+```
+
+### 3) “According to …” Prompting (Source-grounded answers)
+Force the model to rely only on the provided source.
+
+```
+Answer according to the text below.
+Do not add any information that is not present in the text.
+If the answer is not in the text, say: "This information is not included in the provided text."
+```
 
 ## Advanced Prompt Techniques for ChatGPT
 
-Advanced prompt techniques involve leveraging the capabilities of AI language models like ChatGPT to handle complex tasks, improve the accuracy of responses, and creatively use the AI for innovative applications. Here are some key techniques:
+Advanced techniques involve using the model’s capabilities to handle complex tasks, improve reliability, and use AI creatively in real applications:
 
-### 1. **Chaining Prompts for Complex Tasks**:
-   - **Description**: Breaking down a complex task into a series of smaller, sequential prompts. This method helps in guiding the AI through a multi-step process or a nuanced line of reasoning.
+### 1. **Prompt chaining for complex tasks**:
+   - **Description**: Break a complex task into smaller sequential prompts.
    - **Example**:
      - **Task**: Research and summarize an article.
      - **Prompts**:
-       1. "Search for recent articles on renewable energy advancements."
-       2. "Select one article and read it."
-       3. "Summarize the key points of the article in a concise paragraph."
+       1. "Search for recent articles about renewable energy developments."
+       2. "Pick one article and read it."
+       3. "Summarize the key points in one concise paragraph."
 
-### 2. **Context Layering in Prompts**:
-   - **Description**: Building layers of context in subsequent prompts to refine the AI's understanding and responses. This technique is especially useful when dealing with complex topics or when you need to steer the conversation in a specific direction.
+### 2. **Context layering**:
+   - **Description**: Add layers of context in follow-up prompts.
    - **Example**:
-     - **Initial Prompt**: "Explain quantum computing in simple terms."
-     - **Follow-Up Prompt**: "Now, based on that explanation, what are the potential future applications of quantum computing in cybersecurity?"
+     - **Initial Prompt**: "Explain quantum computers in simple terms."
+     - **Follow-up Prompt**: "Based on that explanation, what could be future applications of quantum computing in cybersecurity?"
 
-### 3. **Creative Storytelling and Scenarios**:
-   - **Description**: Crafting prompts that guide the AI to generate creative narratives or hypothetical scenarios. This is particularly useful in fields like creative writing, marketing, or scenario planning.
+### 3. **Creative storytelling and scenarios**:
    - **Example**:
-     - **Prompt**: "Write a story where artificial intelligence becomes the primary form of government, exploring both the benefits and challenges."
+     - **Prompt**: "Write a story where AI becomes the primary form of government, exploring both benefits and challenges."
 
-### 4. **Counterfactual Thinking and Hypotheticals**:
-   - **Description**: Encouraging the AI to think in terms of 'what if' scenarios. This can be useful for exploring alternative outcomes, brainstorming, and strategic planning.
+### 4. **Counterfactual thinking**:
    - **Example**:
-     - **Prompt**: "What if the internet had never been invented? How would that change today's global society?"
+     - **Prompt**: "If the internet had never been invented, how would today’s global society be different?"
 
-### 5. **Role-Playing and Perspectives**:
-   - **Description**: Asking the AI to respond from the perspective of a certain role,
-
-character, or expert. This technique is beneficial for understanding different viewpoints or for educational purposes where various perspectives are explored.
+### 5. **Role-play and perspectives**:
    - **Example**:
-     - **Prompt**: "Write a dialogue between a climate change activist and an oil company CEO discussing environmental policies."
+     - **Prompt**: "Write a dialogue between a climate activist and an oil company CEO debating environmental policies."
 
-### 6. **Prompting for Analogies and Metaphors**:
-   - **Description**: Using prompts that ask the AI to explain concepts through analogies or metaphors, which can be particularly effective in teaching complex ideas in a relatable way.
+### 6. **Analogies and metaphors**:
    - **Example**:
-     - **Prompt**: "Explain the concept of a black hole using an analogy suitable for a high school student."
+     - **Prompt**: "Explain black holes using an analogy suitable for a high school student."
 
-### 7. **Sequential Learning Prompts**:
-   - **Description**: Creating a series of prompts that build on each other to lead the AI through a learning or discovery process. This can be used in educational settings or for in-depth exploration of a subject.
+### 7. **Sequential learning prompts**:
    - **Example**:
-     - **Prompt Sequence**:
+     - **Prompt series**:
        1. "What are the basic principles of economics?"
-       2. "How do these principles apply to the concept of supply and demand?"
-       3. "Can you give a real-world example of supply and demand in action?"
+       2. "How do these principles apply to supply and demand?"
+       3. "Give a real-world example of supply and demand."
 
-### 8. **Error Correction and Improvement Requests**:
-   - **Description**: Prompting the AI to identify and correct errors in a given text or its own previous responses, or to suggest improvements to an existing idea or content.
+### 8. **Error detection and improvement**:
    - **Example**:
-     - **Prompt**: "Here's a summary of renewable energy sources. Can you identify any inaccuracies and suggest improvements?"
+     - **Prompt**: "Here is a summary of renewable energy sources. Can you identify inaccuracies and suggest improvements?"
 
-### 9. **Interactive and Evolving Storylines**:
-   - **Description**: Using prompts to create an interactive story where the storyline evolves based on user choices or inputs, ideal for entertainment or educational purposes.
+### 9. **Interactive, evolving storylines**:
    - **Example**:
-     - **Prompt**: "Start a story about a space adventure. After each paragraph, I'll decide what the main character does next."
+     - **Prompt**: "Start a space-adventure story. After each paragraph, I’ll decide what the main character does next."
 
-### 10. **Prompting for Predictions and Forecasts**:
-   - **Description**: Engaging the AI in making predictions or forecasts based on current trends or data. Useful for scenario analysis, market research, and strategic planning.
+### 10. **Prediction prompts**:
    - **Example**:
-     - **Prompt**: "Given the current trends in technology, what are your predictions for the top three technological advancements in the next decade?"
+     - **Prompt**: "Given current technology trends, what are your top three predictions for major tech advances over the next decade?"
 
-By mastering these advanced prompt techniques, users can significantly enhance the capabilities of AI language models like ChatGPT, leading to more sophisticated interactions and innovative applications. This section will equip learners with the skills to push the boundaries of what can be achieved through effective prompt engineering.
+---
 
-## DALL-E 
+## DALL·E 3 Image Generation Guide
 
-Here are the key points from the paragraphs, distilled into bullet points, along with examples of effective prompts for DALL-E:
+### **Key Points (for modern DALL·E):**
 
-**Key Points:**
-1. **Clarity and Specificity:** Clearly articulate the main subject and elements of the image.
-2. **Detail Orientation:** Include details about style, composition, color palette, and mood.
-3. **Balancing Specificity and Creativity:** Ensure prompts are detailed enough to guide but not so detailed that they stifle creativity.
-4. **Understanding DALL-E's Capabilities:** Recognize the AI's strengths and limitations in interpreting prompts.
-5. **Style Specification:** Specify artistic style to influence the aesthetic of the image.
-6. **Visual Orientation in Prompts:** Focus on visual elements rather than textual context.
+1. **Clarity and focus:** Describe what you want to generate clearly (subject, setting, key objects).
+2. **Style, lighting, and mood:** Provide style, palette, light source, atmosphere.
+3. **Visual consistency:** Reuse stable descriptions to iterate on the same character/object.
+4. **Text rendering:** Specify exact text for posters, signs, logos (DALL·E 3 can produce readable text).
+5. **Transparent backgrounds:** Useful for logos, UI elements, product shots.
+6. **Detail without over-constraining creativity:** Give enough guidance without being overly technical.
+7. **Layout and composition:** Specify where elements sit in the scene.
 
-**Effective Prompt Examples for DALL-E:**
-1. "A tranquil forest scene at sunset, with vibrant autumn colors and a winding stream, in the style of an impressionist painting."
-2. "A futuristic cityscape illuminated by neon lights under a starry night sky, showcasing advanced technology and skyscrapers, in a cyberpunk style."
-3. "A cozy, rustic kitchen interior with a wood-burning stove, copper pots, and an old-fashioned wooden table, bathed in warm morning light."
-4. "A whimsical garden with oversized flowers and butterflies, featuring a path leading to a fairy-tale cottage, in a vibrant, storybook illustration style."
-5. "A serene beach scene with crystal clear water, white sand, and a hammock between two palm trees, capturing the essence of a tropical paradise."
-6. "A bustling medieval market scene with vendors, colorful stalls, and lively townspeople, in a detailed, realistic historical painting style."
+---
 
-These prompts are designed to be clear and specific, with an emphasis on visual details, style, and mood, showcasing how effectively crafted prompts can guide DALL-E to generate images that closely align with the desired concept.
+### Updated prompt examples:
 
-DALL-E prompts can be incredibly useful in various business contexts. Here are a few examples that illustrate how they can be tailored for different business needs:
+1. "At sunset in Neo Tokyo: pink neon signs, flying cars in the sky, and people walking across transparent bridges. A sign in the foreground clearly says 'Welcome to Neo Tokyo'."
+2. "A pastel-colored unicorn character on a transparent background. Minimalist children’s book style, playful and cheerful facial expression."
+3. "A family camping under a starry night sky, sitting around a campfire with warm light. A lake and mountain silhouette in the background. Realistic style."
+4. "An illustration on an old book page with a gothic typeface title 'Ars Technica', ink stains, and a gold-foiled heading."
+5. "High-quality 3D render of modern smart glasses with a minimalist design. Transparent background."
+6. "A busy medieval market scene with vendors, colorful stalls, and lively townspeople, in a detailed realistic historical painting style."
 
-1. **Logo Design**: "Create a logo for a new coffee shop named 'Bean Bliss' featuring a steaming coffee cup, in a minimalist style with earthy colors."
+---
 
-2. **Product Concept Art**: "Generate an image of a futuristic smartwatch with a sleek, metallic design and an interactive holographic display, suitable for a technology company's product development meeting."
+### Real-world applications (updated):
 
-3. **Marketing Material**: "Design an eye-catching poster for an organic food market, emphasizing fresh fruits and vegetables with a background of a sunny, open-air market scene, in a vibrant, colorful style."
+| Use Case | Updated Example |
+|--|--|
+| **Logo design** | “A logo for a natural skincare brand on a transparent background, with a water-drop icon and handwritten text ‘Luna Botanicals’.” |
+| **Product concept art** | “A futuristic laptop with a holographic UI, metallic blue palette, 3D concept art style for a tech presentation.” |
+| **Marketing visual** | “An organic breakfast table on a sunny morning picnic: fresh fruit, jam, coffee. Vibrant, realistic, positive mood.” |
+| **Website banner** | “A travel platform banner: a family flying a kite on a peaceful beach. High resolution, wide banner composition.” |
+| **Real estate visualization** | “3D visualization of a sustainable housing project with solar panels, shared gardens, and modern facades.” |
+| **Fashion inspiration** | “Star-themed haute couture dress: midnight-blue fabric, sparkling stones, dramatic cape trailing behind.” |
+| **Packaging design** | “Premium skincare serum packaging: clean white box with soft purple tones, lavender and aloe imagery.” |
+| **Corporate infographic** | “A minimal infographic showing steps of a new onboarding process with simple icons and numbered sections.” |
+| **Event brochure** | “Tech-themed poster: ‘AI Summit 2025’ with holographic elements and modern typography.” |
+| **Restaurant menu visual** | “Vintage menu design for Ottoman cuisine, hand-drawn style with copper plates and rich food illustrations.” |
 
-4. **Website Visuals**: "Produce a banner image for a travel agency website that shows a picturesque beach sunset, with silhouettes of a family enjoying a vacation, in a serene and inviting style."
+---
 
-5. **Real Estate Development Visualization**: "Create a 3D render of a modern, eco-friendly apartment complex with lush greenery, solar panels, and a communal park area, for a real estate developer's presentation."
+### Extra tips
 
-6. **Fashion Design Inspiration**: "Illustrate an elegant evening gown for a high-end fashion brand, incorporating flowing fabrics, intricate lace details, and a theme of starry night, in a sophisticated style."
+- For **repeatable characters**, use stable descriptions like `a girl with red curly hair wearing a yellow coat`.
+- For **the same character in a different pose**, add a continuation like `the same girl, now sitting by the window reading a book`.
+- If you need text, be explicit: `"A sign saying 'Open for Magic'"`.
+- For transparency, include: `"on a transparent background"`.
+- Include the target medium (poster, Instagram, logo, product label) so the model composes accordingly.
 
-7. **Product Packaging**: "Design packaging for a line of natural skincare products, featuring soft, soothing colors and imagery of herbal ingredients, in an organic, clean design."
-
-8. **Corporate Training Materials**: "Generate an infographic explaining the steps of a new customer service protocol for a corporate training manual, in a clear, easy-to-understand layout."
-
-9. **Event Promotion**: "Create a festive flyer for a company's annual gala, with a theme of 'Enchanted Evening', incorporating elements of magic and elegance, in a striking and captivating design."
-
-10. **Restaurant Menu Design**: "Design a vintage-style menu for an Italian restaurant, showcasing classic dishes with mouth-watering illustrations and an old-world charm."
-
-These prompts demonstrate the flexibility and creativity that DALL-E can offer in a business setting, from marketing and product design to training and corporate events.
+---
 
 ## Case Studies in Prompt Engineering
 
-Here are some case studies or real-world examples that illustrate the application and impact of effective prompt engineering. 
+Here are some case studies and real-world examples showing the impact of effective prompting:
 
 ### 1. **Customer Service Chatbot Optimization**:
-   - **Scenario**: A company uses a chatbot to handle customer service inquiries.
-   - **Challenge**: The chatbot initially struggled with ambiguous customer queries and provided irrelevant answers.
-   - **Solution**: The company redesigned the chatbot's prompts to be more specific, asking clarifying questions and using a structured approach to guide users in providing necessary details.
-   - **Outcome**: The chatbot's ability to resolve customer issues improved significantly, leading to higher customer satisfaction and reduced need for human intervention.
+   - **Scenario**: A company uses a chatbot to handle customer support inquiries.
+   - **Problem**: The chatbot struggled with ambiguous questions and produced irrelevant answers.
+   - **Solution**: Prompts were redesigned to be more specific, ask clarifying questions, and guide users to provide key details.
+   - **Outcome**: Resolution quality improved; customer satisfaction rose; the need for human escalation decreased.
 
 ### 2. **Content Creation for Social Media**:
-   - **Scenario**: A digital marketing agency uses AI to generate creative content for social media.
-   - **Challenge**: The initial content generated by the AI was generic and lacked brand-specific tone and style.
-   - **Solution**: Marketers employed prompt priming, specifying the brand's tone, style, and key messaging in their prompts.
-   - **Outcome**: The AI began producing content that was more aligned with each brand's unique voice, increasing engagement rates on social media platforms.
+   - **Scenario**: A digital marketing agency uses AI to generate social posts.
+   - **Problem**: Early outputs were generic and lacked brand voice.
+   - **Solution**: Prompt priming was used to specify brand tone, style, and key messages.
+   - **Outcome**: Content aligned better with each brand’s voice and engagement increased.
 
 ### 3. **Educational Tool for Learning Programming**:
-   - **Scenario**: An educational platform uses AI to teach programming concepts.
-   - **Challenge**: Students found some explanations too technical and hard to follow.
-   - **Solution**: The prompts were rephrased to ask the AI to explain concepts 'as if to a beginner' or 'using real-world analogies', making them more accessible to students with different levels of expertise.
-   - **Outcome**: Students reported a better understanding of programming concepts and a more enjoyable learning experience.
+   - **Scenario**: An education platform uses AI to teach programming.
+   - **Problem**: Explanations were too technical for beginners.
+   - **Solution**: Prompts asked the model to explain concepts “as if to a beginner” and to use real-world analogies.
+   - **Outcome**: Learners reported better understanding and a more enjoyable learning experience.
 
 ### 4. **Data Analysis in Research**:
    - **Scenario**: Researchers use AI to analyze large datasets.
-   - **Challenge**: The AI provided overwhelming amounts of raw data without meaningful insights.
-   - **Solution**: Researchers started using more targeted prompts, asking for specific analyses, trends, and summaries of the data.
-   - **Outcome**: The AI provided more concise and relevant data interpretations, aiding in quicker and more effective research conclusions.
+   - **Problem**: The model returned too much raw data without insight.
+   - **Solution**: Prompts were narrowed to request specific analyses, trends, and summaries.
+   - **Outcome**: More concise interpretations helped speed up research work.
 
-### 5. **Interactive Storytelling in Gaming**:
-   - **Scenario**: A game development company integrates AI for dynamic storytelling.
-   - **Challenge**: The stories generated were often incoherent and did not adapt well to player choices.
-   - **Solution**: The developers used complex, iterative prompts that evolved based on player decisions, creating a more adaptive storytelling experience.
-   - **Outcome**: The game received praise for its innovative and responsive narrative structure, enhancing player engagement.
+### 5. **Interactive Storytelling in Games**:
+   - **Scenario**: A game studio integrates AI for dynamic storytelling.
+   - **Problem**: Stories were inconsistent and didn’t adapt well to player choices.
+   - **Solution**: Developers used iterative prompts that evolved based on player decisions.
+   - **Outcome**: Players praised the responsive narrative and engagement increased.
 
-### 6. **Healthcare Information Dissemination**:
-   - **Scenario**: A healthcare organization uses AI to provide information to patients.
-   - **Challenge**: Initial responses were too technical, causing confusion among patients.
-   - **Solution**: The organization used the Learning and Explanation Framework, asking the AI to explain medical conditions and treatments in simple, layman's terms.
-   - **Outcome**: Patients reported better understanding and greater satisfaction with the information provided, leading to improved health outcomes.
+### 6. **Healthcare Information**:
+   - **Scenario**: A healthcare organization uses AI to inform patients.
+   - **Challenge**: Initial answers were too technical and confusing.
+   - **Solution**: Prompts requested plain-language explanations without heavy jargon.
+   - **Outcome**: Patients understood better and reported higher satisfaction.
 
-### 7. **Legal Document Summarization for Law Firms**:
-   - **Scenario**: A law firm uses AI to summarize lengthy legal documents.
-   - **Challenge**: The AI's initial summaries were either too detailed or missed critical information.
-   - **Solution**: The firm developed structured prompts, asking the AI to highlight key legal points, implications, and actionable items.
-   - **Outcome**: The summaries became more useful for quick decision-making, saving time for lawyers and clients.
+### 7. **Legal Document Summarization**:
+   - **Scenario**: A law firm summarizes long legal documents with AI.
+   - **Challenge**: Summaries were either too long or missed key points.
+   - **Solution**: Structured prompts requested key issues, implications, and actionable items.
+   - **Outcome**: Summaries became more useful for faster decision-making.
 
-### 8. **Language Learning Application**:
-   - **Scenario**: An app designed to help users learn new languages using AI.
-   - **Challenge**: Users were not retaining information effectively with the initial method.
-   - **Solution**: The app incorporated a Socratic Framework, where the AI asked users questions, encouraging them to recall and use new vocabulary and grammar rules.
-   - **Outcome**: Users experienced improved language retention and reported a more interactive and effective learning process.
+### 8. **Language Learning App**:
+   - **Scenario**: An app helps users learn languages using AI.
+   - **Challenge**: Users weren’t retaining content effectively.
+   - **Solution**: A Socratic approach was added: the AI asks questions to make users recall and use vocabulary/grammar.
+   - **Outcome**: Improved retention and a more interactive learning experience.
 
-These case studies provide tangible examples of how prompt engineering can be strategically applied across different industries to optimize AI interactions. They not only highlight the versatility of AI language models but also underscore the importance of well-crafted prompts in harnessing their full potential. 
+These case studies highlight how strategic prompting can improve reliability and usefulness across many domains, and why well-crafted prompts are essential to unlock the full potential of AI models.
 
 ## Data Analysis & Data Science
 
@@ -693,6 +832,7 @@ function sendToOpenAI(prompt) {
 
 ## References
 
+- [cursor-playlist] - Building Software with Cursor
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
 
 ## License
@@ -702,5 +842,7 @@ MIT
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
 
    [awesome-chatgpt-prompts]: <https://github.com/f/awesome-chatgpt-prompts>
+
+   [cursor-playlist]: <https://www.youtube.com/watch?v=7T10-PTQNYE&list=PLT1Gj1RmR7vqHq7Yrg2jsgQOQxvH49nX2>
 
 
