@@ -184,19 +184,35 @@ Example(s): [1–3 examples in the desired style/format]
 Now apply: [new input]
 ```
 
-Example (structured):
+Example (structured) — ICE works best when examples include an explicit output:
 ```
-Instruction: Rewrite the product description to be more persuasive.
-Context: E-commerce; beginners; no technical jargon.
-Example style: "Easy setup, clear benefits, short sentences."
-Now apply: "Wireless headphones, active noise cancellation, 30-hour battery."
+Instruction: Write a customer support reply.
+Context: E-commerce; English; short and empathetic; not blaming; end with exactly 1 question.
+Example(s):
+- Customer: "My package hasn't moved for 5 days."
+  Reply: "I’m sorry about the delay. I’ll check the latest shipping status right now. Could you share your order number?"
+- Customer: "The item arrived broken—I want a refund."
+  Reply: "I’m sorry it arrived damaged. Let’s start a refund quickly. Could you send a photo and your order number?"
+Now apply:
+- Customer: "I updated my address, but the shipment is still going to the old one."
 ```
 
 Example (natural language):
 ```
-Rewrite this product description for e-commerce to be more persuasive.
-Target is beginners; avoid technical jargon; use short sentences and clear benefits.
-Product: "Wireless headphones, active noise cancellation, 30-hour battery."
+Reply like an e-commerce customer support specialist.
+Keep it short and empathetic, don’t use a blaming tone, and end with exactly 1 question.
+
+Follow the style in these examples:
+Example 1
+Customer: "My package hasn't moved for 5 days."
+Reply: "I’m sorry about the delay. I’ll check the latest shipping status right now. Could you share your order number?"
+
+Example 2
+Customer: "The item arrived broken—I want a refund."
+Reply: "I’m sorry it arrived damaged. Let’s start a refund quickly. Could you send a photo and your order number?"
+
+Now reply in the same style:
+Customer: "I updated my address, but the shipment is still going to the old one."
 ```
 
 4) **Output with Acceptance Criteria**

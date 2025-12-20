@@ -193,19 +193,35 @@ Bağlam: [kim için / neden / hangi koşulda]
 Şimdi uygula: [yeni input]
 ```
 
-Örnek konu:
+Örnek konu (ICE'nin gücü: örnek-output ile “stili” öğretmek):
 ```
-Talimat: Ürün açıklamasını daha ikna edici yaz.
-Bağlam: E-ticaret, hedef kitle yeni başlayanlar, teknik jargon yok.
-Örnek: "Kolay kurulum, net faydalar, kısa cümleler."
-Şimdi uygula: "Kablosuz kulaklık, aktif gürültü engelleme, 30 saat pil."
+Talimat: Müşteri destek yanıtı yaz.
+Bağlam: E-ticaret; Türkçe; kısa ve empatik; suçlayıcı değil; sonunda 1 soru sor.
+Örnek(ler):
+- Müşteri: "Kargom 5 gündür hareket etmiyor."
+  Yanıt: "Bunu yaşadığınız için üzgünüm. Kargo durumunuzu hemen kontrol ediyorum. Sipariş numaranızı paylaşır mısınız?"
+- Müşteri: "Ürün kırık geldi, iade etmek istiyorum."
+  Yanıt: "Bu durum için üzgünüm. İade sürecini hızlıca başlatalım. Fotoğraf ve sipariş numaranızı iletebilir misiniz?"
+Şimdi uygula:
+- Müşteri: "Adresimi güncelledim ama kargo hala eski adrese gidiyor."
 ```
 
 Örnek konu (doğal dil prompt):
 ```
-Aşağıdaki ürün açıklamasını e-ticaret için daha ikna edici hale getir.
-Hedef kitle yeni başlayanlar; teknik jargon kullanma. Kısa cümlelerle net faydaları vurgula.
-Ürün: "Kablosuz kulaklık, aktif gürültü engelleme, 30 saat pil."
+Bir e-ticaret markasında müşteri destek uzmanı gibi yaz.
+Kısa ve empatik ol, suçlayıcı bir dil kullanma, sonunda 1 soru sor.
+
+Aşağıdaki iki örnekteki üslubu aynen takip et:
+Örnek 1
+Müşteri: "Kargom 5 gündür hareket etmiyor."
+Yanıt: "Bunu yaşadığınız için üzgünüm. Kargo durumunuzu hemen kontrol ediyorum. Sipariş numaranızı paylaşır mısınız?"
+
+Örnek 2
+Müşteri: "Ürün kırık geldi, iade etmek istiyorum."
+Yanıt: "Bu durum için üzgünüm. İade sürecini hızlıca başlatalım. Fotoğraf ve sipariş numaranızı iletebilir misiniz?"
+
+Şimdi aynı üslupla yanıtla:
+Müşteri: "Adresimi güncelledim ama kargo hala eski adrese gidiyor."
 ```
 
 4) **Kabul Kriterleri (Acceptance Criteria) ile Çıktı**
