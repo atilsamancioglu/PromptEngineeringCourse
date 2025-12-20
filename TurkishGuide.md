@@ -33,62 +33,62 @@ AI modellerinden en iyi olası yanıtları elde etmek için etkili prompt mühen
 ### 1. **Açık, Kısa Sorularla Başlayın**:
    - **Uygulama**: Anlaşılır dil kullanın ve gereğinden fazla karmaşık cümlelerden kaçının.
    - **Örnek**: 
-     - Daha Az Etkili: "Bir İtalyan yemeği, özellikle de makarna içeren bir yemek hazırlama olasılığı üzerine düşünüyordum."
-     - Daha Etkili: "Spagetti carbonara nasıl yapılır?"
+     - Daha Az Etkili: "Bir sunum hazırlamam gerekiyor, içinde önemli şeyler var, bana yardımcı olur musun?"
+     - Daha Etkili: "Yarın 10 dakikalık bir sunum yapacağım. Konu: 'Prompt mühendisliğinde netlik'. Hedef kitle: yeni başlayanlar. 6 slaytlık akış ve her slayt için 2 madde önerir misin?"
 
 ### 2. **Yeterli Bağlam Sağlayın**:
    - **Uygulama**: Promptlarınıza gerekli arka plan bilgilerini dahil edin.
    - **Örnek**:
-     - Daha Az Etkili: "Projemdeki bir sonraki adımım ne olmalı?"
-     - Daha Etkili: "Python kullanarak sosyal medya trendlerini analiz eden bir proje üzerinde çalışıyorum. Veri toplama işlemini tamamladım. Bir sonraki adımım ne olmalı?"
+     - Daha Az Etkili: "Bu iş için bana bir yol haritası çıkar."
+     - Daha Etkili: "Bir online kurs hazırlıyorum. Hedef: 2 haftada ilk versiyonu yayınlamak. Günde 2 saat çalışabiliyorum. Konular: prompt temelleri, örnekler, mini ödevler. Bana 14 günlük plan çıkar: her gün hedef + yapılacaklar + teslim çıktısı."
 
 ### 3. **Taleplerinizde Özgül Olun**:
    - **Uygulama**: Ne istediğinizi net bir şekilde tanımlayın, böylece kesin yanıtlar alın.
    - **Örnek**:
-     - Daha Az Etkili: "Bana Python'dan bahsedin."
-     - Daha Etkili: "Python'daki liste kavrayışları nasıl işler anlatabilir misiniz?"
+     - Daha Az Etkili: "Bana pazarlama önerileri ver."
+     - Daha Etkili: "Bir mobil uygulamam var: günlük alışkanlık takibi. Hedef kitle: üniversite öğrencileri. Instagram için 7 günlük içerik planı üret: her gün 1 post fikri + 1 reels fikri + kısa metin taslağı."
 
 ### 4. **Belirli Bilgiler için Kapalı Uçlu Sorular Kullanın**:
    - **Uygulama**: Belirli, öz bilgiler gerektiğinde kapalı uçlu sorular sorun.
    - **Örnek**:
-     - Daha Az Etkili: "Bana güneş sisteminden bahsedebilir misin?"
-     - Daha Etkili: "Güneş sisteminde kaç gezegen var?"
+     - Daha Az Etkili: "Bu metni değerlendirir misin?"
+     - Daha Etkili: "Aşağıdaki metin bir LinkedIn postu. 1–10 arası puan ver (netlik, değer önerisi, akıcılık). Sadece puanları yaz. Metin: '...'"
 
 ### 5. **Keşif için Açık Uçlu Soruları Kullanın**:
    - **Uygulama**: Geniş bir fikir yelpazesi veya yaratıcı girdi aradığınızda açık uçlu sorular kullanın.
    - **Örnek**:
-     - Daha Az Etkili: "Herhangi bir hikaye fikrin var mı?"
-     - Daha Etkili: "Gelecekte geçen bilim kurgu hikaye fikirleri üzerine beyin fırtınası yapabilir misin?"
+     - Daha Az Etkili: "Bana içerik fikri ver."
+     - Daha Etkili: "Prompt mühendisliğiyle ilgili, yeni başlayanların sık yaptığı hataları anlatan 12 içerik fikri üret. Her fikir için: başlık + 1 cümle açıklama + önerilen format (tweet/video/blog)."
 
 ### 6. **Promptlarınızı İteratif Olarak İyileştirin**:
    - **Uygulama**: AI'ın yanıtlarını kullanarak promptlarınızı iyileştirin ve yönlendirin.
    - **Örnek**:
-     - İlk Prompt: "Web sitemin tasarımını nasıl geliştirebilirim?"
-     - Takip Promptu (ilk yanıttan sonra): "Teknoloji blogu için özel renk şemaları ve düzen fikirleri önerebilir misin?"
+     - İlk Prompt: "Bir e-posta yazmama yardım eder misin?"
+     - Takip Promptu (ilk yanıttan sonra): "Konu: geciken teslimat için özür. Ton: kısa, profesyonel, suçlayıcı değil. 2 paragraf + 'sonraki adımlar' için 3 maddelik liste ekle. 120–160 kelime arası yaz."
 
 ### 7. **Önyargılı veya Yönlendirici Prompt'lardan Kaçının**:
    - **Uygulama**: AI'ı önyargılı veya önceden belirlenmiş bir yanıta yönlendirmeyecek tarafsız prompt'lar hazırlayın.
    - **Örnek**:
-     - Daha Az Etkili: "Python neden en iyi programlama dili?"
-     - Daha Etkili: "Python programlama dilini kullanmanın artıları ve eksileri nelerdir?"
+     - Daha Az Etkili: "Uzaktan çalışma neden kesinlikle daha verimlidir?"
+     - Daha Etkili: "Uzaktan çalışmanın verimlilik üzerindeki etkisini artılar/eksiler olarak değerlendir. Hangi koşullarda verim artar, hangi koşullarda düşer? Somut örnekler ver."
 
 ### 8. **AI'nın Yeteneklerini ve Sınırlamalarını Göz Önünde Bulundurun**:
    - **Uygulama**: Protmp'larınızı, AI modelinin gerçekçi olarak başarabilecekleriyle uyumlu hale getirin.
    - **Örnek**:
-     - Daha Az Etkili: "İklim değişikliği hakkında 10.000 kelimelik bir makale yazabilir misin?"
-     - Daha Etkili: "İklim değişikliğinin anahtar noktalarını 500 kelimelik bir özetle anlatabilir misin?"
+     - Daha Az Etkili: "İnternetten en güncel kaynakları bul ve bana kesin bilgi ver."
+     - Daha Etkili: "Aşağıdaki metne dayanarak 6 maddelik özet çıkar. Metinde olmayan bilgi ekleme. Metin: '...'"
 
 ### 9. **AI'nın Yanıtlarındaki Belirsizlikleri Açıklığa Kavuşturun**:
    - **Uygulama**: AI'nın yanıtlarında belirsizlikler veya belirsizlikler varsa, açıklığa kavuşturmak için takip prompt'ları kullanın.
    - **Örnek**:
-     - AI Yanıtı: "Bir sonraki adım veri formatınıza bağlı."
-     - Takip Sorusu: "Veriler CSV formatında. Bundan sonra ne yapmalıyım?"
+     - AI Yanıtı: "Bu hedefe göre strateji değişir."
+     - Takip Sorusu: "Hedefim: e-posta listeme 30 günde 1.000 yeni kayıt. Bütçe: 0 TL. Kanal: Instagram ve YouTube. Bana 3 aşamalı plan öner (hafta hafta)."
 
 ### 10. **Detay ile Özlülüğü Dengeleyin**:
    - **Uygulama**: Bağlam için yeterli detay sağlayın, ancak AI'ı karıştırabilecek aşırı uzun prompt'lardan kaçının.
    - **Örnek**:
-     - Daha Az Etkili: "Whiskers adında üç yaşında dışarıda oynamayı seven bir kedim var. Ona ne tür yiyecekler vermem gerektiğini düşünüyorum çünkü oldukça aktif."
-     - Daha Etkili: "Aktif bir 3 yaşındaki dış mekan kedisi için önerilen diyet nedir?"
+     - Daha Az Etkili: "Yeni bir ürün çıkaracağız; hedef kitle, fiyatlama, rakipler derken her şey birbirine girdi, bana genel bir şeyler söyle."
+     - Daha Etkili: "Yeni ürün: kişisel bütçe takip uygulaması. Hedef kitle: yeni mezunlar. Rakipler: ücretsiz uygulamalar. İstediğim: 3 fiyatlandırma seçeneği + her biri için artı/eksi + hangisini önerdiğin ve neden."
 
 Bu en iyi uygulamalar, kullanıcıların AI modellerinden daha doğru, alakalı ve yararlı yanıtlar almasını sağlayacak prompt'lar formüle etmesine yardımcı olur. Bu teknikleri uygulayarak, kullanıcılar AI ile etkileşimlerinin etkinliğini büyük ölçüde artırabilirler.
 
@@ -114,93 +114,221 @@ Prompt yönlendirme, ChatGPT gibi AI dil modelleriyle etkileşimde kullanılan b
 
 Bu örnekler, kullanıcıların belirli ihtiyaçlarına ve beklentilerine daha yakın yanıtlar üretmek için AI'ı yönlendirmede prompt yönlendirmenin ne kadar önemli olduğunu gösterir.
 
-## Genel Prompt Çerçeveleri
-RGC (Rol, Hedefler, Bağlam) gibi genel çerçeveler, prompt'ların dengeli ve etkili olmasını sağlamak için yapılandırılmış bir yaklaşım sunar. Bu çerçevelerin bazılarına ve örneklerine daha yakından bakalım:
+## Zero-shot, One-shot ve Few-shot Prompting
 
-1. **RGC Çerçevesi (Rol, Hedefler, Bağlam)**:
-   - **Rol**: AI'nın ne veya kim olduğunu tanımlayın.
-   - **Hedefler**: Prompt ile ne elde etmek istediğinizi belirtin.
-   - **Bağlam**: Gerekli arka plan bilgilerini sağlayın.
-   - **Örnek**: "Bir seyahat danışmanısınız. Nisan ayında iki haftalığına Japonya'ya bir gezi planlıyorum. Hedeflerim geleneksel Japon kültürünü deneyimlemek ve kiraz çiçeği yerlerini ziyaret etmek. Hangi rota önerirsiniz?"
-   - **Açıklama**: Bu prompt, AI'nın rolünü (seyahat danışmanı), hedefi (Japonya'da kültürel açıdan zengin bir gezi planlamak) ve bağlamı (Nisan ayında iki haftalık gezi) açıkça tanımlar.
+Bu üç yaklaşım, modele **örnek verip vermediğinize** göre değişir:
 
-2. **Kısıtlama Odaklı Çerçeve**:
-   - **Kısıtlamalar**: AI'nın yanıtı için herhangi bir sınırlandırma veya sınırı açıkça belirtin.
-   - **Örnek**: "Okyanus hakkında bir şiir yazın, ancak sadece dört satırlık kıtalarda kullanın ve 'deniz', 'su' veya 'mavi' kelimelerini kullanmayın."
-   - **Açıklama**: Bu prompt belirli kısıtlamalar (şiirin formatı ve kelime sınırlamaları) belirler, AI'yı bu sınırlar içinde daha yaratıcı olmaya yönlendirir.
+- **Zero-shot**: Hiç örnek vermeden, sadece talimatla istersiniz. Basit ve net görevlerde idealdir.
+- **One-shot**: Tek bir örnek verirsiniz. Çıktı formatını “kilitlemek” için çok etkilidir.
+- **Few-shot**: Birkaç örnek verirsiniz. Özellikle sınıflandırma, ton/stil yakalama ve yapılandırılmış çıktı üretmede faydalıdır.
 
-3. **Açık Uçlu Keşif Çerçevesi**:
-   - **Hedef**: Geniş, yaratıcı veya spekülatif cevaplara teşvik etmek.
-   - **Örnek**: "Mars'ın kolonileştirilmesinin beklenmedik sonuçları neler olabilir?"
-   - **Açıklama**: Bu prompt, açık uçlu spekülasyonlara davet eder ve AI'nın belirli kısıtlamalar olmaksızın geniş bir yelpazede olasılıkları keşfetmesine olanak tanır.
+**Örnek görev:** Bir cümlenin duygusunu (sentiment) belirle.
 
-4. **Yetenek Gösterimi Çerçevesi**:
-   - **Hedef**: AI'ya belirli bir yetenek veya kabiliyet göstermesi için yönlendirmek.
-   - **Örnek**: "Bir satranç eğitmeni olarak, 1972'de Bobby Fischer ile Boris Spassky arasında oynanan ünlü oyunun analizini yapın, ana hamlelere ve stratejilere odaklanarak."
-   - **Açıklama**: Bu prompt, AI'ı belirli bir rolde (satranç eğitmeni) belirler ve ondan tarihi bir satranç oyununu detaylı yönleriyle analiz etmesini ister.
+***Zero-shot örneği***
+```
+Bir duygu analizi uzmanısın.
+Aşağıdaki cümlenin duygusunu şu etiketlerden biriyle sınıflandır: ["pozitif", "negatif", "nötr"].
+Sadece etiketi yaz (tek kelime).
 
-5. **Hipotetik Senaryo Çerçevesi**:
-   - **Hedef**: Hipotetik veya hayali durumlara yanıt araştırmak.
-   - **Örnek**: "İnternetin dünya çapında bir ay boyunca tamamen kapatıldığını hayal edin. Bu, küresel iletişim ve iş dünyasını nasıl etkiler?"
-   - **Açıklama**: Bu prompt, önemli bir küresel olayın muhtemel sonuçlarını düşünmeye ve açıklamaya AI'yı teşvik eden bir hipotetik senaryoyu ortaya koyar.
+Cümle: "Bugün harika geçti, kendimi çok iyi hissediyorum."
+```
 
-Bu çerçeveler, her biri AI'nın yanıtlarını daha odaklı, detaylı ve kullanıcının niyetiyle uyumlu hale getirerek benzersiz bir amaç hizmet eder. Bu çerçeveleri dikkatlice seçip uygulayarak, kullanıcılar etkileşimi etkin bir şekilde yönlendirebilir ve AI'dan daha anlamlı ve alakalı bilgiler çıkarabilirler.
+***One-shot örneği (davranışı/formatı sabitleme)***
+```
+Görev: Cümlenin duygusunu sınıflandır.
+Etiketler: ["pozitif", "negatif", "nötr"]
+Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
 
-## Odaklanmış Prompt Çerçeveleri
+Örnek:
+Cümle: "Kargom yine gecikti, artık bıktım."
+Çıktı: negatif — Şikayet ve olumsuz duygu ifade ediyor.
 
-Odaklanmış Prompt Çerçeveleri, ChatGPT gibi AI dil modellerinin daha doğru, ilgili ve kullanışlı yanıtlar üretmesini sağlayacak şekilde prompt'ları şekillendirmek için yapılandırılmış yaklaşımlardır. Her çerçeve, belirli bir amaç veya bağlam göz önünde bulundurularak tasarlanmıştır ve prompt'un nasıl formüle edildiğini şekillendirir. İşte bazı yaygın çerçeveler ve örnekleri:
+Şimdi bunu yap:
+Cümle: "Emeği geçen herkese teşekkürler, mükemmel olmuş."
+```
 
-1. **Bilgi Toplama Çerçevesi**:
-   - **Hedef**: Belirli bilgileri veya gerçekleri çıkarmak.
-   - **Örnek**: "Python ve JavaScript arasında sözdizimi ve kullanım durumları açısından ana farklar nelerdir?"
-   - **Açıklama**: Bu prompt, Python ve JavaScript hakkında açık ve gerçek bilgiler elde etmeyi amaçlar. 'Farklar', 'sözdizimi' ve 'kullanım durumları' üzerine odaklanarak spesifik ve doğrudandır.
+***Few-shot örneği (davranışı öğretme)***
+```
+Görev: Cümlenin duygusunu sınıflandır.
+Etiketler: ["pozitif", "negatif", "nötr"]
+Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
 
-2. **Yaratıcı İçerik Üretimi Çerçevesi**:
-   - **Hedef**: Orijinal, yaratıcı içerik üretmek.
-   - **Örnek**: "Teknolojinin doğayı kontrol ettiği gelecekteki bir şehirde geçen kısa bir hikaye oluşturun, bu sisteme karşı çıkan bir kahraman üzerine odaklanarak."
-   - **Açıklama**: Bu prompt, AI'ı belirli unsurlarla bir anlatı oluşturmaya teşvik eder: gelecekteki bir ortam, teknoloji ile doğa arasındaki tema ve isyankar bir kahraman.
+Cümle: "Bu uygulama son güncellemeden sonra sürekli çöküyor."
+Çıktı: negatif — Sorun ve memnuniyetsizlik belirtiyor.
 
-3. **Problem Çözme Çerçevesi**:
-   - **Hedef**: Belirli bir soruna çözümler bulmak veya stratejiler önermek.
-   - **Örnek**: "Eğitim YouTube kanalımda etkileşimi artırmakta zorlanıyorum. İzleyici etkileşimini ve sadakatini artırmak için etkili stratejiler nelerdir?"
-   - **Açıklama**: Bu prompt, bir sorunu açıkça tanımlar (eğitim YouTube kanalında düşük etkileşim) ve belirli çözümler ister (etkileşimi ve sadakatı artıracak stratejiler).
+Cümle: "Fena değil, işimi görüyor."
+Çıktı: nötr — Ne güçlü övgü ne de belirgin şikayet var.
 
-4. **Öğrenme ve Açıklama Çerçevesi**:
-   - **Hedef**: Kavramları açıklamak veya materyali anlaşılır bir şekilde öğretmek.
-   - **Örnek**: "Kütleçekimini, karmaşık fizik terimleri kullanmadan 10 yaşındaki bir çocuğa açıklayın."
-   - **Açıklama**: Bu prompt, AI'ı kütleçekimi bilimsel kavramını basit, yaşa uygun bir dille açıklamaya yönlendirir.
+Cümle: "Bayıldım, beklediğimden çok daha iyi!"
+Çıktı: pozitif — Güçlü beğeni ve memnuniyet içeriyor.
 
-5. **Görüş ve Analiz Çerçevesi**:
-   - **Amaç**: Belirli bir konuda görüşler, eleştiriler veya analizler üretmek.
-   - **Örnek**: "Modern iletişimde sosyal medyanın etkisini analiz edin, hem faydalarını hem de dezavantajlarını ele alarak."
-   - **Açıklama**: Prompt, güncel bir konunun dengeli bir analizini istiyor, AI'ın hem olumlu hem de olumsuz yönleri dikkate alarak ifade etmesini teşvik ediyor.
+Şimdi bunu yap:
+Cümle: "Keşke daha hızlı olsaydı ama sonuçta tamamlandı."
+```
 
-6. **Talimat veya Nasıl-Yapılır Çerçevesi**:
-   - **Amaç**: Adım adım rehberlik veya talimatlar sağlamak.
-   - **Örnek**: "Daha önce hiç pasta yapmamış birine çikolatalı kek yapmanın adımlarını anlat."
-   - **Açıklama**: Bu prompt, çikolatalı kek yapımını detaylı ve acemi dostu bir şekilde anlatmayı amaçlayarak, açık, adım adım talimatlar üzerine yapılandırılmıştır.
+## Pratik Prompt Şablonları (Az ve Öz)
 
-7. **Karşılaştırmalı Analiz Çerçevesi**:
-   - **Amaç**: Farklı varlıkları veya kavramları karşılaştırmak ve kontrastlamak.
-   - **Örnek**: "Keynesyenizm ve Monetarizmin ekonomik politikalarını karşılaştırın, ana ilkelerini ve modern ekonomiler üzerindeki etkilerini vurgulayarak."
-   - **Açıklama**: Bu prompt, iki ekonomik teorinin detaylı bir karşılaştırmasını yapmayı amaçlar ve özellikle ilkeleri ve etkileri gibi spesifik yönler üzerine odaklanır.
+Uzun “çerçeve listeleri” yerine, derslerde en çok işe yarayan popüler şablonlar (her birinin örnek konusu var):
 
-8. **Senaryo Simülasyonu Çerçevesi**:
-   - **Amaç**: Hipotetik durumları veya olası gelecek senaryolarını keşfetmek.
-   - **Örnek**: "2050 yılına kadar yenilenebilir enerjinin fosil yakıtları tamamen yerine geçtiği bir senaryoyu hayal edin. Bu durum küresel ekonomileri ve çevreyi nasıl etkiler?"
-   - **Açıklama**: Bu prompt, bir gelecek senaryosunu simüle etmeyi ve bu senaryonun toplumun çeşitli yönleri üzerindeki potansiyel etkilerini keşfetmeyi amaçlar.
+1) **RGC (Rol + Hedef + Bağlam) — (Kesin kalsın)**
 
-9. **Kişisel Tavsiye Çerçevesi**:
-   - **Amaç**: Belirli bir duruma dayalı kişiselleştirilmiş öneriler veya rehberlik sağlamak.
-   - **Örnek**: "Bilgisayar bilimleri bölümünde okuyan bir üniversite öğrencisiyim ve bunalmış hissediyorum. Zamanımı nasıl etkili yönetebilirim ve stresi nasıl azaltabilirim?"
-   - **Açıklama**: Bu prompt, belirli bir kişisel durum için özel tavsiye arar ve AI'ın bireyin durumunu dikkate almasını gerektirir.
+Şablon:
+```
+Rolün: [....]
+Hedefim: [....]
+Bağlam: [....]
+Çıktı formatı: [madde madde / tablo / e-posta / checklist]
+```
 
-10. **Etkileşimli Hikaye Anlatımı Çerçevesi**:
-   - **Amaç**: Kullanıcının farklı aşamalarda girdi sağladığı bir hikaye oluşturmak.
-   - **Örnek**: "Terkedilmiş bir malikanede geçen bir gizem hikayesi başlatın. Ana karakterin önemli noktalarda yaptığı seçimleri size söyleyeceğim."
-   - **Açıklama**: Bu prompt, kullanıcının yanıtlarının hikayenin yönünü etkilediği etkileşimli bir hikaye anlatımı deneyimi kurar.
+Örnek 1 (Rol vermeli):
+```
+Rolün: Kariyer danışmanı
+Hedefim: 30 gün içinde İngilizce konuşma pratiği planı çıkarmak
+Bağlam: Günde 20 dakikam var, seviye B1, iş görüşmesine hazırlanıyorum
+Çıktı formatı: Gün gün plan + ölçüm kriterleri
+```
 
-Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği, prompt'un seçilen çerçeve ile ne kadar iyi hizalandığına büyük ölçüde bağlıdır. Bu çerçevelere göre dikkatlice komutlar oluşturarak, AI'nın çıktısının kalitesi ve ilgisini önemli ölçüde etkileyebilirsiniz.
+Örnek 1 (Aynı içerik, doğal dil prompt):
+```
+Sen bir kariyer danışmanısın. 30 gün içinde İngilizce konuşma pratiği oluşturma hedefim var.
+Günde 20 dakikam var; B1 seviyesine ulaşmayı ve iş görüşmelerine hazırlanmayı hedefliyorum.
+Bana gün gün bir plan yap ve kendimi değerlendirebilmem için ölçüm/geri bildirim önerileri ver.
+```
+
+Örnek 2 (Rol vermeli):
+```
+Rolün: Ürün yöneticisi (PM)
+Hedefim: Bir “abonelik iptal” akışı için iyileştirme önerileri üretmek
+Bağlam: Kullanıcılar iptal ekranında takılıyor; hedefimiz churn’ü azaltmak
+Çıktı formatı: 5 öneri + her biri için risk/etki
+```
+
+Örnek 2 (Aynı içerik, doğal dil prompt):
+```
+Sen bir ürün yöneticisisin (PM). Abonelik iptal akışımızda kullanıcılar iptal ekranında takılıyor.
+Hedefimiz churn’ü azaltmak. Bu akış için 5 iyileştirme önerisi üret ve her öneri için beklenen etki + olası riskleri yaz.
+```
+
+2) **Kısıt + Format “Kilitleme” — (Kesin kalsın)**
+
+Şablon:
+```
+Şu kurallara uy:
+- Uzunluk: en fazla X madde
+- Ton: [resmi / samimi]
+- Yasaklar: [....]
+Çıktıyı sadece [tablo / maddeler / JSON] olarak ver.
+```
+
+Örnek konu:
+```
+Bir LinkedIn paylaşımı yaz.
+Kurallar: en fazla 120 kelime, 3 madde, samimi ama profesyonel, emoji kullanma.
+Çıktı: sadece metin.
+Konu: "Prompt mühendisliğinde netlik ve kısıtların önemi"
+```
+
+Örnek konu (doğal dil prompt):
+```
+LinkedIn için kısa bir paylaşım yaz: konu prompt mühendisliğinde netlik ve kısıtların önemi.
+En fazla 120 kelime olsun, 3 madde kullan, samimi ama profesyonel bir ton olsun, emoji kullanma.
+Sadece paylaşım metnini ver.
+```
+
+3) **ICE (Instruction + Context + Examples)**
+
+Şablon:
+```
+Talimat: [tam olarak ne istiyorum]
+Bağlam: [kim için / neden / hangi koşulda]
+Örnek(ler): [istenen stile/formatta 1-3 örnek]
+Şimdi uygula: [yeni input]
+```
+
+Örnek konu:
+```
+Talimat: Ürün açıklamasını daha ikna edici yaz.
+Bağlam: E-ticaret, hedef kitle yeni başlayanlar, teknik jargon yok.
+Örnek: "Kolay kurulum, net faydalar, kısa cümleler."
+Şimdi uygula: "Kablosuz kulaklık, aktif gürültü engelleme, 30 saat pil."
+```
+
+Örnek konu (doğal dil prompt):
+```
+Aşağıdaki ürün açıklamasını e-ticaret için daha ikna edici hale getir.
+Hedef kitle yeni başlayanlar; teknik jargon kullanma. Kısa cümlelerle net faydaları vurgula.
+Ürün: "Kablosuz kulaklık, aktif gürültü engelleme, 30 saat pil."
+```
+
+4) **Kabul Kriterleri (Acceptance Criteria) ile Çıktı**
+
+Şablon:
+```
+Görev: [....]
+Kabul kriterleri:
+- [....]
+- [....]
+Çıktı: [format]
+```
+
+Örnek konu:
+```
+Görev: Bir eğitim videosu için ders planı çıkar.
+Kabul kriterleri:
+- Başlangıç seviyesine uygun
+- 5 bölüm, her bölüm 5-7 dakika
+- Her bölümde 1 alıştırma sorusu
+Çıktı: Bölüm başlıkları + amaç + alıştırma sorusu
+```
+
+Örnek konu (doğal dil prompt):
+```
+Yeni başlayanlar için bir eğitim videosu planı çıkar.
+5 bölüm olsun (her bölüm 5-7 dk). Her bölümde 1 alıştırma sorusu olsun.
+Çıktı formatı: bölüm başlığı + amaç + alıştırma sorusu.
+```
+
+5) **Rubrik ile İyileştir (Critic-then-Revise)**
+
+Şablon:
+```
+Önce taslak üret.
+Sonra rubriğe göre değerlendir: [açıklık, doğruluk, uygulanabilirlik]
+Son olarak en iyi hale getirip finali ver.
+```
+
+Örnek konu:
+```
+Konu: "Yeni başlayanlara prompt yazmayı öğretmek"
+Rubrik: Açıklık, örnek kalitesi, gereksiz tekrar yok
+```
+
+Örnek konu (doğal dil prompt):
+```
+"Yeni başlayanlara prompt yazmayı öğretmek" konulu kısa bir ders metni taslağı yaz.
+Sonra şu rubriğe göre eleştir: açıklık, örnek kalitesi, gereksiz tekrar var mı?
+Son olarak iyileştirilmiş final metni ver.
+```
+
+6) **Netleştirme Soruları + Varsayımlar**
+
+Şablon:
+```
+Eğer bilgi eksikse en fazla 3 netleştirme sorusu sor.
+Cevap gelmezse makul varsayımlarını yaz ve buna göre çözüm üret.
+```
+
+Örnek konu:
+```
+"Kurs içeriğimi daha etkili yapmak istiyorum, ne önerirsin?"
+```
+
+Örnek konu (doğal dil prompt):
+```
+Kurs içeriğimi daha etkili yapmak istiyorum.
+Önce en fazla 3 netleştirme sorusu sor. Cevap gelmezse makul varsayımlarla devam et.
+Sonra 5 somut iyileştirme önerisi ver ve her biri için beklenen etkiyi 1 cümleyle açıkla.
+```
 
 ## Prompt Revizyonları
 
@@ -272,6 +400,40 @@ Her biri bu çerçeveler benzersiz bir amaç hizmet eder ve yanıtın etkinliği
 
 Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şekilde tasarlanmıştır, bu da ChatGPT veya benzeri AI dil modellerinden daha odaklanmış ve ilgili yanıtlar elde etmekte yardımcı olmalıdır. Yeniden biçimlendirmekten ve bilgileri basitleştirmekten, yaratıcı yazı ve teknik revizyonlara kadar geniş bir yelpazede görevleri kapsar, çeşitli bağlamlarda etkili prompt mühendisliği için kapsamlı bir araç seti sağlar.
 
+## Halüsinasyon (Hallucination) Yönetimi
+
+Dil modelleri bazen **emin olmadığı bilgileri “doğruymuş gibi”** üretebilir. Özellikle tarih, sayı, kaynak, mevzuat, tıbbi/finansal konularda buna karşı prompt ile koruma koymak çok önemlidir.
+
+### 1) Chain of Verification (Doğrulama Zinciri)
+Modelden önce cevap üretmesini, sonra kendi cevabını **doğrulanabilir maddelere** ayırmasını ve belirsiz olanları işaretlemesini istersiniz.
+
+```
+Önce kısa bir cevap taslağı yaz.
+Sonra cevabındaki iddiaları "doğrulanabilir iddia" maddeleri halinde listele.
+Her iddia için: (a) bunu doğrulamak için hangi bilgi gerekir, (b) elimizde yoksa "Bilinmiyor" yaz.
+Son olarak cevabı sadece doğrulanabilen kısımlarla yeniden yaz ve doğrulanamayanları açıkça belirt.
+```
+
+### 2) Step-back Prompting (Bir Adım Geri)
+Modelden önce “büyük resmi” çıkarmasını isteyerek hatalı varsayımları azaltırsınız.
+
+```
+Soruya cevap vermeden önce bir adım geri çekil:
+(1) Bu soruyu cevaplamak için hangi varsayımlar kritik?
+(2) Hangi bilgiler eksik olabilir?
+(3) Cevabın güvenilir olması için kullanıcıya hangi netleştirme sorularını sormalıyız?
+Sonra en iyi cevabı ver; gerekirse netleştirme soruları sor.
+```
+
+### 3) “According to …” Prompting (Kaynağa Dayalı Yanıt)
+Bu yaklaşımda model, sadece verilen kaynağa dayanarak cevap verir; kaynakta yoksa “yok” der.
+
+```
+Aşağıdaki metne göre cevap ver.
+Metinde olmayan hiçbir bilgi ekleme.
+Eğer cevap metinde yoksa: "Bu bilgi verilen metinde yer almıyor." de.
+```
+
 ## ChatGPT İçin İleri Düzey Prompt Teknikleri
 
 İleri düzey prompt teknikleri, AI dil modellerinin, örneğin ChatGPT'nin, karmaşık görevleri yönetme, yanıtların doğruluğunu artırma ve AI'ı yenilikçi uygulamalar için yaratıcı bir şekilde kullanma yeteneklerinden yararlanmayı içerir. İşte bazı ana teknikler:
@@ -288,13 +450,13 @@ Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şeki
 ### 2. **Prompt'larda Bağlam Katmanlama**:
    - **Açıklama**: Sonraki komutlarda bağlam katmanları oluşturarak AI'nın anlayışını ve yanıtlarını iyileştirmek. Bu teknik, özellikle karmaşık konularla ilgilenirken veya sohbeti belirli bir yönde yönlendirmeniz gerektiğinde faydalıdır.
    - **Örnek**:
-     - **İlk Pormpt**: "Kuantum bilgisayarlarını basit terimlerle açıkla."
+     - **İlk Prompt**: "Kuantum bilgisayarlarını basit terimlerle açıkla."
      - **Takip Prompt'u**: "Şimdi, bu açıklamaya dayanarak, kuantum bilgisayarlarının siber güvenlikteki potansiyel gelecekteki uygulamaları nelerdir?"
 
 ### 3. **Yaratıcı Hikaye Anlatımı ve Senaryolar**:
    - **Açıklama**: AI'ın yaratıcı anlatılar veya hipotetik senaryolar oluşturmasına yol gösteren komutları formüle etmek. Bu, özellikle yaratıcı yazım, pazarlama veya senaryo planlaması gibi alanlarda faydalıdır.
    - **Örnek**:
-     - **Pormpt**: "Yapay zekanın birincil hükümet biçimi haline geldiği bir hikaye yazın, hem faydalarını hem de zorluklarını keşfederek."
+     - **Prompt**: "Yapay zekanın birincil hükümet biçimi haline geldiği bir hikaye yazın, hem faydalarını hem de zorluklarını keşfederek."
 
 ### 4. **Karşıt Düşünme ve Hipotetikler**:
    - **Açıklama**: AI'ı 'ne olurdu' senaryoları açısından düşünmeye teşvik etmek. Bu, alternatif sonuçları keşfetmek, beyin fırtınası yapmak ve stratejik planlama için faydalı olabilir.
@@ -334,8 +496,6 @@ Bu revize edilmiş ve ek prompt'lar, daha yönlendirici ve spesifik olacak şeki
    - **Örnek**:
      - **Komut**: "Teknolojideki mevcut eğilimler göz önüne alındığında, önümüzdeki on yıl için en üst üç teknolojik ilerleme için tahminleriniz nelerdir?"
     
-Harika! Aşağıda rehberini en son **DALL·E 3** yeteneklerine göre güncelledim. Yeni modelin güçlü yönlerine (karakter tutarlılığı, yazı oluşturma, şeffaf arka plan, daha iyi kompozisyon vb.) vurgu yaptım ve örnekleri buna göre yeniledim:
-
 ---
 
 ## DALL·E 3 Görsel Oluşturma Rehberi
@@ -721,6 +881,7 @@ function sendToOpenAI(prompt) {
 
 ## Ek Kaynaklar
 
+- [cursor-playlist] - Cursor ile Yazılım Geliştirme
 - [awesome-chatgpt-prompts] - Awesome ChatGPT Prompts
 
 ## License
@@ -730,3 +891,5 @@ MIT
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
 
    [awesome-chatgpt-prompts]: <https://github.com/f/awesome-chatgpt-prompts>
+
+   [cursor-playlist]: <https://www.youtube.com/watch?v=7T10-PTQNYE&list=PLT1Gj1RmR7vqHq7Yrg2jsgQOQxvH49nX2>
