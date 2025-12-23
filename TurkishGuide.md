@@ -548,6 +548,7 @@ Eğer cevap metinde yoksa: "Bu bilgi verilen metinde yer almıyor." de.
 
 6. "Satıcılar, renkli tezgahlar ve canlı kasaba halkı ile, detaylı, gerçekçi tarihi bir resim tarzında hareketli bir ortaçağ pazar sahnesi."
 
+7. Video oluşturma dersinde kullanılan prompt: "Mavi gökyüzünün altında, bulutların arasından uçan bir golden retriever köpeği beliriyor. Köpek, üzerindeki parlak kırmızı pelerini dalgalandırarak süzülüyor. Gözleri parlıyor ve yüzünde mutlu bir ifade var. Kuyruğu sevinçle sallanıyor. Köpeğin tüyleri güneş ışığında parlıyor ve hareket ederken aerodinamik bir şekilde dalgalanıyor. Altında geniş bir şehir manzarası uzanıyor, binalar ve sokaklar giderek küçülüyor. Köpek, özgürce uçmanın tadını çıkarıyor. Köpek, bulutların arasında kıvrılarak daha yükseklere süzülüyor."
 ---
 
 ### Gerçek Dünya Uygulamaları (Yeni Vurgularla):
