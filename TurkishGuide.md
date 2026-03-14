@@ -157,7 +157,7 @@ Sen bir ürün yöneticisisin (PM). Abonelik iptal akışımızda kullanıcılar
 Hedefimiz churn’ü azaltmak. Bu akış için 5 iyileştirme önerisi üret ve her öneri için beklenen etki + olası riskleri yaz.
 ```
 
-2) **Kısıt + Format “Kilitleme” — (Kesin kalsın)**
+2) **Kısıt + Format “Kilitleme” — **
 
 Şablon:
 ```
@@ -321,7 +321,7 @@ Etiketler: ["pozitif", "negatif", "nötr"]
 
 Örnek:
 Cümle: "Kargom yine gecikti, artık bıktım."
-Çıktı: negatif — Şikayet ve olumsuz duygu ifade ediyor.
+Çıktı: negatif
 
 Şimdi bunu yap:
 Cümle: "Emeği geçen herkese teşekkürler, mükemmel olmuş."
@@ -334,13 +334,13 @@ Etiketler: ["pozitif", "negatif", "nötr"]
 Çıktı formatı: Etiket + kısa gerekçe (tek cümle).
 
 Cümle: "Bu uygulama son güncellemeden sonra sürekli çöküyor."
-Çıktı: negatif — Sorun ve memnuniyetsizlik belirtiyor.
+Çıktı: negatif
 
 Cümle: "Fena değil, işimi görüyor."
-Çıktı: nötr — Ne güçlü övgü ne de belirgin şikayet var.
+Çıktı: nötr
 
 Cümle: "Bayıldım, beklediğimden çok daha iyi!"
-Çıktı: pozitif — Güçlü beğeni ve memnuniyet içeriyor.
+Çıktı: pozitif
 
 Şimdi bunu yap:
 Cümle: "Keşke daha hızlı olsaydı ama sonuçta tamamlandı."
@@ -520,9 +520,9 @@ Eğer cevap metinde yoksa: "Bu bilgi verilen metinde yer almıyor." de.
     
 ---
 
-## DALL·E 3 Görsel Oluşturma Rehberi
+## Üretken Yapay Zeka Görsel Oluşturma Rehberi
 
-### **Ana Noktalar (Yeni Nesil DALL·E İçin):**
+### **Ana Noktalar:**
 
 1. **Açıklık ve Odak:** Ne oluşturulacağını net şekilde tarif et. Ana konuyu, ortamı ve önemli nesneleri belirt.
 2. **Stil, Işık ve Atmosfer:** Sanatsal stil, renk paleti, ışık kaynağı ve ruh hali hakkında bilgi ver.
